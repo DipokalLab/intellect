@@ -36,6 +36,10 @@ export function TopPersonSearch({ onPersonSelect }: TopPersonSearchProps) {
   const [open, setOpen] = useState(false);
   const [value, setValue] = useState("");
   const persons = useGraphStore((state) => state.persons);
+  const status = useGraphStore((state) => state.status);
+  const setFocusedPerson = useGraphStore((state) => state.setFocusedPerson);
+
+  const isLoading = status === "idle";
 
   return (
     <Popover open={open} onOpenChange={setOpen}>
@@ -45,10 +49,13 @@ export function TopPersonSearch({ onPersonSelect }: TopPersonSearchProps) {
           role="combobox"
           aria-expanded={open}
           className="w-[300px] justify-between text-muted-foreground"
+          disabled={isLoading}
         >
           <div className="flex items-center">
             <UserSearch className="mr-2 h-4 w-4" />
-            {value
+            {isLoading
+              ? "Loading..."
+              : value
               ? persons.find((person) => person.name.toLowerCase() === value)
                   ?.name
               : "Search person..."}
@@ -66,13 +73,15 @@ export function TopPersonSearch({ onPersonSelect }: TopPersonSearchProps) {
                 {persons.map((person) => (
                   <CommandItem
                     key={person.id}
-                    value={person.name}
+                    value={person.name.toLowerCase()}
                     onSelect={(currentValue) => {
                       const selected = persons.find(
                         (p) => p.name.toLowerCase() === currentValue
                       );
                       setValue(currentValue === value ? "" : currentValue);
                       setOpen(false);
+                      setFocusedPerson(selected?.id || null);
+
                       if (onPersonSelect) {
                         onPersonSelect(selected || null);
                       }

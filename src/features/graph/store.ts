@@ -34,6 +34,8 @@ interface GraphData {
 interface GraphState extends GraphData {
   status: "idle" | "success";
   setData: (data: GraphData) => void;
+  focusedPersonId: string | null;
+  setFocusedPerson: (personId: string | null) => void;
 }
 
 export const useGraphStore = create<GraphState>((set) => ({
@@ -48,4 +50,6 @@ export const useGraphStore = create<GraphState>((set) => ({
       edges: data.edges || [],
       status: "success",
     }),
+  focusedPersonId: null,
+  setFocusedPerson: (personId) => set({ focusedPersonId: personId }),
 }));

@@ -47,7 +47,13 @@ const TimelineGraph: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [data, setData] = useState<GraphData | null>(null);
   const [selectedNode, setSelectedNode] = useState<GraphNode | null>(null);
-  const { setData: setCacheData } = useGraphStore();
+  const {
+    setData: setCacheData,
+    focusedPersonId,
+    setFocusedPerson,
+  } = useGraphStore();
+
+  const transformRef = useRef(d3.zoomIdentity);
 
   useEffect(() => {
     fetch("/graph-data.json")
@@ -56,7 +62,7 @@ const TimelineGraph: React.FC = () => {
         setData(fetchedData);
         setCacheData(fetchedData);
       });
-  }, []);
+  }, [setCacheData]);
 
   useEffect(() => {
     if (!data || !svgRef.current || !containerRef.current) return;
@@ -77,7 +83,9 @@ const TimelineGraph: React.FC = () => {
     resizeObserver.observe(containerRef.current);
 
     const drawGraph = (width: number, height: number) => {
-      const g = svg.append("g");
+      const g = svg
+        .append("g")
+        .attr("transform", transformRef.current.toString());
 
       const defs = svg.append("defs");
       persons.forEach((person) => {
@@ -85,14 +93,12 @@ const TimelineGraph: React.FC = () => {
           defs
             .append("pattern")
             .attr("id", `pattern-${person.id}`)
-            .attr("width", "100%")
-            .attr("height", "100%")
-            .attr("patternContentUnits", "objectBoundingBox")
-            .append("image")
-            .attr("href", person.photo_url)
             .attr("width", 1)
             .attr("height", 1)
-            .attr("preserveAspectRatio", "xMidYMid slice");
+            .append("image")
+            .attr("href", person.photo_url)
+            .attr("width", 24)
+            .attr("height", 24);
         }
       });
 
@@ -132,9 +138,9 @@ const TimelineGraph: React.FC = () => {
         .force(
           "y",
           d3
-            .forceY<GraphNode>((d) => {
-              return d.type === "person" ? height * 0.35 : height * 0.65;
-            })
+            .forceY<GraphNode>((d) =>
+              d.type === "person" ? height * 0.35 : height * 0.65
+            )
             .strength(0.1)
         )
         .force("collide", d3.forceCollide().radius(25));
@@ -147,29 +153,25 @@ const TimelineGraph: React.FC = () => {
         .selectAll("path")
         .data(edges)
         .join("path");
-
       const nodeGroup = g
         .append("g")
         .selectAll("g")
         .data(allNodes)
         .join("g")
         .style("cursor", "pointer")
-        .on("click", (event, d) => {
-          setSelectedNode(d);
-        });
+        .on("click", (event, d) => setSelectedNode(d));
 
       nodeGroup
-        .filter((d): d is PersonNode => d.type === "person")
+        .filter((d) => d.type === "person")
         .append("circle")
         .attr("r", 12)
-        .attr("fill", (d) => {
-          return (d as PersonNode).photo_url
-            ? `url(#pattern-${d.id})`
-            : "#1f77b4";
-        })
+        .attr("fill", (d) =>
+          (d as PersonNode).photo_url
+            ? `url(#pattern-${(d as PersonNode).id})`
+            : "#1f77b4"
+        )
         .attr("stroke", "#fff")
         .attr("stroke-width", 1.5);
-
       nodeGroup
         .filter((d) => d.type === "achievement")
         .append("rect")
@@ -180,26 +182,31 @@ const TimelineGraph: React.FC = () => {
         .attr("fill", "#ff7f0e")
         .attr("x", -9)
         .attr("y", -9);
-
-      nodeGroup.append("title").text((d) => {
-        return d.type === "person" ? d.name : d.title;
-      });
-
+      nodeGroup
+        .append("title")
+        .text((d) =>
+          d.type === "person"
+            ? (d as PersonNode).name
+            : (d as AchievementNode).title
+        );
       const labels = nodeGroup
         .append("text")
-        .text((d) => (d.type === "person" ? d.name : d.title))
+        .text((d) =>
+          d.type === "person"
+            ? (d as PersonNode).name
+            : (d as AchievementNode).title
+        )
         .attr("x", 18)
         .attr("y", 5)
         .attr("font-size", "12px")
         .attr("fill", "#333");
 
-      const xAxis = d3.axisBottom(yearScale).tickFormat(formatYear);
-
+      const initialXAxisScale = transformRef.current.rescaleX(yearScale);
+      const xAxis = d3.axisBottom(initialXAxisScale).tickFormat(formatYear);
       const xAxisGroup = svg
         .append("g")
         .attr("transform", `translate(0, ${height - 30})`)
         .call(xAxis);
-
       xAxisGroup.selectAll("text").attr("fill", "#333");
 
       simulation.on("tick", () => {
@@ -214,7 +221,6 @@ const TimelineGraph: React.FC = () => {
           path.quadraticCurveTo(midX, controlPointY, target.x!, target.y!);
           return path.toString();
         });
-
         nodeGroup.attr("transform", (d) => `translate(${d.x}, ${d.y})`);
       });
 
@@ -223,64 +229,90 @@ const TimelineGraph: React.FC = () => {
         .scaleExtent([0.1, 8])
         .on("zoom", (event) => {
           const { transform } = event;
-          g.attr("transform", transform);
-
+          transformRef.current = transform;
+          g.attr("transform", transform.toString());
           labels
             .attr("font-size", `${12 / transform.k}px`)
             .style("opacity", transform.k < 0.5 ? 0 : 1);
-
           const newYearScale = transform.rescaleX(yearScale);
           xAxisGroup.call(d3.axisBottom(newYearScale).tickFormat(formatYear));
           xAxisGroup.selectAll("text").attr("fill", "#333");
         });
 
+      svg.call(zoomHandler.transform, transformRef.current);
       svg.call(zoomHandler);
+
+      if (focusedPersonId) {
+        const targetNode = allNodes.find((n) => n.id === focusedPersonId);
+        if (targetNode) {
+          const x = targetNode.fx!;
+          const y =
+            targetNode.type === "person" ? height * 0.35 : height * 0.65;
+          const targetZoom = 1.5;
+
+          const transform = d3.zoomIdentity
+            .translate(width / 2, height / 2)
+            .scale(targetZoom)
+            .translate(-x, -y);
+
+          transformRef.current = transform;
+
+          svg
+            .transition()
+            .duration(750)
+            .call(zoomHandler.transform, transform)
+            .on("end", () => {
+              setFocusedPerson(null);
+            });
+        } else {
+          setFocusedPerson(null);
+        }
+      }
     };
+
+    const initialWidth = containerRef.current.clientWidth;
+    const initialHeight = containerRef.current.clientHeight;
+    if (initialWidth > 0) {
+      drawGraph(initialWidth, initialHeight);
+    }
 
     return () => {
       resizeObserver.disconnect();
     };
-  }, [data]);
+  }, [data, focusedPersonId, setFocusedPerson]);
 
   const renderDialogContent = () => {
     if (!selectedNode) return null;
-
     if (selectedNode.type === "person") {
-      const birthYear = selectedNode.birth;
-      const deathYear = selectedNode.death;
+      const { birth, death, name, nationality, field } = selectedNode;
       const lived =
-        birthYear < 0
-          ? `Lived: ${Math.abs(birthYear)} BC - ${Math.abs(deathYear)} BC`
-          : `Lived: ${birthYear} - ${deathYear}`;
-
+        birth < 0
+          ? `Lived: ${Math.abs(birth)} BC - ${Math.abs(death)} BC`
+          : `Lived: ${birth} - ${death}`;
       return (
         <>
           <DialogHeader>
-            <DialogTitle>{selectedNode.name}</DialogTitle>
+            <DialogTitle>{name}</DialogTitle>
             <DialogDescription>
-              {selectedNode.nationality} / {selectedNode.field}
+              {nationality} / {field}
             </DialogDescription>
           </DialogHeader>
           <div className="text-sm text-muted-foreground">{lived}</div>
         </>
       );
     }
-
     if (selectedNode.type === "achievement") {
-      const year =
-        selectedNode.year < 0
-          ? `${Math.abs(selectedNode.year)} BC`
-          : selectedNode.year;
-
+      const { year, title, category, text } = selectedNode;
+      const displayYear = year < 0 ? `${Math.abs(year)} BC` : year;
       return (
         <>
           <DialogHeader>
-            <DialogTitle>{selectedNode.title}</DialogTitle>
+            <DialogTitle>{title}</DialogTitle>
             <DialogDescription>
-              {selectedNode.category} ({year})
+              {category} ({displayYear})
             </DialogDescription>
           </DialogHeader>
-          <div className="text-sm">{selectedNode.text}</div>
+          <div className="text-sm">{text}</div>
         </>
       );
     }
