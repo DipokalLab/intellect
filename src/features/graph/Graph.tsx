@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useMemo } from "react";
 import * as d3 from "d3";
 import {
   Dialog,
@@ -51,6 +51,8 @@ const TimelineGraph: React.FC = () => {
     setData: setCacheData,
     focusedPersonId,
     setFocusedPerson,
+    setSelectedFields,
+    selectedFields,
   } = useGraphStore();
 
   const transformRef = useRef(d3.zoomIdentity);
@@ -61,13 +63,66 @@ const TimelineGraph: React.FC = () => {
       .then((fetchedData: GraphData) => {
         setData(fetchedData);
         setCacheData(fetchedData);
+
+        const fieldsSet = new Set<string>();
+        fetchedData.persons.forEach((person) => {
+          const fields = person.field.split(",").map((f) => f.trim());
+          fields.forEach((field) => fieldsSet.add(field));
+        });
+        setSelectedFields(Array.from(fieldsSet));
       });
   }, [setCacheData]);
 
-  useEffect(() => {
-    if (!data || !svgRef.current || !containerRef.current) return;
+  const filteredData = useMemo(() => {
+    if (!data || selectedFields.length === 0) return data;
 
-    const { nodes: achievementNodes, persons, edges } = data;
+    const filteredPersons = data.persons.filter((person) => {
+      const personFields = person.field.split(",").map((f) => f.trim());
+      return personFields.some((field) => selectedFields.includes(field));
+    });
+
+    const filteredPersonIds = new Set(filteredPersons.map((p) => p.id));
+
+    const filteredEdges = data.edges.filter((edge) => {
+      return (
+        filteredPersonIds.has(edge.source) || filteredPersonIds.has(edge.target)
+      );
+    });
+
+    const connectedAchievementIds = new Set<string>();
+    filteredEdges.forEach((edge) => {
+      if (!filteredPersonIds.has(edge.source)) {
+        connectedAchievementIds.add(edge.source);
+      }
+      if (!filteredPersonIds.has(edge.target)) {
+        connectedAchievementIds.add(edge.target);
+      }
+    });
+
+    const filteredAchievements = data.nodes.filter((node) =>
+      connectedAchievementIds.has(node.id)
+    );
+
+    const finalNodeIds = new Set([
+      ...filteredPersonIds,
+      ...connectedAchievementIds,
+    ]);
+
+    const finalEdges = filteredEdges.filter(
+      (edge) => finalNodeIds.has(edge.source) && finalNodeIds.has(edge.target)
+    );
+
+    return {
+      nodes: filteredAchievements,
+      persons: filteredPersons,
+      edges: finalEdges,
+    };
+  }, [data, selectedFields]);
+
+  useEffect(() => {
+    if (!filteredData || !svgRef.current || !containerRef.current) return;
+
+    const { nodes: achievementNodes, persons, edges } = filteredData;
     const allNodes: GraphNode[] = [...persons, ...achievementNodes];
 
     const svg = d3.select(svgRef.current);
@@ -102,7 +157,7 @@ const TimelineGraph: React.FC = () => {
         }
       });
 
-      const yearDomain = [1600, 1700];
+      const yearDomain = [1500, 1700];
 
       const padding = 80;
       const yearScale = d3
@@ -153,6 +208,7 @@ const TimelineGraph: React.FC = () => {
         .selectAll("path")
         .data(edges)
         .join("path");
+
       const nodeGroup = g
         .append("g")
         .selectAll("g")
@@ -172,6 +228,7 @@ const TimelineGraph: React.FC = () => {
         )
         .attr("stroke", "#fff")
         .attr("stroke-width", 1.5);
+
       nodeGroup
         .filter((d) => d.type === "achievement")
         .append("rect")
@@ -182,6 +239,7 @@ const TimelineGraph: React.FC = () => {
         .attr("fill", "#ff7f0e")
         .attr("x", -9)
         .attr("y", -9);
+
       nodeGroup
         .append("title")
         .text((d) =>
@@ -189,6 +247,7 @@ const TimelineGraph: React.FC = () => {
             ? (d as PersonNode).name
             : (d as AchievementNode).title
         );
+
       const labels = nodeGroup
         .append("text")
         .text((d) =>
@@ -279,7 +338,7 @@ const TimelineGraph: React.FC = () => {
     return () => {
       resizeObserver.disconnect();
     };
-  }, [data, focusedPersonId, setFocusedPerson]);
+  }, [filteredData, focusedPersonId, setFocusedPerson]);
 
   const renderDialogContent = () => {
     if (!selectedNode) return null;
@@ -319,21 +378,20 @@ const TimelineGraph: React.FC = () => {
   };
 
   return (
-    <div
-      ref={containerRef}
-      style={{ width: "100%", height: "100%", minHeight: "600px" }}
-    >
-      <svg ref={svgRef} style={{ width: "100%", height: "100%" }}></svg>
-      <Dialog
-        open={!!selectedNode}
-        onOpenChange={(isOpen) => {
-          if (!isOpen) {
-            setSelectedNode(null);
-          }
-        }}
-      >
-        <DialogContent>{renderDialogContent()}</DialogContent>
-      </Dialog>
+    <div className="flex flex-col h-full">
+      <div ref={containerRef} className="flex-1" style={{ minHeight: "600px" }}>
+        <svg ref={svgRef} style={{ width: "100%", height: "100%" }}></svg>
+        <Dialog
+          open={!!selectedNode}
+          onOpenChange={(isOpen) => {
+            if (!isOpen) {
+              setSelectedNode(null);
+            }
+          }}
+        >
+          <DialogContent>{renderDialogContent()}</DialogContent>
+        </Dialog>
+      </div>
     </div>
   );
 };
