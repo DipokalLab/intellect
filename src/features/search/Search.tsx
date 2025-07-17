@@ -2,6 +2,7 @@ import { TopPersonSearch } from "@/features/search/TopPersonSearch";
 import { Credit } from "../credit/Credit";
 import { FaGithub } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
+import { FilterButton } from "../filter/FilterButton";
 
 interface PersonNode {
   id: string;
@@ -17,6 +18,7 @@ export function Search() {
 
   return (
     <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10 gap-2 flex">
+      <FilterButton />
       <TopPersonSearch onPersonSelect={handleSelection} />
       <Credit />
       <Button
