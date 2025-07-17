@@ -1,113 +1,191 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 
-interface Node extends d3.SimulationNodeDatum {
+interface AchievementNode extends d3.SimulationNodeDatum {
   id: string;
-  group: number;
+  type: "achievement";
+  year: number;
+  title: string;
+  category: string;
 }
 
-interface Link extends d3.SimulationLinkDatum<Node> {
+interface PersonNode extends d3.SimulationNodeDatum {
+  id: string;
+  type: "person";
+  name: string;
+  birth: number;
+  death: number;
+}
+
+type GraphNode = AchievementNode | PersonNode;
+
+interface Edge {
   source: string;
   target: string;
-  value: number;
 }
 
 interface GraphData {
-  nodes: Node[];
-  links: Link[];
+  nodes: AchievementNode[];
+  persons: PersonNode[];
+  edges: Edge[];
 }
 
-const data: GraphData = {
-  nodes: [
-    { id: "A", group: 1 },
-    { id: "B", group: 1 },
-    { id: "C", group: 1 },
-    { id: "D", group: 2 },
-    { id: "E", group: 2 },
-    { id: "F", group: 2 },
-    { id: "G", group: 3 },
-    { id: "H", group: 3 },
-  ],
-  links: [
-    { source: "A", target: "B", value: 1 },
-    { source: "B", target: "C", value: 1 },
-    { source: "C", target: "A", value: 1 },
-    { source: "D", target: "E", value: 2 },
-    { source: "E", target: "F", value: 2 },
-    { source: "G", target: "H", value: 3 },
-    { source: "A", target: "D", value: 5 },
-    { source: "E", target: "G", value: 5 },
-  ],
-};
-
-const D3Graph: React.FC = () => {
+const TimelineGraph: React.FC = () => {
   const svgRef = useRef<SVGSVGElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [data, setData] = useState<GraphData | null>(null);
 
   useEffect(() => {
-    if (!svgRef.current) return;
-
-    const padding = 50;
-
-    const svg = d3
-      .select(svgRef.current)
-      .attr("width", "100%")
-      .attr("height", "100%");
-
-    const g = svg.append("g");
-
-    const simulation = d3
-      .forceSimulation<Node>(data.nodes)
-      .force(
-        "link",
-        d3.forceLink<Node, Link>(data.links).id((d) => d.id)
-      )
-      .force("charge", d3.forceManyBody().strength(-200));
-
-    const link = g
-      .append("g")
-      .attr("stroke", "#999")
-      .attr("stroke-opacity", 0.6)
-      .selectAll("line")
-      .data(data.links)
-      .join("line")
-      .attr("stroke-width", (d) => Math.sqrt(d.value));
-
-    const node = g
-      .append("g")
-      .attr("stroke", "#fff")
-      .attr("stroke-width", 1.5)
-      .selectAll("circle")
-      .data(data.nodes)
-      .join("circle")
-      .attr("r", 10)
-      .attr("fill", (d) => {
-        const scale = d3.scaleOrdinal(d3.schemeCategory10);
-        return scale(String(d.group));
+    fetch("/graph-data.json")
+      .then((response) => response.json())
+      .then((fetchedData: GraphData) => {
+        setData(fetchedData);
       });
-
-    node.append("title").text((d) => d.id);
-
-    simulation.on("tick", () => {
-      link
-        .attr("x1", (d) => (d.source as unknown as Node).x!)
-        .attr("y1", (d) => (d.source as unknown as Node).y!)
-        .attr("x2", (d) => (d.target as unknown as Node).x!)
-        .attr("y2", (d) => (d.target as unknown as Node).y!);
-
-      node.attr("cx", (d) => d.x!).attr("cy", (d) => d.y!);
-    });
-
-    const zoomHandler = d3
-      .zoom<SVGSVGElement, unknown>()
-      .scaleExtent([0.5, 8])
-      .on("zoom", (event) => {
-        g.attr("transform", event.transform);
-      });
-
-    svg.call(zoomHandler);
   }, []);
 
-  return <svg ref={svgRef}></svg>;
+  useEffect(() => {
+    if (!data || !svgRef.current || !containerRef.current) return;
+
+    const { nodes: achievementNodes, persons, edges } = data;
+    const allNodes: GraphNode[] = [...persons, ...achievementNodes];
+
+    const svg = d3.select(svgRef.current);
+
+    const resizeObserver = new ResizeObserver((entries) => {
+      for (const entry of entries) {
+        const { width, height } = entry.contentRect;
+        svg.selectAll("*").remove();
+        drawGraph(width, height);
+      }
+    });
+
+    resizeObserver.observe(containerRef.current);
+
+    const drawGraph = (width: number, height: number) => {
+      const g = svg.append("g");
+
+      const yearDomain = d3.extent(achievementNodes, (d) => d.year) as [
+        number,
+        number
+      ];
+      const padding = 80;
+      const yearScale = d3
+        .scaleLinear()
+        .domain(yearDomain)
+        .range([padding, width - padding]);
+
+      const formatYear = (d: d3.AxisDomain) => {
+        const year = d as number;
+        return year < 0 ? `${Math.abs(year)} BC` : `${year}`;
+      };
+
+      const simulation = d3
+        .forceSimulation(allNodes)
+        .force(
+          "link",
+          d3.forceLink<GraphNode, Edge>(edges).id((d) => d.id)
+        )
+        .force("charge", d3.forceManyBody().strength(-50))
+        .force("y", d3.forceY(height / 2).strength(0.05))
+        .force(
+          "x",
+          d3
+            .forceX<GraphNode>()
+            .x((d) => {
+              if (d.type === "achievement") {
+                return yearScale(d.year);
+              }
+              return width / 2;
+            })
+            .strength((d) => (d.type === "achievement" ? 1 : 0.05))
+        )
+        .force("collide", d3.forceCollide().radius(30));
+
+      const link = g
+        .append("g")
+        .attr("stroke", "#999")
+        .attr("stroke-opacity", 0.6)
+        .selectAll("line")
+        .data(edges)
+        .join("line");
+
+      const nodeGroup = g.append("g").selectAll("g").data(allNodes).join("g");
+
+      nodeGroup
+        .filter((d) => d.type === "person")
+        .append("circle")
+        .attr("r", 12)
+        .attr("fill", "#1f77b4");
+
+      nodeGroup
+        .filter((d) => d.type === "achievement")
+        .append("rect")
+        .attr("width", 18)
+        .attr("height", 18)
+        .attr("rx", 2)
+        .attr("ry", 2)
+        .attr("fill", "#ff7f0e")
+        .attr("x", -9)
+        .attr("y", -9);
+
+      nodeGroup.append("title").text((d) => {
+        return d.type === "person" ? d.name : d.title;
+      });
+
+      nodeGroup
+        .append("text")
+        .text((d) => (d.type === "person" ? d.name : d.title))
+        .attr("x", 18)
+        .attr("y", 5)
+        .attr("font-size", "12px")
+        .attr("fill", "#333");
+
+      const xAxis = d3.axisBottom(yearScale).tickFormat(formatYear);
+
+      const xAxisGroup = svg
+        .append("g")
+        .attr("transform", `translate(0, ${height - 30})`)
+        .call(xAxis);
+
+      xAxisGroup.selectAll("text").attr("fill", "#333");
+
+      simulation.on("tick", () => {
+        link
+          .attr("x1", (d) => (d.source as unknown as GraphNode).x!)
+          .attr("y1", (d) => (d.source as unknown as GraphNode).y!)
+          .attr("x2", (d) => (d.target as unknown as GraphNode).x!)
+          .attr("y2", (d) => (d.target as unknown as GraphNode).y!);
+
+        nodeGroup.attr("transform", (d) => `translate(${d.x}, ${d.y})`);
+      });
+
+      const zoomHandler = d3
+        .zoom<SVGSVGElement, unknown>()
+        .scaleExtent([0.5, 5])
+        .on("zoom", (event) => {
+          const { transform } = event;
+          g.attr("transform", transform);
+          const newYearScale = transform.rescaleX(yearScale);
+          xAxisGroup.call(d3.axisBottom(newYearScale).tickFormat(formatYear));
+          xAxisGroup.selectAll("text").attr("fill", "#333");
+        });
+
+      svg.call(zoomHandler);
+    };
+
+    return () => {
+      resizeObserver.disconnect();
+    };
+  }, [data]);
+
+  return (
+    <div
+      ref={containerRef}
+      style={{ width: "100%", height: "100%", minHeight: "600px" }}
+    >
+      <svg ref={svgRef} style={{ width: "100%", height: "100%" }}></svg>
+    </div>
+  );
 };
 
-export default D3Graph;
+export default TimelineGraph;
