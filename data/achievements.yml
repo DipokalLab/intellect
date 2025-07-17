@@ -1,0 +1,16 @@
+- key: "socratic-method-and-dialogues"
+  year: -400
+  title: "Establishment of Philosophical Dialogue"
+  category: "Philosophical Methodology"
+  text: "Founded the method of attaining truth through questioning and dialogue. This approach, originated by Socrates, was documented and expanded upon by Plato in his written Dialogues, establishing it as a core format for Western philosophy."
+  participants:
+    - "socrates"
+    - "plato"
+
+- key: "theory-of-forms"
+  year: -375
+  title: "Foundation of Metaphysics (Theory of Forms)"
+  category: "Metaphysics"
+  text: "Founded the metaphysical theory that the physical world is not the real world; instead, ultimate reality exists beyond our physical world in the realm of 'Forms' or 'Ideas'."
+  participants:
+    - "plato"

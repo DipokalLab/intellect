@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "key": "socratic-method-and-dialogues",
+      "year": -400,
+      "title": "Establishment of Philosophical Dialogue",
+      "category": "Philosophical Methodology",
+      "text": "Founded the method of attaining truth through questioning and dialogue. This approach, originated by Socrates, was documented and expanded upon by Plato in his written Dialogues, establishing it as a core format for Western philosophy.",
+      "id": "socratic-method-and-dialogues",
+      "type": "achievement"
+    },
+    {
+      "key": "theory-of-forms",
+      "year": -375,
+      "title": "Foundation of Metaphysics (Theory of Forms)",
+      "category": "Metaphysics",
+      "text": "Founded the metaphysical theory that the physical world is not the real world; instead, ultimate reality exists beyond our physical world in the realm of 'Forms' or 'Ideas'.",
+      "id": "theory-of-forms",
+      "type": "achievement"
+    }
+  ],
+  "edges": [
+    {
+      "source": "socrates",
+      "target": "socratic-method-and-dialogues"
+    },
+    {
+      "source": "plato",
+      "target": "socratic-method-and-dialogues"
+    },
+    {
+      "source": "plato",
+      "target": "theory-of-forms"
+    }
+  ],
+  "persons": [
+    {
+      "scholar_id": "socrates",
+      "name": "Socrates",
+      "birth": -470,
+      "death": -399,
+      "field": "Ancient Western Philosophy, Ethics",
+      "photo_url": "https://example.com/photos/socrates.jpg",
+      "nationality": "Ancient Athens",
+      "id": "socrates",
+      "type": "person"
+    },
+    {
+      "scholar_id": "plato",
+      "name": "Plato",
+      "birth": -428,
+      "death": -348,
+      "field": "Metaphysics, Epistemology, Political Philosophy",
+      "photo_url": "https://example.com/photos/plato.jpg",
+      "nationality": "Ancient Athens",
+      "id": "plato",
+      "type": "person"
+    }
+  ]
+}
