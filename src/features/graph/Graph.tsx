@@ -25,6 +25,7 @@ interface PersonNode extends d3.SimulationNodeDatum {
   death: number;
   field: string;
   nationality: string;
+  photo_url?: string;
 }
 
 type GraphNode = AchievementNode | PersonNode;
@@ -75,7 +76,24 @@ const TimelineGraph: React.FC = () => {
     const drawGraph = (width: number, height: number) => {
       const g = svg.append("g");
 
-      const yearDomain = [1400, 1500];
+      const defs = svg.append("defs");
+      persons.forEach((person) => {
+        if (person.photo_url) {
+          defs
+            .append("pattern")
+            .attr("id", `pattern-${person.id}`)
+            .attr("width", "100%")
+            .attr("height", "100%")
+            .attr("patternContentUnits", "objectBoundingBox")
+            .append("image")
+            .attr("href", person.photo_url)
+            .attr("width", 1)
+            .attr("height", 1)
+            .attr("preserveAspectRatio", "xMidYMid slice");
+        }
+      });
+
+      const yearDomain = [1600, 1700];
 
       const padding = 80;
       const yearScale = d3
@@ -87,8 +105,7 @@ const TimelineGraph: React.FC = () => {
         if (node.type === "achievement") {
           node.fx = yearScale(node.year);
         } else if (node.type === "person") {
-          const lifeMidpoint = (node.birth + node.death) / 2;
-          node.fx = yearScale(lifeMidpoint);
+          node.fx = yearScale(node.birth);
         }
       });
 
@@ -103,19 +120,30 @@ const TimelineGraph: React.FC = () => {
         .forceSimulation(allNodes)
         .force(
           "link",
-          d3.forceLink<GraphNode, Edge>(edges).id((d) => d.id)
+          d3
+            .forceLink<GraphNode, Edge>(edges)
+            .id((d) => d.id)
+            .strength(0.1)
         )
-        .force("charge", d3.forceManyBody().strength(-50))
-        .force("y", d3.forceY(height / 2).strength(0.05))
-        .force("collide", d3.forceCollide().radius(30));
+        .force("charge", d3.forceManyBody().strength(-100))
+        .force(
+          "y",
+          d3
+            .forceY<GraphNode>((d) => {
+              return d.type === "person" ? height * 0.35 : height * 0.65;
+            })
+            .strength(0.1)
+        )
+        .force("collide", d3.forceCollide().radius(25));
 
       const link = g
         .append("g")
         .attr("stroke", "#999")
         .attr("stroke-opacity", 0.6)
-        .selectAll("line")
+        .attr("fill", "none")
+        .selectAll("path")
         .data(edges)
-        .join("line");
+        .join("path");
 
       const nodeGroup = g
         .append("g")
@@ -128,10 +156,16 @@ const TimelineGraph: React.FC = () => {
         });
 
       nodeGroup
-        .filter((d) => d.type === "person")
+        .filter((d): d is PersonNode => d.type === "person")
         .append("circle")
         .attr("r", 12)
-        .attr("fill", "#1f77b4");
+        .attr("fill", (d) => {
+          return (d as PersonNode).photo_url
+            ? `url(#pattern-${d.id})`
+            : "#1f77b4";
+        })
+        .attr("stroke", "#fff")
+        .attr("stroke-width", 1.5);
 
       nodeGroup
         .filter((d) => d.type === "achievement")
@@ -148,7 +182,7 @@ const TimelineGraph: React.FC = () => {
         return d.type === "person" ? d.name : d.title;
       });
 
-      nodeGroup
+      const labels = nodeGroup
         .append("text")
         .text((d) => (d.type === "person" ? d.name : d.title))
         .attr("x", 18)
@@ -166,11 +200,17 @@ const TimelineGraph: React.FC = () => {
       xAxisGroup.selectAll("text").attr("fill", "#333");
 
       simulation.on("tick", () => {
-        link
-          .attr("x1", (d) => (d.source as unknown as GraphNode).x!)
-          .attr("y1", (d) => (d.source as unknown as GraphNode).y!)
-          .attr("x2", (d) => (d.target as unknown as GraphNode).x!)
-          .attr("y2", (d) => (d.target as unknown as GraphNode).y!);
+        link.attr("d", (d) => {
+          const source = d.source as unknown as GraphNode;
+          const target = d.target as unknown as GraphNode;
+          const midX = (source.x! + target.x!) / 2;
+          const midY = (source.y! + target.y!) / 2;
+          const controlPointY = source.y! < target.y! ? midY + 40 : midY - 40;
+          const path = d3.path();
+          path.moveTo(source.x!, source.y!);
+          path.quadraticCurveTo(midX, controlPointY, target.x!, target.y!);
+          return path.toString();
+        });
 
         nodeGroup.attr("transform", (d) => `translate(${d.x}, ${d.y})`);
       });
@@ -181,6 +221,11 @@ const TimelineGraph: React.FC = () => {
         .on("zoom", (event) => {
           const { transform } = event;
           g.attr("transform", transform);
+
+          labels
+            .attr("font-size", `${12 / transform.k}px`)
+            .style("opacity", transform.k < 0.5 ? 0 : 1);
+
           const newYearScale = transform.rescaleX(yearScale);
           xAxisGroup.call(d3.axisBottom(newYearScale).tickFormat(formatYear));
           xAxisGroup.selectAll("text").attr("fill", "#333");

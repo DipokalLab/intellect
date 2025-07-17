@@ -3,5 +3,5 @@ name: "Albert Einstein"
 birth: 1879
 death: 1955
 field: "Theoretical Physics"
-photo_url: "https://example.com/photos/albert-einstein.jpg"
+photo_url: "/images/albert-einstein.jpg"
 nationality: "German-American"

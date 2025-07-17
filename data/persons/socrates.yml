@@ -3,5 +3,5 @@ name: "Socrates"
 birth: -470
 death: -399
 field: "Ancient Western Philosophy, Ethics"
-photo_url: "https://example.com/photos/socrates.jpg"
+photo_url: null
 nationality: "Ancient Athens"

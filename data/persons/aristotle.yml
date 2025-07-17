@@ -3,5 +3,5 @@ name: "Aristotle"
 birth: -384
 death: -322
 field: "Logic, Metaphysics, Ethics, Politics, Poetics"
-photo_url: "https://example.com/photos/aristotle.jpg"
+photo_url: null
 nationality: "Ancient Greece"

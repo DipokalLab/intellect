@@ -711,7 +711,7 @@
       "birth": 1805,
       "death": 1865,
       "field": "Mathematics, Physics, Astronomy",
-      "photo_url": "https://example.com/photos/william-rowan-hamilton.jpg",
+      "photo_url": null,
       "nationality": "Irish",
       "id": "william-rowan-hamilton",
       "type": "person"
@@ -722,7 +722,7 @@
       "birth": 1773,
       "death": 1829,
       "field": "Physics, Medicine, Egyptology, Linguistics",
-      "photo_url": "https://example.com/photos/thomas-young.jpg",
+      "photo_url": null,
       "nationality": "English",
       "id": "thomas-young",
       "type": "person"
@@ -733,7 +733,7 @@
       "birth": -470,
       "death": -399,
       "field": "Ancient Western Philosophy, Ethics",
-      "photo_url": "https://example.com/photos/socrates.jpg",
+      "photo_url": null,
       "nationality": "Ancient Athens",
       "id": "socrates",
       "type": "person"
@@ -744,7 +744,7 @@
       "birth": 1596,
       "death": 1650,
       "field": "Metaphysics, Epistemology, Mathematics, Physics",
-      "photo_url": "https://example.com/photos/rene-descartes.jpg",
+      "photo_url": null,
       "nationality": "French",
       "id": "rene-descartes",
       "type": "person"
@@ -755,7 +755,7 @@
       "birth": -428,
       "death": -348,
       "field": "Metaphysics, Epistemology, Political Philosophy",
-      "photo_url": "https://example.com/photos/plato.jpg",
+      "photo_url": null,
       "nationality": "Ancient Athens",
       "id": "plato",
       "type": "person"
@@ -766,7 +766,7 @@
       "birth": 1792,
       "death": 1856,
       "field": "Geometry, Algebra",
-      "photo_url": "https://example.com/photos/nikolai-lobachevsky.jpg",
+      "photo_url": null,
       "nationality": "Russian",
       "id": "nikolai-ivanovich-lobachevsky",
       "type": "person"
@@ -777,7 +777,7 @@
       "birth": 1796,
       "death": 1832,
       "field": "Thermodynamics, Physics, Engineering",
-      "photo_url": "https://example.com/photos/carnot.jpg",
+      "photo_url": null,
       "nationality": "French",
       "id": "nicolas-leonard-sadi-carnot",
       "type": "person"
@@ -788,7 +788,7 @@
       "birth": 1791,
       "death": 1867,
       "field": "Physics, Chemistry, Electromagnetism",
-      "photo_url": "https://example.com/photos/michael-faraday.jpg",
+      "photo_url": null,
       "nationality": "English",
       "id": "michael-faraday",
       "type": "person"
@@ -799,7 +799,7 @@
       "birth": 1707,
       "death": 1783,
       "field": "Mathematics, Physics, Astronomy, Logic",
-      "photo_url": "https://example.com/photos/euler.jpg",
+      "photo_url": null,
       "nationality": "Swiss",
       "id": "leonhard-euler",
       "type": "person"
@@ -810,7 +810,7 @@
       "birth": 1571,
       "death": 1630,
       "field": "Astronomy, Mathematics, Optics",
-      "photo_url": "https://example.com/photos/kepler.jpg",
+      "photo_url": null,
       "nationality": "German",
       "id": "kepler",
       "type": "person"
@@ -821,7 +821,7 @@
       "birth": 1787,
       "death": 1826,
       "field": "Optics, Physics, Spectroscopy",
-      "photo_url": "https://example.com/photos/fraunhofer.jpg",
+      "photo_url": null,
       "nationality": "German",
       "id": "joseph-von-fraunhofer",
       "type": "person"
@@ -832,7 +832,7 @@
       "birth": 1754,
       "death": 1826,
       "field": "Chemistry",
-      "photo_url": "https://example.com/photos/proust.jpg",
+      "photo_url": null,
       "nationality": "French",
       "id": "joseph-proust",
       "type": "person"
@@ -843,7 +843,7 @@
       "birth": 1766,
       "death": 1844,
       "field": "Chemistry, Physics, Meteorology",
-      "photo_url": "https://example.com/photos/john-dalton.jpg",
+      "photo_url": null,
       "nationality": "English",
       "id": "john-dalton",
       "type": "person"
@@ -854,7 +854,7 @@
       "birth": 1717,
       "death": 1783,
       "field": "Mathematics, Physics, Philosophy, Music Theory",
-      "photo_url": "https://example.com/photos/dalembert.jpg",
+      "photo_url": null,
       "nationality": "French",
       "id": "jean-le-rond-dalembert",
       "type": "person"
@@ -865,7 +865,7 @@
       "birth": 1802,
       "death": 1860,
       "field": "Geometry, Mathematics",
-      "photo_url": "https://example.com/photos/janos-bolyai.jpg",
+      "photo_url": null,
       "nationality": "Hungarian",
       "id": "janos-bolyai",
       "type": "person"
@@ -876,7 +876,7 @@
       "birth": 1831,
       "death": 1879,
       "field": "Mathematical Physics, Electromagnetism, Thermodynamics",
-      "photo_url": "https://example.com/photos/james-clerk-maxwell.jpg",
+      "photo_url": null,
       "nationality": "Scottish",
       "id": "james-clerk-maxwell",
       "type": "person"
@@ -887,7 +887,7 @@
       "birth": 1643,
       "death": 1727,
       "field": "Physics, Mathematics, Astronomy, Natural Philosophy",
-      "photo_url": "https://example.com/photos/isaac-newton.jpg",
+      "photo_url": null,
       "nationality": "English",
       "id": "isaac-newton",
       "type": "person"
@@ -898,7 +898,7 @@
       "birth": 1826,
       "death": 1866,
       "field": "Analysis, Number Theory, Differential Geometry",
-      "photo_url": "https://example.com/photos/bernhard-riemann.jpg",
+      "photo_url": null,
       "nationality": "German",
       "id": "georg-friedrich-bernhard-riemann",
       "type": "person"
@@ -909,7 +909,7 @@
       "birth": 1564,
       "death": 1642,
       "field": "Astronomy, Physics, Engineering, Scientific Method",
-      "photo_url": "https://example.com/photos/galileo-galilei.jpg",
+      "photo_url": null,
       "nationality": "Italian",
       "id": "galileo-galilei",
       "type": "person"
@@ -920,7 +920,7 @@
       "birth": 1561,
       "death": 1626,
       "field": "Philosophy of Science, Empiricism, Scientific Method",
-      "photo_url": "https://example.com/photos/francis-bacon.jpg",
+      "photo_url": null,
       "nationality": "English",
       "id": "francis-bacon",
       "type": "person"
@@ -931,7 +931,7 @@
       "birth": -325,
       "death": -265,
       "field": "Geometry, Mathematics",
-      "photo_url": "/euclid.jpg",
+      "photo_url": null,
       "nationality": "Ancient Greece, Alexandria",
       "id": "euclid",
       "type": "person"
@@ -942,7 +942,7 @@
       "birth": 1706,
       "death": 1749,
       "field": "Natural Philosophy, Physics, Mathematics, Metaphysics",
-      "photo_url": "https://example.com/photos/emilie-du-chatelet.jpg",
+      "photo_url": null,
       "nationality": "French",
       "id": "emilie-du-chatelet",
       "type": "person"
@@ -953,7 +953,7 @@
       "birth": 1713,
       "death": 1784,
       "field": "Philosophy, Art Criticism, Literature",
-      "photo_url": "https://example.com/photos/diderot.jpg",
+      "photo_url": null,
       "nationality": "French",
       "id": "denis-diderot",
       "type": "person"
@@ -964,7 +964,7 @@
       "birth": 1700,
       "death": 1782,
       "field": "Mathematics, Physics, Fluid Mechanics, Statistics",
-      "photo_url": "https://example.com/photos/daniel-bernoulli.jpg",
+      "photo_url": null,
       "nationality": "Swiss",
       "id": "daniel-bernoulli",
       "type": "person"
@@ -975,7 +975,7 @@
       "birth": 1473,
       "death": 1543,
       "field": "Astronomy, Mathematics, Economics",
-      "photo_url": "https://example.com/photos/copernicus.jpg",
+      "photo_url": null,
       "nationality": "Poland, Prussia",
       "id": "copernicus",
       "type": "person"
@@ -986,7 +986,7 @@
       "birth": 1817,
       "death": 1890,
       "field": "Meteorology, Chemistry, Physics",
-      "photo_url": "https://example.com/photos/christophorus-buys-ballot.jpg",
+      "photo_url": null,
       "nationality": "Dutch",
       "id": "christophorus-buys-ballot",
       "type": "person"
@@ -997,7 +997,7 @@
       "birth": 1803,
       "death": 1853,
       "field": "Physics, Mathematics, Astronomy",
-      "photo_url": "https://example.com/photos/christian-doppler.jpg",
+      "photo_url": null,
       "nationality": "Austrian",
       "id": "christian-doppler",
       "type": "person"
@@ -1008,7 +1008,7 @@
       "birth": 1736,
       "death": 1806,
       "field": "Physics, Engineering",
-      "photo_url": "https://example.com/photos/coulomb.jpg",
+      "photo_url": null,
       "nationality": "French",
       "id": "charles-de-coulomb",
       "type": "person"
@@ -1019,7 +1019,7 @@
       "birth": 1777,
       "death": 1855,
       "field": "Number Theory, Algebra, Statistics, Differential Geometry",
-      "photo_url": "https://example.com/photos/carl-friedrich-gauss.jpg",
+      "photo_url": null,
       "nationality": "German",
       "id": "carl-friedrich-gauss",
       "type": "person"
@@ -1030,7 +1030,7 @@
       "birth": -384,
       "death": -322,
       "field": "Logic, Metaphysics, Ethics, Politics, Poetics",
-      "photo_url": "https://example.com/photos/aristotle.jpg",
+      "photo_url": null,
       "nationality": "Ancient Greece",
       "id": "aristotle",
       "type": "person"
@@ -1041,7 +1041,7 @@
       "birth": 1743,
       "death": 1794,
       "field": "Chemistry, Biology, Economics",
-      "photo_url": "https://example.com/photos/lavoisier.jpg",
+      "photo_url": null,
       "nationality": "French",
       "id": "antoine-lavoisier",
       "type": "person"
@@ -1052,7 +1052,7 @@
       "birth": 1713,
       "death": 1765,
       "field": "Mathematics, Astronomy, Geodesy",
-      "photo_url": "https://example.com/photos/clairaut.jpg",
+      "photo_url": null,
       "nationality": "French",
       "id": "alexis-claude-clairaut",
       "type": "person"
@@ -1063,7 +1063,7 @@
       "birth": 1879,
       "death": 1955,
       "field": "Theoretical Physics",
-      "photo_url": "https://example.com/photos/albert-einstein.jpg",
+      "photo_url": "/images/albert-einstein.jpg",
       "nationality": "German-American",
       "id": "albert-einstein",
       "type": "person"

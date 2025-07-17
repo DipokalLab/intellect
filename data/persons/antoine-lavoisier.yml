@@ -3,5 +3,5 @@ name: "Antoine Lavoisier"
 birth: 1743
 death: 1794
 field: "Chemistry, Biology, Economics"
-photo_url: "https://example.com/photos/lavoisier.jpg"
+photo_url: null
 nationality: "French"
