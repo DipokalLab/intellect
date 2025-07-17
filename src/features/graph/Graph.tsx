@@ -7,6 +7,7 @@ import {
   DialogTitle,
   DialogDescription,
 } from "@/components/ui/dialog";
+import { useGraphStore } from "./store";
 
 interface AchievementNode extends d3.SimulationNodeDatum {
   id: string;
@@ -46,12 +47,14 @@ const TimelineGraph: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [data, setData] = useState<GraphData | null>(null);
   const [selectedNode, setSelectedNode] = useState<GraphNode | null>(null);
+  const { setData: setCacheData } = useGraphStore();
 
   useEffect(() => {
     fetch("/graph-data.json")
       .then((response) => response.json())
       .then((fetchedData: GraphData) => {
         setData(fetchedData);
+        setCacheData(fetchedData);
       });
   }, []);
 
