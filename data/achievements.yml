@@ -14,3 +14,19 @@
   text: "Founded the metaphysical theory that the physical world is not the real world; instead, ultimate reality exists beyond our physical world in the realm of 'Forms' or 'Ideas'."
   participants:
     - "plato"
+
+- key: "heliocentrism-copernicus"
+  year: 1543
+  title: "Establishment of the Heliocentric Model"
+  category: "Astronomy"
+  text: "Published 'De revolutionibus orbium coelestium' (On the Revolutions of the Heavenly Spheres), proposing a model of the universe that placed the Sun, rather than Earth, at the center. This marked a major event in the history of science, triggering the Copernican Revolution."
+  participants:
+    - "copernicus"
+
+- key: "laws-of-planetary-motion"
+  year: 1609
+  title: "Laws of Planetary Motion"
+  category: "Astronomy"
+  text: "Formulated his three laws of planetary motion, which describe the motion of planets around the Sun. These laws modified the Copernican model, introduced elliptical orbits, and laid the groundwork for Isaac Newton's theory of universal gravitation."
+  participants:
+    - "kepler"

@@ -75,19 +75,28 @@ const TimelineGraph: React.FC = () => {
     const drawGraph = (width: number, height: number) => {
       const g = svg.append("g");
 
-      const yearDomain = d3.extent(achievementNodes, (d) => d.year) as [
-        number,
-        number
-      ];
+      const yearDomain = [1400, 1500];
+
       const padding = 80;
       const yearScale = d3
         .scaleLinear()
         .domain(yearDomain)
         .range([padding, width - padding]);
 
+      allNodes.forEach((node) => {
+        if (node.type === "achievement") {
+          node.fx = yearScale(node.year);
+        } else if (node.type === "person") {
+          const lifeMidpoint = (node.birth + node.death) / 2;
+          node.fx = yearScale(lifeMidpoint);
+        }
+      });
+
       const formatYear = (d: d3.AxisDomain) => {
         const year = d as number;
-        return year < 0 ? `${Math.abs(year)} BC` : `${year}`;
+        return year < 0
+          ? `${Math.abs(Math.round(year))} BC`
+          : `${Math.round(year)}`;
       };
 
       const simulation = d3
@@ -98,18 +107,6 @@ const TimelineGraph: React.FC = () => {
         )
         .force("charge", d3.forceManyBody().strength(-50))
         .force("y", d3.forceY(height / 2).strength(0.05))
-        .force(
-          "x",
-          d3
-            .forceX<GraphNode>()
-            .x((d) => {
-              if (d.type === "achievement") {
-                return yearScale(d.year);
-              }
-              return width / 2;
-            })
-            .strength((d) => (d.type === "achievement" ? 1 : 0.05))
-        )
         .force("collide", d3.forceCollide().radius(30));
 
       const link = g
@@ -180,7 +177,7 @@ const TimelineGraph: React.FC = () => {
 
       const zoomHandler = d3
         .zoom<SVGSVGElement, unknown>()
-        .scaleExtent([0.5, 5])
+        .scaleExtent([0.1, 8])
         .on("zoom", (event) => {
           const { transform } = event;
           g.attr("transform", transform);
@@ -201,6 +198,13 @@ const TimelineGraph: React.FC = () => {
     if (!selectedNode) return null;
 
     if (selectedNode.type === "person") {
+      const birthYear = selectedNode.birth;
+      const deathYear = selectedNode.death;
+      const lived =
+        birthYear < 0
+          ? `Lived: ${Math.abs(birthYear)} BC - ${Math.abs(deathYear)} BC`
+          : `Lived: ${birthYear} - ${deathYear}`;
+
       return (
         <>
           <DialogHeader>
@@ -209,26 +213,23 @@ const TimelineGraph: React.FC = () => {
               {selectedNode.nationality} / {selectedNode.field}
             </DialogDescription>
           </DialogHeader>
-          <div className="text-sm text-muted-foreground">
-            {`Lived: ${Math.abs(selectedNode.birth)} BC - ${Math.abs(
-              selectedNode.death
-            )} BC`}
-          </div>
+          <div className="text-sm text-muted-foreground">{lived}</div>
         </>
       );
     }
 
     if (selectedNode.type === "achievement") {
+      const year =
+        selectedNode.year < 0
+          ? `${Math.abs(selectedNode.year)} BC`
+          : selectedNode.year;
+
       return (
         <>
           <DialogHeader>
             <DialogTitle>{selectedNode.title}</DialogTitle>
             <DialogDescription>
-              {selectedNode.category} (
-              {selectedNode.year < 0
-                ? `${Math.abs(selectedNode.year)} BC`
-                : selectedNode.year}
-              )
+              {selectedNode.category} ({year})
             </DialogDescription>
           </DialogHeader>
           <div className="text-sm">{selectedNode.text}</div>

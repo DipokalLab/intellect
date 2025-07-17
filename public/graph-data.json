@@ -17,6 +17,24 @@
       "text": "Founded the metaphysical theory that the physical world is not the real world; instead, ultimate reality exists beyond our physical world in the realm of 'Forms' or 'Ideas'.",
       "id": "theory-of-forms",
       "type": "achievement"
+    },
+    {
+      "key": "heliocentrism-copernicus",
+      "year": 1543,
+      "title": "Establishment of the Heliocentric Model",
+      "category": "Astronomy",
+      "text": "Published 'De revolutionibus orbium coelestium' (On the Revolutions of the Heavenly Spheres), proposing a model of the universe that placed the Sun, rather than Earth, at the center. This marked a major event in the history of science, triggering the Copernican Revolution.",
+      "id": "heliocentrism-copernicus",
+      "type": "achievement"
+    },
+    {
+      "key": "laws-of-planetary-motion",
+      "year": 1609,
+      "title": "Laws of Planetary Motion",
+      "category": "Astronomy",
+      "text": "Formulated his three laws of planetary motion, which describe the motion of planets around the Sun. These laws modified the Copernican model, introduced elliptical orbits, and laid the groundwork for Isaac Newton's theory of universal gravitation.",
+      "id": "laws-of-planetary-motion",
+      "type": "achievement"
     }
   ],
   "edges": [
@@ -31,6 +49,14 @@
     {
       "source": "plato",
       "target": "theory-of-forms"
+    },
+    {
+      "source": "copernicus",
+      "target": "heliocentrism-copernicus"
+    },
+    {
+      "source": "kepler",
+      "target": "laws-of-planetary-motion"
     }
   ],
   "persons": [
@@ -54,6 +80,50 @@
       "photo_url": "https://example.com/photos/plato.jpg",
       "nationality": "Ancient Athens",
       "id": "plato",
+      "type": "person"
+    },
+    {
+      "scholar_id": "kepler",
+      "name": "Johannes Kepler",
+      "birth": 1571,
+      "death": 1630,
+      "field": "Astronomy, Mathematics, Optics",
+      "photo_url": "https://example.com/photos/kepler.jpg",
+      "nationality": "German",
+      "id": "kepler",
+      "type": "person"
+    },
+    {
+      "scholar_id": "euclid",
+      "name": "Euclid",
+      "birth": -325,
+      "death": -265,
+      "field": "Geometry, Mathematics",
+      "photo_url": "/euclid.jpg",
+      "nationality": "Ancient Greece, Alexandria",
+      "id": "euclid",
+      "type": "person"
+    },
+    {
+      "scholar_id": "copernicus",
+      "name": "Nicolaus Copernicus",
+      "birth": 1473,
+      "death": 1543,
+      "field": "Astronomy, Mathematics, Economics",
+      "photo_url": "https://example.com/photos/copernicus.jpg",
+      "nationality": "Poland, Prussia",
+      "id": "copernicus",
+      "type": "person"
+    },
+    {
+      "scholar_id": "aristotle",
+      "name": "Aristotle",
+      "birth": -384,
+      "death": -322,
+      "field": "Logic, Metaphysics, Ethics, Politics, Poetics",
+      "photo_url": "https://example.com/photos/aristotle.jpg",
+      "nationality": "Ancient Greece",
+      "id": "aristotle",
       "type": "person"
     }
   ]
