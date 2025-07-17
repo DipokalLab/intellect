@@ -1,5 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+} from "@/components/ui/dialog";
 
 interface AchievementNode extends d3.SimulationNodeDatum {
   id: string;
@@ -7,6 +14,7 @@ interface AchievementNode extends d3.SimulationNodeDatum {
   year: number;
   title: string;
   category: string;
+  text: string;
 }
 
 interface PersonNode extends d3.SimulationNodeDatum {
@@ -15,6 +23,8 @@ interface PersonNode extends d3.SimulationNodeDatum {
   name: string;
   birth: number;
   death: number;
+  field: string;
+  nationality: string;
 }
 
 type GraphNode = AchievementNode | PersonNode;
@@ -34,6 +44,7 @@ const TimelineGraph: React.FC = () => {
   const svgRef = useRef<SVGSVGElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [data, setData] = useState<GraphData | null>(null);
+  const [selectedNode, setSelectedNode] = useState<GraphNode | null>(null);
 
   useEffect(() => {
     fetch("/graph-data.json")
@@ -109,7 +120,15 @@ const TimelineGraph: React.FC = () => {
         .data(edges)
         .join("line");
 
-      const nodeGroup = g.append("g").selectAll("g").data(allNodes).join("g");
+      const nodeGroup = g
+        .append("g")
+        .selectAll("g")
+        .data(allNodes)
+        .join("g")
+        .style("cursor", "pointer")
+        .on("click", (event, d) => {
+          setSelectedNode(d);
+        });
 
       nodeGroup
         .filter((d) => d.type === "person")
@@ -178,12 +197,62 @@ const TimelineGraph: React.FC = () => {
     };
   }, [data]);
 
+  const renderDialogContent = () => {
+    if (!selectedNode) return null;
+
+    if (selectedNode.type === "person") {
+      return (
+        <>
+          <DialogHeader>
+            <DialogTitle>{selectedNode.name}</DialogTitle>
+            <DialogDescription>
+              {selectedNode.nationality} / {selectedNode.field}
+            </DialogDescription>
+          </DialogHeader>
+          <div className="text-sm text-muted-foreground">
+            {`Lived: ${Math.abs(selectedNode.birth)} BC - ${Math.abs(
+              selectedNode.death
+            )} BC`}
+          </div>
+        </>
+      );
+    }
+
+    if (selectedNode.type === "achievement") {
+      return (
+        <>
+          <DialogHeader>
+            <DialogTitle>{selectedNode.title}</DialogTitle>
+            <DialogDescription>
+              {selectedNode.category} (
+              {selectedNode.year < 0
+                ? `${Math.abs(selectedNode.year)} BC`
+                : selectedNode.year}
+              )
+            </DialogDescription>
+          </DialogHeader>
+          <div className="text-sm">{selectedNode.text}</div>
+        </>
+      );
+    }
+  };
+
   return (
     <div
       ref={containerRef}
       style={{ width: "100%", height: "100%", minHeight: "600px" }}
     >
       <svg ref={svgRef} style={{ width: "100%", height: "100%" }}></svg>
+      <Dialog
+        open={!!selectedNode}
+        onOpenChange={(isOpen) => {
+          if (!isOpen) {
+            setSelectedNode(null);
+          }
+        }}
+      >
+        <DialogContent>{renderDialogContent()}</DialogContent>
+      </Dialog>
     </div>
   );
 };
