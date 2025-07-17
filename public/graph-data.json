@@ -35,6 +35,411 @@
       "text": "Formulated his three laws of planetary motion, which describe the motion of planets around the Sun. These laws modified the Copernican model, introduced elliptical orbits, and laid the groundwork for Isaac Newton's theory of universal gravitation.",
       "id": "laws-of-planetary-motion",
       "type": "achievement"
+    },
+    {
+      "key": "novum-organum-scientific-method",
+      "year": 1620,
+      "title": "Establishment of the Inductive Method (Novum Organum)",
+      "category": "Scientific Methodology",
+      "text": "Published 'Novum Organum' ('New Instrument'), proposing a new system of logic based on inductive reasoning to replace Aristotle's deductive approach. This work systematically outlined a new method for scientific inquiry based on observation and experimentation.",
+      "id": "novum-organum-scientific-method",
+      "type": "achievement"
+    },
+    {
+      "key": "cogito-ergo-sum",
+      "year": 1637,
+      "title": "Cogito, Ergo Sum (I think, therefore I am)",
+      "category": "Epistemology",
+      "text": "In his 'Discourse on the Method', he established his famous principle 'Cogito, ergo sum', making the act of thinking the first and most certain truth. This became a foundational element of Western philosophy.",
+      "id": "cogito-ergo-sum",
+      "type": "achievement"
+    },
+    {
+      "key": "cartesian-coordinate-system",
+      "year": 1637,
+      "title": "Invention of the Cartesian Coordinate System",
+      "category": "Mathematics",
+      "text": "In his work 'La Géométrie', he introduced the Cartesian coordinate system, which allows for the representation of geometric shapes with algebraic equations. This invention was a crucial step in the development of analytic geometry.",
+      "id": "cartesian-coordinate-system",
+      "type": "achievement"
+    },
+    {
+      "key": "telescopic-astronomical-observations",
+      "year": 1610,
+      "title": "Groundbreaking Telescopic Observations",
+      "category": "Astronomy",
+      "text": "Published 'Sidereus Nuncius' (Starry Messenger), detailing his observations using a telescope. He discovered the four largest moons of Jupiter, the phases of Venus, and the mountainous surface of the Moon, providing strong evidence for the Copernican heliocentric model.",
+      "id": "telescopic-astronomical-observations",
+      "type": "achievement"
+    },
+    {
+      "key": "kinematics-falling-bodies",
+      "year": 1638,
+      "title": "Foundation of Modern Kinematics",
+      "category": "Physics",
+      "text": "Through experiments with falling bodies and inclined planes, Galileo formulated the law of falling bodies, stating that all objects accelerate at the same rate regardless of mass. This work, detailed in 'Two New Sciences', laid the foundation for classical mechanics.",
+      "id": "kinematics-falling-bodies",
+      "type": "achievement"
+    },
+    {
+      "key": "principia-mathematica",
+      "year": 1687,
+      "title": "Laws of Motion and Universal Gravitation (Principia)",
+      "category": "Physics",
+      "text": "Published 'Philosophiæ Naturalis Principia Mathematica', which formulated the three laws of motion and the law of universal gravitation. This work laid the foundation for classical mechanics and dominated the scientific view of the physical universe for the next three centuries.",
+      "id": "principia-mathematica",
+      "type": "achievement"
+    },
+    {
+      "key": "opticks-light-spectrum",
+      "year": 1704,
+      "title": "Theory of Light and Color (Opticks)",
+      "category": "Optics",
+      "text": "Published 'Opticks', detailing his experiments that showed white light is composed of a spectrum of colors. He also built the first practical reflecting telescope and developed a sophisticated corpuscular theory of light.",
+      "id": "opticks-light-spectrum",
+      "type": "achievement"
+    },
+    {
+      "key": "development-of-calculus",
+      "year": 1666,
+      "title": "Development of Infinitesimal Calculus",
+      "category": "Mathematics",
+      "text": "Independently developed a system of mathematics he called 'method of fluxions'. Now known as calculus, it provided the mathematical language to describe motion and change, becoming a fundamental tool in all of physical science.",
+      "id": "development-of-calculus",
+      "type": "achievement"
+    },
+    {
+      "key": "bernoullis-principle-hydrodynamica",
+      "year": 1738,
+      "title": "Bernoulli's Principle (Hydrodynamica)",
+      "category": "Fluid Dynamics",
+      "text": "Published 'Hydrodynamica', establishing the fundamental relationship between pressure and velocity in a moving fluid. This principle states that for an inviscid flow, an increase in the speed of the fluid occurs simultaneously with a decrease in pressure or a decrease in the fluid's potential energy, forming the basis of modern aerodynamics.",
+      "id": "bernoullis-principle-hydrodynamica",
+      "type": "achievement"
+    },
+    {
+      "key": "st-petersburg-paradox-utility",
+      "year": 1738,
+      "title": "Utility Theory and the St. Petersburg Paradox",
+      "category": "Probability Theory, Economics",
+      "text": "Analyzed the St. Petersburg paradox and introduced the concept of utility to explain decision-making under uncertainty. His work laid the foundation for utility theory in economics and the concept of expected utility.",
+      "id": "st-petersburg-paradox-utility",
+      "type": "achievement"
+    },
+    {
+      "key": "institutions-de-physique-vis-viva",
+      "year": 1740,
+      "title": "Foundations of Physics (Institutions de Physique)",
+      "category": "Physics, Metaphysics",
+      "text": "Authored 'Institutions de Physique', a book that explained complex ideas from Newton and Leibniz. She famously proposed that an object's energy is proportional to the square of its velocity (E ∝ mv²), which was a crucial contribution to the formulation of the law of conservation of energy.",
+      "id": "institutions-de-physique-vis-viva",
+      "type": "achievement"
+    },
+    {
+      "key": "translation-principia-mathematica",
+      "year": 1759,
+      "title": "Translation and Commentary on Newton's Principia",
+      "category": "Physics, Translation",
+      "text": "Completed the definitive French translation of Isaac Newton's 'Principia Mathematica'. Her work included an extensive commentary that helped to synthesize Newtonian physics with Leibnizian metaphysics, making it accessible and understandable throughout Europe. It remains the standard French translation.",
+      "id": "translation-principia-mathematica",
+      "type": "achievement"
+    },
+    {
+      "key": "opticks-light-spectrum",
+      "year": 1704,
+      "title": "Theory of Light and Color (Opticks)",
+      "category": "Optics",
+      "text": "Published 'Opticks', detailing his experiments showing that white light is composed of a spectrum of colors. His corpuscular theory of light was later challenged by Thomas Young's wave theory.",
+      "id": "opticks-light-spectrum",
+      "type": "achievement"
+    },
+    {
+      "key": "dalemberts-principle",
+      "year": 1743,
+      "title": "D'Alembert's Principle of Dynamic Equilibrium",
+      "category": "Classical Mechanics",
+      "text": "In his 'Traité de dynamique', he formulated D'Alembert's principle, which extends the principle of virtual work from static to dynamic systems. It provides an alternative formulation of the laws of motion, effectively transforming a dynamics problem into a statics problem.",
+      "id": "dalemberts-principle",
+      "type": "achievement"
+    },
+    {
+      "key": "encyclopedie-preliminary-discourse",
+      "year": 1751,
+      "title": "Co-editorship of the Encyclopédie",
+      "category": "Enlightenment Philosophy",
+      "text": "Co-edited the 'Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers' with Denis Diderot. He authored the influential 'Preliminary Discourse' for the work, which outlined the structure of human knowledge and became a manifesto of the Enlightenment.",
+      "id": "encyclopedie-preliminary-discourse",
+      "type": "achievement"
+    },
+    {
+      "key": "diderot-art-criticism-literature",
+      "year": 1759,
+      "title": "Pioneering Art Criticism and Literary Works",
+      "category": "Art Criticism, Literature",
+      "text": "Is considered one of the originators of modern art criticism for his 'Salons', insightful reviews of Paris art exhibitions. He also authored influential philosophical novels and dialogues, such as 'Jacques the Fatalist' and 'Rameau's Nephew'.",
+      "id": "diderot-art-criticism-literature",
+      "type": "achievement"
+    },
+    {
+      "key": "clairauts-theorem-earth-shape",
+      "year": 1743,
+      "title": "Clairaut's Theorem on the Shape of the Earth",
+      "category": "Geodesy, Physics",
+      "text": "Published 'Théorie de la figure de la Terre', which contained his famous theorem. It provides a mathematical formula connecting the gravity at a point on the surface of a rotating planet with its shape and rotation, confirming Newton's theory that the Earth is flattened at the poles.",
+      "id": "clairauts-theorem-earth-shape",
+      "type": "achievement"
+    },
+    {
+      "key": "halleys-comet-return-prediction",
+      "year": 1758,
+      "title": "Prediction of the Return of Halley's Comet",
+      "category": "Celestial Mechanics",
+      "text": "By applying the principles of Newtonian gravity, he undertook a rigorous calculation to predict the return of Halley's Comet, for the first time accounting for the gravitational influence of Jupiter and Saturn. His accurate prediction was a celebrated triumph for celestial mechanics.",
+      "id": "halleys-comet-return-prediction",
+      "type": "achievement"
+    },
+    {
+      "key": "three-body-problem-rivalry",
+      "year": 1747,
+      "title": "Tackling the Three-Body Problem",
+      "category": "Celestial Mechanics",
+      "text": "Engaged in a famous scientific rivalry with d'Alembert and Euler to solve the three-body problem, specifically the issue of the Moon's orbit. Their competitive efforts to provide a theoretical explanation for lunar motion significantly advanced the field of celestial mechanics.",
+      "id": "three-body-problem-rivalry",
+      "type": "achievement"
+    },
+    {
+      "key": "graph-theory-konigsberg",
+      "year": 1736,
+      "title": "Foundations of Graph Theory",
+      "category": "Graph Theory, Topology",
+      "text": "By solving the famous 'Seven Bridges of Königsberg' problem, he laid the foundations of graph theory. His analysis of the problem introduced the concept of a graph and its properties, effectively creating a new branch of mathematics.",
+      "id": "graph-theory-konigsberg",
+      "type": "achievement"
+    },
+    {
+      "key": "euler-equations-fluid-dynamics",
+      "year": 1757,
+      "title": "Euler Equations in Fluid Dynamics",
+      "category": "Fluid Dynamics",
+      "text": "Formulated the Euler equations, a set of equations that describe the motion of an ideal, inviscid fluid. These equations are fundamental to fluid dynamics and are used to study phenomena from aerodynamics to ocean currents.",
+      "id": "euler-equations-fluid-dynamics",
+      "type": "achievement"
+    },
+    {
+      "key": "euler-equations-fluid-dynamics",
+      "year": 1757,
+      "title": "Euler Equations in Fluid Dynamics",
+      "category": "Fluid Dynamics",
+      "text": "Formulated the Euler equations, a set of equations that describe the motion of an ideal, inviscid fluid. This work, along with contributions from figures like Daniel Bernoulli, established the field of fluid dynamics.",
+      "id": "euler-equations-fluid-dynamics",
+      "type": "achievement"
+    },
+    {
+      "key": "oxygen-combustion-theory",
+      "year": 1777,
+      "title": "Discovery of the Role of Oxygen in Combustion",
+      "category": "Chemistry",
+      "text": "Through rigorous experiments, Lavoisier demonstrated that combustion and rusting are processes involving the combination of a substance with a specific element, which he named oxygen. This work disproved the long-standing phlogiston theory and revolutionized the understanding of chemical reactions.",
+      "id": "oxygen-combustion-theory",
+      "type": "achievement"
+    },
+    {
+      "key": "law-of-conservation-of-mass",
+      "year": 1789,
+      "title": "Law of Conservation of Mass",
+      "category": "Chemistry",
+      "text": "In his 'Traité Élémentaire de Chimie' (Elementary Treatise of Chemistry), he explicitly stated the law of conservation of mass, showing that although matter may change its state in a chemical reaction, the total mass remains constant. This is a fundamental principle of modern chemistry.",
+      "id": "law-of-conservation-of-mass",
+      "type": "achievement"
+    },
+    {
+      "key": "modern-chemical-nomenclature",
+      "year": 1787,
+      "title": "Establishment of Modern Chemical Nomenclature",
+      "category": "Chemistry",
+      "text": "Collaborated to create the 'Méthode de nomenclature chimique', the first systematic method for naming chemical substances. This system, based on elemental composition, replaced arbitrary alchemical names and forms the basis of modern chemical nomenclature.",
+      "id": "modern-chemical-nomenclature",
+      "type": "achievement"
+    },
+    {
+      "key": "coulomb-friction-model",
+      "year": 1781,
+      "title": "Laws of Static and Kinetic Friction",
+      "category": "Tribology, Engineering",
+      "text": "Conducted a comprehensive investigation into the nature of friction. He established the laws of friction, distinguishing between static and kinetic friction, and proposed that the force of friction is largely independent of the contact area and proportional to the normal force.",
+      "id": "coulomb-friction-model",
+      "type": "achievement"
+    },
+    {
+      "key": "coulombs-law-electrostatics",
+      "year": 1785,
+      "title": "Formulation of Coulomb's Law",
+      "category": "Electromagnetism",
+      "text": "Using a torsion balance that he invented, Coulomb experimentally verified that the electrostatic force between two charged particles is proportional to the product of their charges and inversely proportional to the square of the distance between them. This fundamental principle is known as Coulomb's Law.",
+      "id": "coulombs-law-electrostatics",
+      "type": "achievement"
+    },
+    {
+      "key": "law-of-definite-proportions",
+      "year": 1794,
+      "title": "Law of Definite Proportions (Proust's Law)",
+      "category": "Chemistry, Stoichiometry",
+      "text": "Through meticulous analysis of chemical compounds like copper carbonate, Proust established the law of definite proportions. This law states that a chemical compound always contains its component elements in a fixed ratio by mass, regardless of its source. This was a critical step toward Dalton's atomic theory.",
+      "id": "law-of-definite-proportions",
+      "type": "achievement"
+    },
+    {
+      "key": "isolation-of-glucose",
+      "year": 1802,
+      "title": "Isolation of Glucose from Grapes",
+      "category": "Biochemistry",
+      "text": "Conducted significant research into sugars and was the first to isolate glucose (grape sugar). He demonstrated that it was chemically distinct from sucrose (cane sugar), contributing to the early understanding of organic compounds.",
+      "id": "isolation-of-glucose",
+      "type": "achievement"
+    },
+    {
+      "key": "double-slit-experiment-wave-theory",
+      "year": 1803,
+      "title": "Wave Theory of Light (Double-Slit Experiment)",
+      "category": "Physics, Optics",
+      "text": "Performed his groundbreaking double-slit experiment, which demonstrated the interference of light waves. This experiment provided crucial evidence for the wave theory of light, challenging the dominant corpuscular theory proposed by Newton.",
+      "id": "double-slit-experiment-wave-theory",
+      "type": "achievement"
+    },
+    {
+      "key": "youngs-modulus-elasticity",
+      "year": 1807,
+      "title": "Concept of Elasticity (Young's Modulus)",
+      "category": "Solid Mechanics",
+      "text": "In his 'Course of Lectures on Natural Philosophy', he introduced a numerical measure for the stiffness of a material, now known as Young's modulus. This concept is fundamental to engineering and materials science for quantifying the relationship between stress and strain.",
+      "id": "youngs-modulus-elasticity",
+      "type": "achievement"
+    },
+    {
+      "key": "atomic-theory",
+      "year": 1803,
+      "title": "Development of Modern Atomic Theory",
+      "category": "Chemistry",
+      "text": "Proposed a new atomic theory, postulating that all matter is composed of indivisible atoms of varying weights. He stated that elements consist of atoms of a single type, and compounds consist of atoms of different elements combined in simple whole-number ratios. This laid the groundwork for modern chemistry.",
+      "id": "atomic-theory",
+      "type": "achievement"
+    },
+    {
+      "key": "fraunhofer-lines-spectroscopy",
+      "year": 1814,
+      "title": "Discovery and Mapping of Fraunhofer Lines",
+      "category": "Spectroscopy, Astronomy",
+      "text": "Systematically studied and mapped the dark absorption lines in the solar spectrum, now known as Fraunhofer lines. Using high-precision instruments of his own design, he mapped over 500 lines, which laid the foundation for spectroscopy and allowed for the chemical analysis of stars.",
+      "id": "fraunhofer-lines-spectroscopy",
+      "type": "achievement"
+    },
+    {
+      "key": "carnot-cycle-motive-power",
+      "year": 1824,
+      "title": "The Carnot Cycle and Motive Power of Fire",
+      "category": "Thermodynamics",
+      "text": "Published 'Réflexions sur la Puissance Motrice du Feu' (Reflections on the Motive Power of Fire), his only major work. In it, he introduced the Carnot cycle, a theoretical model for an ideal heat engine, and established the fundamental principles governing the conversion of heat into mechanical work.",
+      "id": "carnot-cycle-motive-power",
+      "type": "achievement"
+    },
+    {
+      "key": "pioneering-of-non-euclidean-geometry",
+      "year": 1829,
+      "title": "Pioneering of Non-Euclidean Geometry",
+      "category": "History of Mathematics, Non-Euclidean Geometry",
+      "text": "A paradigm shift in mathematics where scholars, initially working independently, challenged Euclid's fifth postulate (the parallel postulate). This led to the development of self-consistent geometries where parallel lines behave differently. This collective effort, started secretly by Gauss and first published by Lobachevsky and Bolyai (Hyperbolic Geometry), was later generalized by Riemann to any number of dimensions, laying the groundwork for modern physics.",
+      "id": "pioneering-of-non-euclidean-geometry",
+      "type": "achievement"
+    },
+    {
+      "key": "electromagnetic-induction",
+      "year": 1831,
+      "title": "Discovery of Electromagnetic Induction",
+      "category": "Electromagnetism",
+      "text": "Through a series of brilliant experiments, Faraday discovered that a changing magnetic field induces an electric current in a nearby circuit. This principle, known as Faraday's Law of Induction, is the foundation for the electric generator and transformer, making the large-scale generation of electricity possible.",
+      "id": "electromagnetic-induction",
+      "type": "achievement"
+    },
+    {
+      "key": "laws-of-electrolysis",
+      "year": 1834,
+      "title": "Laws of Electrolysis",
+      "category": "Electrochemistry",
+      "text": "Established the two fundamental laws of electrolysis, which quantitatively describe the decomposition of chemical solutions by electricity. In the process, he coined many essential terms still used today, such as electrode, anode, cathode, and ion, laying the foundation for electrochemistry.",
+      "id": "laws-of-electrolysis",
+      "type": "achievement"
+    },
+    {
+      "key": "electromagnetic-field-theory-foundation",
+      "year": 1852,
+      "title": "Concept of Lines of Force and the Electromagnetic Field",
+      "category": "Electromagnetism, Physics",
+      "text": "Introduced the revolutionary concept of 'lines of force' to visualize electric and magnetic fields physically filling the space around magnets and charges. This departure from the 'action at a distance' theory was the essential conceptual foundation for James Clerk Maxwell's mathematical unification of electromagnetism.",
+      "id": "electromagnetic-field-theory-foundation",
+      "type": "achievement"
+    },
+    {
+      "key": "kinetic-theory-of-gases",
+      "year": 1860,
+      "title": "Kinetic Theory of Gases and Maxwell Distribution",
+      "category": "Statistical Mechanics",
+      "text": "Applied statistical methods to the kinetic theory of gases, developing the Maxwell distribution. This described the distribution of speeds of molecules in a gas at a certain temperature, providing a statistical understanding of temperature and heat and founding the field of statistical mechanics.",
+      "id": "kinetic-theory-of-gases",
+      "type": "achievement"
+    },
+    {
+      "key": "first-color-photograph",
+      "year": 1861,
+      "title": "Creation of the First Durable Color Photograph",
+      "category": "Optics, Photography",
+      "text": "Based on his research into color perception, he created the world's first durable color photograph using a three-color-separation process. By taking three black-and-white photos through red, green, and blue filters and then recombining them, he demonstrated the principle of additive color mixing.",
+      "id": "first-color-photograph",
+      "type": "achievement"
+    },
+    {
+      "key": "hamiltonian-mechanics",
+      "year": 1833,
+      "title": "Formulation of Hamiltonian Mechanics",
+      "category": "Classical Mechanics, Mathematical Physics",
+      "text": "Reformulated Newtonian mechanics, now known as Hamiltonian mechanics. This approach, which describes a system's state by its position and momentum coordinates, proved to be central to the development of statistical mechanics and quantum mechanics.",
+      "id": "hamiltonian-mechanics",
+      "type": "achievement"
+    },
+    {
+      "key": "doppler-effect",
+      "year": 1842,
+      "title": "Postulation of the Doppler Effect",
+      "category": "Wave Physics, Astronomy",
+      "text": "In his paper 'On the colored light of the binary stars', he first proposed the principle that the observed frequency and wavelength of a wave change relative to an observer moving towards or away from the wave source. This phenomenon, now known as the Doppler effect, is a fundamental concept in wave physics and a crucial tool in fields like astronomy (redshift), medicine (ultrasound), and meteorology (Doppler radar).",
+      "id": "doppler-effect",
+      "type": "achievement"
+    },
+    {
+      "key": "telescopic-astronomical-observations",
+      "year": 1610,
+      "title": "Groundbreaking Telescopic Observations",
+      "category": "Astronomy",
+      "text": "Published 'Sidereus Nuncius' (Starry Messenger), detailing his observations using a telescope. He discovered Jupiter's moons and the phases of Venus, providing strong evidence for the Copernican model and challenging the geocentric view. This marked a shift towards empirical, observation-based science, influencing all subsequent physicists, including Newton.",
+      "id": "telescopic-astronomical-observations",
+      "type": "achievement"
+    },
+    {
+      "key": "special-relativity",
+      "year": 1905,
+      "title": "Special Theory of Relativity",
+      "category": "Physics",
+      "text": "Published his theory of special relativity, which reconciled Maxwell's equations for electricity and magnetism with the laws of mechanics. It proposed that the laws of physics are the same for all non-accelerating observers and that the speed of light in a vacuum is constant, leading to the unification of space and time into spacetime and the famous equation E=mc².",
+      "id": "special-relativity",
+      "type": "achievement"
+    },
+    {
+      "key": "general-relativity",
+      "year": 1915,
+      "title": "General Theory of Relativity",
+      "category": "Physics, Cosmology",
+      "text": "Published his theory of general relativity, which provides the current description of gravitation as a geometric property of spacetime. Using the mathematics developed by Riemann, Einstein explained that gravity is the curvature of spacetime caused by mass and energy, fundamentally reformulating Newton's law of universal gravitation.",
+      "id": "general-relativity",
+      "type": "achievement"
     }
   ],
   "edges": [
@@ -57,9 +462,271 @@
     {
       "source": "kepler",
       "target": "laws-of-planetary-motion"
+    },
+    {
+      "source": "francis-bacon",
+      "target": "novum-organum-scientific-method"
+    },
+    {
+      "source": "rene-descartes",
+      "target": "cogito-ergo-sum"
+    },
+    {
+      "source": "rene-descartes",
+      "target": "cartesian-coordinate-system"
+    },
+    {
+      "source": "galileo-galilei",
+      "target": "telescopic-astronomical-observations"
+    },
+    {
+      "source": "galileo-galilei",
+      "target": "kinematics-falling-bodies"
+    },
+    {
+      "source": "isaac-newton",
+      "target": "principia-mathematica"
+    },
+    {
+      "source": "isaac-newton",
+      "target": "opticks-light-spectrum"
+    },
+    {
+      "source": "isaac-newton",
+      "target": "development-of-calculus"
+    },
+    {
+      "source": "daniel-bernoulli",
+      "target": "bernoullis-principle-hydrodynamica"
+    },
+    {
+      "source": "daniel-bernoulli",
+      "target": "st-petersburg-paradox-utility"
+    },
+    {
+      "source": "emilie-du-chatelet",
+      "target": "institutions-de-physique-vis-viva"
+    },
+    {
+      "source": "emilie-du-chatelet",
+      "target": "translation-principia-mathematica"
+    },
+    {
+      "source": "isaac-newton",
+      "target": "translation-principia-mathematica"
+    },
+    {
+      "source": "isaac-newton",
+      "target": "opticks-light-spectrum"
+    },
+    {
+      "source": "thomas-young",
+      "target": "opticks-light-spectrum"
+    },
+    {
+      "source": "jean-le-rond-dalembert",
+      "target": "dalemberts-principle"
+    },
+    {
+      "source": "jean-le-rond-dalembert",
+      "target": "encyclopedie-preliminary-discourse"
+    },
+    {
+      "source": "denis-diderot",
+      "target": "encyclopedie-preliminary-discourse"
+    },
+    {
+      "source": "denis-diderot",
+      "target": "diderot-art-criticism-literature"
+    },
+    {
+      "source": "alexis-claude-clairaut",
+      "target": "clairauts-theorem-earth-shape"
+    },
+    {
+      "source": "alexis-claude-clairaut",
+      "target": "halleys-comet-return-prediction"
+    },
+    {
+      "source": "alexis-claude-clairaut",
+      "target": "three-body-problem-rivalry"
+    },
+    {
+      "source": "jean-le-rond-dalembert",
+      "target": "three-body-problem-rivalry"
+    },
+    {
+      "source": "leonhard-euler",
+      "target": "three-body-problem-rivalry"
+    },
+    {
+      "source": "leonhard-euler",
+      "target": "graph-theory-konigsberg"
+    },
+    {
+      "source": "leonhard-euler",
+      "target": "euler-equations-fluid-dynamics"
+    },
+    {
+      "source": "leonhard-euler",
+      "target": "euler-equations-fluid-dynamics"
+    },
+    {
+      "source": "daniel-bernoulli",
+      "target": "euler-equations-fluid-dynamics"
+    },
+    {
+      "source": "antoine-lavoisier",
+      "target": "oxygen-combustion-theory"
+    },
+    {
+      "source": "antoine-lavoisier",
+      "target": "law-of-conservation-of-mass"
+    },
+    {
+      "source": "antoine-lavoisier",
+      "target": "modern-chemical-nomenclature"
+    },
+    {
+      "source": "charles-de-coulomb",
+      "target": "coulomb-friction-model"
+    },
+    {
+      "source": "charles-de-coulomb",
+      "target": "coulombs-law-electrostatics"
+    },
+    {
+      "source": "joseph-proust",
+      "target": "law-of-definite-proportions"
+    },
+    {
+      "source": "joseph-proust",
+      "target": "isolation-of-glucose"
+    },
+    {
+      "source": "thomas-young",
+      "target": "double-slit-experiment-wave-theory"
+    },
+    {
+      "source": "thomas-young",
+      "target": "youngs-modulus-elasticity"
+    },
+    {
+      "source": "john-dalton",
+      "target": "atomic-theory"
+    },
+    {
+      "source": "joseph-von-fraunhofer",
+      "target": "fraunhofer-lines-spectroscopy"
+    },
+    {
+      "source": "nicolas-leonard-sadi-carnot",
+      "target": "carnot-cycle-motive-power"
+    },
+    {
+      "source": "carl-friedrich-gauss",
+      "target": "pioneering-of-non-euclidean-geometry"
+    },
+    {
+      "source": "nikolai-ivanovich-lobachevsky",
+      "target": "pioneering-of-non-euclidean-geometry"
+    },
+    {
+      "source": "janos-bolyai",
+      "target": "pioneering-of-non-euclidean-geometry"
+    },
+    {
+      "source": "georg-friedrich-bernhard-riemann",
+      "target": "pioneering-of-non-euclidean-geometry"
+    },
+    {
+      "source": "michael-faraday",
+      "target": "electromagnetic-induction"
+    },
+    {
+      "source": "michael-faraday",
+      "target": "laws-of-electrolysis"
+    },
+    {
+      "source": "michael-faraday",
+      "target": "electromagnetic-field-theory-foundation"
+    },
+    {
+      "source": "james-clerk-maxwell",
+      "target": "electromagnetic-field-theory-foundation"
+    },
+    {
+      "source": "james-clerk-maxwell",
+      "target": "kinetic-theory-of-gases"
+    },
+    {
+      "source": "james-clerk-maxwell",
+      "target": "first-color-photograph"
+    },
+    {
+      "source": "william-rowan-hamilton",
+      "target": "hamiltonian-mechanics"
+    },
+    {
+      "source": "christian-doppler",
+      "target": "doppler-effect"
+    },
+    {
+      "source": "christophorus-buys-ballot",
+      "target": "doppler-effect"
+    },
+    {
+      "source": "galileo-galilei",
+      "target": "telescopic-astronomical-observations"
+    },
+    {
+      "source": "isaac-newton",
+      "target": "telescopic-astronomical-observations"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "special-relativity"
+    },
+    {
+      "source": "james-clerk-maxwell",
+      "target": "special-relativity"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "general-relativity"
+    },
+    {
+      "source": "isaac-newton",
+      "target": "general-relativity"
+    },
+    {
+      "source": "georg-friedrich-bernhard-riemann",
+      "target": "general-relativity"
     }
   ],
   "persons": [
+    {
+      "scholar_id": "william-rowan-hamilton",
+      "name": "William Rowan Hamilton",
+      "birth": 1805,
+      "death": 1865,
+      "field": "Mathematics, Physics, Astronomy",
+      "photo_url": "https://example.com/photos/william-rowan-hamilton.jpg",
+      "nationality": "Irish",
+      "id": "william-rowan-hamilton",
+      "type": "person"
+    },
+    {
+      "scholar_id": "thomas-young",
+      "name": "Thomas Young",
+      "birth": 1773,
+      "death": 1829,
+      "field": "Physics, Medicine, Egyptology, Linguistics",
+      "photo_url": "https://example.com/photos/thomas-young.jpg",
+      "nationality": "English",
+      "id": "thomas-young",
+      "type": "person"
+    },
     {
       "scholar_id": "socrates",
       "name": "Socrates",
@@ -69,6 +736,17 @@
       "photo_url": "https://example.com/photos/socrates.jpg",
       "nationality": "Ancient Athens",
       "id": "socrates",
+      "type": "person"
+    },
+    {
+      "scholar_id": "rene-descartes",
+      "name": "René Descartes",
+      "birth": 1596,
+      "death": 1650,
+      "field": "Metaphysics, Epistemology, Mathematics, Physics",
+      "photo_url": "https://example.com/photos/rene-descartes.jpg",
+      "nationality": "French",
+      "id": "rene-descartes",
       "type": "person"
     },
     {
@@ -83,6 +761,50 @@
       "type": "person"
     },
     {
+      "scholar_id": "nikolai-ivanovich-lobachevsky",
+      "name": "Nikolai Ivanovich Lobachevsky",
+      "birth": 1792,
+      "death": 1856,
+      "field": "Geometry, Algebra",
+      "photo_url": "https://example.com/photos/nikolai-lobachevsky.jpg",
+      "nationality": "Russian",
+      "id": "nikolai-ivanovich-lobachevsky",
+      "type": "person"
+    },
+    {
+      "scholar_id": "nicolas-leonard-sadi-carnot",
+      "name": "Nicolas Léonard Sadi Carnot",
+      "birth": 1796,
+      "death": 1832,
+      "field": "Thermodynamics, Physics, Engineering",
+      "photo_url": "https://example.com/photos/carnot.jpg",
+      "nationality": "French",
+      "id": "nicolas-leonard-sadi-carnot",
+      "type": "person"
+    },
+    {
+      "scholar_id": "michael-faraday",
+      "name": "Michael Faraday",
+      "birth": 1791,
+      "death": 1867,
+      "field": "Physics, Chemistry, Electromagnetism",
+      "photo_url": "https://example.com/photos/michael-faraday.jpg",
+      "nationality": "English",
+      "id": "michael-faraday",
+      "type": "person"
+    },
+    {
+      "scholar_id": "leonhard-euler",
+      "name": "Leonhard Euler",
+      "birth": 1707,
+      "death": 1783,
+      "field": "Mathematics, Physics, Astronomy, Logic",
+      "photo_url": "https://example.com/photos/euler.jpg",
+      "nationality": "Swiss",
+      "id": "leonhard-euler",
+      "type": "person"
+    },
+    {
       "scholar_id": "kepler",
       "name": "Johannes Kepler",
       "birth": 1571,
@@ -91,6 +813,116 @@
       "photo_url": "https://example.com/photos/kepler.jpg",
       "nationality": "German",
       "id": "kepler",
+      "type": "person"
+    },
+    {
+      "scholar_id": "joseph-von-fraunhofer",
+      "name": "Joseph von Fraunhofer",
+      "birth": 1787,
+      "death": 1826,
+      "field": "Optics, Physics, Spectroscopy",
+      "photo_url": "https://example.com/photos/fraunhofer.jpg",
+      "nationality": "German",
+      "id": "joseph-von-fraunhofer",
+      "type": "person"
+    },
+    {
+      "scholar_id": "joseph-proust",
+      "name": "Joseph Louis Proust",
+      "birth": 1754,
+      "death": 1826,
+      "field": "Chemistry",
+      "photo_url": "https://example.com/photos/proust.jpg",
+      "nationality": "French",
+      "id": "joseph-proust",
+      "type": "person"
+    },
+    {
+      "scholar_id": "john-dalton",
+      "name": "John Dalton",
+      "birth": 1766,
+      "death": 1844,
+      "field": "Chemistry, Physics, Meteorology",
+      "photo_url": "https://example.com/photos/john-dalton.jpg",
+      "nationality": "English",
+      "id": "john-dalton",
+      "type": "person"
+    },
+    {
+      "scholar_id": "jean-le-rond-dalembert",
+      "name": "Jean le Rond d'Alembert",
+      "birth": 1717,
+      "death": 1783,
+      "field": "Mathematics, Physics, Philosophy, Music Theory",
+      "photo_url": "https://example.com/photos/dalembert.jpg",
+      "nationality": "French",
+      "id": "jean-le-rond-dalembert",
+      "type": "person"
+    },
+    {
+      "scholar_id": "janos-bolyai",
+      "name": "János Bolyai",
+      "birth": 1802,
+      "death": 1860,
+      "field": "Geometry, Mathematics",
+      "photo_url": "https://example.com/photos/janos-bolyai.jpg",
+      "nationality": "Hungarian",
+      "id": "janos-bolyai",
+      "type": "person"
+    },
+    {
+      "scholar_id": "james-clerk-maxwell",
+      "name": "James Clerk Maxwell",
+      "birth": 1831,
+      "death": 1879,
+      "field": "Mathematical Physics, Electromagnetism, Thermodynamics",
+      "photo_url": "https://example.com/photos/james-clerk-maxwell.jpg",
+      "nationality": "Scottish",
+      "id": "james-clerk-maxwell",
+      "type": "person"
+    },
+    {
+      "scholar_id": "isaac-newton",
+      "name": "Isaac Newton",
+      "birth": 1643,
+      "death": 1727,
+      "field": "Physics, Mathematics, Astronomy, Natural Philosophy",
+      "photo_url": "https://example.com/photos/isaac-newton.jpg",
+      "nationality": "English",
+      "id": "isaac-newton",
+      "type": "person"
+    },
+    {
+      "scholar_id": "georg-friedrich-bernhard-riemann",
+      "name": "Bernhard Riemann",
+      "birth": 1826,
+      "death": 1866,
+      "field": "Analysis, Number Theory, Differential Geometry",
+      "photo_url": "https://example.com/photos/bernhard-riemann.jpg",
+      "nationality": "German",
+      "id": "georg-friedrich-bernhard-riemann",
+      "type": "person"
+    },
+    {
+      "scholar_id": "galileo-galilei",
+      "name": "Galileo Galilei",
+      "birth": 1564,
+      "death": 1642,
+      "field": "Astronomy, Physics, Engineering, Scientific Method",
+      "photo_url": "https://example.com/photos/galileo-galilei.jpg",
+      "nationality": "Italian",
+      "id": "galileo-galilei",
+      "type": "person"
+    },
+    {
+      "scholar_id": "francis-bacon",
+      "name": "Francis Bacon",
+      "birth": 1561,
+      "death": 1626,
+      "field": "Philosophy of Science, Empiricism, Scientific Method",
+      "photo_url": "https://example.com/photos/francis-bacon.jpg",
+      "nationality": "English",
+      "id": "francis-bacon",
       "type": "person"
     },
     {
@@ -105,6 +937,39 @@
       "type": "person"
     },
     {
+      "scholar_id": "emilie-du-chatelet",
+      "name": "Émilie du Châtelet",
+      "birth": 1706,
+      "death": 1749,
+      "field": "Natural Philosophy, Physics, Mathematics, Metaphysics",
+      "photo_url": "https://example.com/photos/emilie-du-chatelet.jpg",
+      "nationality": "French",
+      "id": "emilie-du-chatelet",
+      "type": "person"
+    },
+    {
+      "scholar_id": "denis-diderot",
+      "name": "Denis Diderot",
+      "birth": 1713,
+      "death": 1784,
+      "field": "Philosophy, Art Criticism, Literature",
+      "photo_url": "https://example.com/photos/diderot.jpg",
+      "nationality": "French",
+      "id": "denis-diderot",
+      "type": "person"
+    },
+    {
+      "scholar_id": "daniel-bernoulli",
+      "name": "Daniel Bernoulli",
+      "birth": 1700,
+      "death": 1782,
+      "field": "Mathematics, Physics, Fluid Mechanics, Statistics",
+      "photo_url": "https://example.com/photos/daniel-bernoulli.jpg",
+      "nationality": "Swiss",
+      "id": "daniel-bernoulli",
+      "type": "person"
+    },
+    {
       "scholar_id": "copernicus",
       "name": "Nicolaus Copernicus",
       "birth": 1473,
@@ -116,6 +981,50 @@
       "type": "person"
     },
     {
+      "scholar_id": "christophorus-buys-ballot",
+      "name": "Christophorus Buys Ballot",
+      "birth": 1817,
+      "death": 1890,
+      "field": "Meteorology, Chemistry, Physics",
+      "photo_url": "https://example.com/photos/christophorus-buys-ballot.jpg",
+      "nationality": "Dutch",
+      "id": "christophorus-buys-ballot",
+      "type": "person"
+    },
+    {
+      "scholar_id": "christian-doppler",
+      "name": "Christian Doppler",
+      "birth": 1803,
+      "death": 1853,
+      "field": "Physics, Mathematics, Astronomy",
+      "photo_url": "https://example.com/photos/christian-doppler.jpg",
+      "nationality": "Austrian",
+      "id": "christian-doppler",
+      "type": "person"
+    },
+    {
+      "scholar_id": "charles-de-coulomb",
+      "name": "Charles-Augustin de Coulomb",
+      "birth": 1736,
+      "death": 1806,
+      "field": "Physics, Engineering",
+      "photo_url": "https://example.com/photos/coulomb.jpg",
+      "nationality": "French",
+      "id": "charles-de-coulomb",
+      "type": "person"
+    },
+    {
+      "scholar_id": "carl-friedrich-gauss",
+      "name": "Carl Friedrich Gauss",
+      "birth": 1777,
+      "death": 1855,
+      "field": "Number Theory, Algebra, Statistics, Differential Geometry",
+      "photo_url": "https://example.com/photos/carl-friedrich-gauss.jpg",
+      "nationality": "German",
+      "id": "carl-friedrich-gauss",
+      "type": "person"
+    },
+    {
       "scholar_id": "aristotle",
       "name": "Aristotle",
       "birth": -384,
@@ -124,6 +1033,39 @@
       "photo_url": "https://example.com/photos/aristotle.jpg",
       "nationality": "Ancient Greece",
       "id": "aristotle",
+      "type": "person"
+    },
+    {
+      "scholar_id": "antoine-lavoisier",
+      "name": "Antoine Lavoisier",
+      "birth": 1743,
+      "death": 1794,
+      "field": "Chemistry, Biology, Economics",
+      "photo_url": "https://example.com/photos/lavoisier.jpg",
+      "nationality": "French",
+      "id": "antoine-lavoisier",
+      "type": "person"
+    },
+    {
+      "scholar_id": "alexis-claude-clairaut",
+      "name": "Alexis-Claude Clairaut",
+      "birth": 1713,
+      "death": 1765,
+      "field": "Mathematics, Astronomy, Geodesy",
+      "photo_url": "https://example.com/photos/clairaut.jpg",
+      "nationality": "French",
+      "id": "alexis-claude-clairaut",
+      "type": "person"
+    },
+    {
+      "scholar_id": "albert-einstein",
+      "name": "Albert Einstein",
+      "birth": 1879,
+      "death": 1955,
+      "field": "Theoretical Physics",
+      "photo_url": "https://example.com/photos/albert-einstein.jpg",
+      "nationality": "German-American",
+      "id": "albert-einstein",
       "type": "person"
     }
   ]

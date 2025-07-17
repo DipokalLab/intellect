@@ -30,3 +30,377 @@
   text: "Formulated his three laws of planetary motion, which describe the motion of planets around the Sun. These laws modified the Copernican model, introduced elliptical orbits, and laid the groundwork for Isaac Newton's theory of universal gravitation."
   participants:
     - "kepler"
+
+- key: "novum-organum-scientific-method"
+  year: 1620
+  title: "Establishment of the Inductive Method (Novum Organum)"
+  category: "Scientific Methodology"
+  text: "Published 'Novum Organum' ('New Instrument'), proposing a new system of logic based on inductive reasoning to replace Aristotle's deductive approach. This work systematically outlined a new method for scientific inquiry based on observation and experimentation."
+  participants:
+    - "francis-bacon"
+
+- key: "cogito-ergo-sum"
+  year: 1637
+  title: "Cogito, Ergo Sum (I think, therefore I am)"
+  category: "Epistemology"
+  text: "In his 'Discourse on the Method', he established his famous principle 'Cogito, ergo sum', making the act of thinking the first and most certain truth. This became a foundational element of Western philosophy."
+  participants:
+    - "rene-descartes"
+
+- key: "cartesian-coordinate-system"
+  year: 1637
+  title: "Invention of the Cartesian Coordinate System"
+  category: "Mathematics"
+  text: "In his work 'La Géométrie', he introduced the Cartesian coordinate system, which allows for the representation of geometric shapes with algebraic equations. This invention was a crucial step in the development of analytic geometry."
+  participants:
+    - "rene-descartes"
+
+- key: "telescopic-astronomical-observations"
+  year: 1610
+  title: "Groundbreaking Telescopic Observations"
+  category: "Astronomy"
+  text: "Published 'Sidereus Nuncius' (Starry Messenger), detailing his observations using a telescope. He discovered the four largest moons of Jupiter, the phases of Venus, and the mountainous surface of the Moon, providing strong evidence for the Copernican heliocentric model."
+  participants:
+    - "galileo-galilei"
+
+- key: "kinematics-falling-bodies"
+  year: 1638
+  title: "Foundation of Modern Kinematics"
+  category: "Physics"
+  text: "Through experiments with falling bodies and inclined planes, Galileo formulated the law of falling bodies, stating that all objects accelerate at the same rate regardless of mass. This work, detailed in 'Two New Sciences', laid the foundation for classical mechanics."
+  participants:
+    - "galileo-galilei"
+
+- key: "principia-mathematica"
+  year: 1687
+  title: "Laws of Motion and Universal Gravitation (Principia)"
+  category: "Physics"
+  text: "Published 'Philosophiæ Naturalis Principia Mathematica', which formulated the three laws of motion and the law of universal gravitation. This work laid the foundation for classical mechanics and dominated the scientific view of the physical universe for the next three centuries."
+  participants:
+    - "isaac-newton"
+
+- key: "opticks-light-spectrum"
+  year: 1704
+  title: "Theory of Light and Color (Opticks)"
+  category: "Optics"
+  text: "Published 'Opticks', detailing his experiments that showed white light is composed of a spectrum of colors. He also built the first practical reflecting telescope and developed a sophisticated corpuscular theory of light."
+  participants:
+    - "isaac-newton"
+
+- key: "development-of-calculus"
+  year: 1666
+  title: "Development of Infinitesimal Calculus"
+  category: "Mathematics"
+  text: "Independently developed a system of mathematics he called 'method of fluxions'. Now known as calculus, it provided the mathematical language to describe motion and change, becoming a fundamental tool in all of physical science."
+  participants:
+    - "isaac-newton"
+
+- key: "bernoullis-principle-hydrodynamica"
+  year: 1738
+  title: "Bernoulli's Principle (Hydrodynamica)"
+  category: "Fluid Dynamics"
+  text: "Published 'Hydrodynamica', establishing the fundamental relationship between pressure and velocity in a moving fluid. This principle states that for an inviscid flow, an increase in the speed of the fluid occurs simultaneously with a decrease in pressure or a decrease in the fluid's potential energy, forming the basis of modern aerodynamics."
+  participants:
+    - "daniel-bernoulli"
+
+- key: "st-petersburg-paradox-utility"
+  year: 1738
+  title: "Utility Theory and the St. Petersburg Paradox"
+  category: "Probability Theory, Economics"
+  text: "Analyzed the St. Petersburg paradox and introduced the concept of utility to explain decision-making under uncertainty. His work laid the foundation for utility theory in economics and the concept of expected utility."
+  participants:
+    - "daniel-bernoulli"
+
+- key: "institutions-de-physique-vis-viva"
+  year: 1740
+  title: "Foundations of Physics (Institutions de Physique)"
+  category: "Physics, Metaphysics"
+  text: "Authored 'Institutions de Physique', a book that explained complex ideas from Newton and Leibniz. She famously proposed that an object's energy is proportional to the square of its velocity (E ∝ mv²), which was a crucial contribution to the formulation of the law of conservation of energy."
+  participants:
+    - "emilie-du-chatelet"
+
+- key: "translation-principia-mathematica"
+  year: 1759
+  title: "Translation and Commentary on Newton's Principia"
+  category: "Physics, Translation"
+  text: "Completed the definitive French translation of Isaac Newton's 'Principia Mathematica'. Her work included an extensive commentary that helped to synthesize Newtonian physics with Leibnizian metaphysics, making it accessible and understandable throughout Europe. It remains the standard French translation."
+  participants:
+    - "emilie-du-chatelet"
+    - "isaac-newton"
+
+- key: "opticks-light-spectrum"
+  year: 1704
+  title: "Theory of Light and Color (Opticks)"
+  category: "Optics"
+  text: "Published 'Opticks', detailing his experiments showing that white light is composed of a spectrum of colors. His corpuscular theory of light was later challenged by Thomas Young's wave theory."
+  participants:
+    - "isaac-newton"
+    - "thomas-young"
+
+- key: "dalemberts-principle"
+  year: 1743
+  title: "D'Alembert's Principle of Dynamic Equilibrium"
+  category: "Classical Mechanics"
+  text: "In his 'Traité de dynamique', he formulated D'Alembert's principle, which extends the principle of virtual work from static to dynamic systems. It provides an alternative formulation of the laws of motion, effectively transforming a dynamics problem into a statics problem."
+  participants:
+    - "jean-le-rond-dalembert"
+
+- key: "encyclopedie-preliminary-discourse"
+  year: 1751
+  title: "Co-editorship of the Encyclopédie"
+  category: "Enlightenment Philosophy"
+  text: "Co-edited the 'Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers' with Denis Diderot. He authored the influential 'Preliminary Discourse' for the work, which outlined the structure of human knowledge and became a manifesto of the Enlightenment."
+  participants:
+    - "jean-le-rond-dalembert"
+    - "denis-diderot"
+
+- key: "diderot-art-criticism-literature"
+  year: 1759
+  title: "Pioneering Art Criticism and Literary Works"
+  category: "Art Criticism, Literature"
+  text: "Is considered one of the originators of modern art criticism for his 'Salons', insightful reviews of Paris art exhibitions. He also authored influential philosophical novels and dialogues, such as 'Jacques the Fatalist' and 'Rameau's Nephew'."
+  participants:
+    - "denis-diderot"
+
+- key: "clairauts-theorem-earth-shape"
+  year: 1743
+  title: "Clairaut's Theorem on the Shape of the Earth"
+  category: "Geodesy, Physics"
+  text: "Published 'Théorie de la figure de la Terre', which contained his famous theorem. It provides a mathematical formula connecting the gravity at a point on the surface of a rotating planet with its shape and rotation, confirming Newton's theory that the Earth is flattened at the poles."
+  participants:
+    - "alexis-claude-clairaut"
+
+- key: "halleys-comet-return-prediction"
+  year: 1758
+  title: "Prediction of the Return of Halley's Comet"
+  category: "Celestial Mechanics"
+  text: "By applying the principles of Newtonian gravity, he undertook a rigorous calculation to predict the return of Halley's Comet, for the first time accounting for the gravitational influence of Jupiter and Saturn. His accurate prediction was a celebrated triumph for celestial mechanics."
+  participants:
+    - "alexis-claude-clairaut"
+
+- key: "three-body-problem-rivalry"
+  year: 1747
+  title: "Tackling the Three-Body Problem"
+  category: "Celestial Mechanics"
+  text: "Engaged in a famous scientific rivalry with d'Alembert and Euler to solve the three-body problem, specifically the issue of the Moon's orbit. Their competitive efforts to provide a theoretical explanation for lunar motion significantly advanced the field of celestial mechanics."
+  participants:
+    - "alexis-claude-clairaut"
+    - "jean-le-rond-dalembert"
+    - "leonhard-euler"
+
+- key: "graph-theory-konigsberg"
+  year: 1736
+  title: "Foundations of Graph Theory"
+  category: "Graph Theory, Topology"
+  text: "By solving the famous 'Seven Bridges of Königsberg' problem, he laid the foundations of graph theory. His analysis of the problem introduced the concept of a graph and its properties, effectively creating a new branch of mathematics."
+  participants:
+    - "leonhard-euler"
+
+- key: "euler-equations-fluid-dynamics"
+  year: 1757
+  title: "Euler Equations in Fluid Dynamics"
+  category: "Fluid Dynamics"
+  text: "Formulated the Euler equations, a set of equations that describe the motion of an ideal, inviscid fluid. These equations are fundamental to fluid dynamics and are used to study phenomena from aerodynamics to ocean currents."
+  participants:
+    - "leonhard-euler"
+
+- key: "euler-equations-fluid-dynamics"
+  year: 1757
+  title: "Euler Equations in Fluid Dynamics"
+  category: "Fluid Dynamics"
+  text: "Formulated the Euler equations, a set of equations that describe the motion of an ideal, inviscid fluid. This work, along with contributions from figures like Daniel Bernoulli, established the field of fluid dynamics."
+  participants:
+    - "leonhard-euler"
+    - "daniel-bernoulli"
+
+- key: "oxygen-combustion-theory"
+  year: 1777
+  title: "Discovery of the Role of Oxygen in Combustion"
+  category: "Chemistry"
+  text: "Through rigorous experiments, Lavoisier demonstrated that combustion and rusting are processes involving the combination of a substance with a specific element, which he named oxygen. This work disproved the long-standing phlogiston theory and revolutionized the understanding of chemical reactions."
+  participants:
+    - "antoine-lavoisier"
+
+- key: "law-of-conservation-of-mass"
+  year: 1789
+  title: "Law of Conservation of Mass"
+  category: "Chemistry"
+  text: "In his 'Traité Élémentaire de Chimie' (Elementary Treatise of Chemistry), he explicitly stated the law of conservation of mass, showing that although matter may change its state in a chemical reaction, the total mass remains constant. This is a fundamental principle of modern chemistry."
+  participants:
+    - "antoine-lavoisier"
+
+- key: "modern-chemical-nomenclature"
+  year: 1787
+  title: "Establishment of Modern Chemical Nomenclature"
+  category: "Chemistry"
+  text: "Collaborated to create the 'Méthode de nomenclature chimique', the first systematic method for naming chemical substances. This system, based on elemental composition, replaced arbitrary alchemical names and forms the basis of modern chemical nomenclature."
+  participants:
+    - "antoine-lavoisier"
+- key: "coulomb-friction-model"
+  year: 1781
+  title: "Laws of Static and Kinetic Friction"
+  category: "Tribology, Engineering"
+  text: "Conducted a comprehensive investigation into the nature of friction. He established the laws of friction, distinguishing between static and kinetic friction, and proposed that the force of friction is largely independent of the contact area and proportional to the normal force."
+  participants:
+    - "charles-de-coulomb"
+
+- key: "coulombs-law-electrostatics"
+  year: 1785
+  title: "Formulation of Coulomb's Law"
+  category: "Electromagnetism"
+  text: "Using a torsion balance that he invented, Coulomb experimentally verified that the electrostatic force between two charged particles is proportional to the product of their charges and inversely proportional to the square of the distance between them. This fundamental principle is known as Coulomb's Law."
+  participants:
+    - "charles-de-coulomb"
+
+- key: "law-of-definite-proportions"
+  year: 1794
+  title: "Law of Definite Proportions (Proust's Law)"
+  category: "Chemistry, Stoichiometry"
+  text: "Through meticulous analysis of chemical compounds like copper carbonate, Proust established the law of definite proportions. This law states that a chemical compound always contains its component elements in a fixed ratio by mass, regardless of its source. This was a critical step toward Dalton's atomic theory."
+  participants:
+    - "joseph-proust"
+
+- key: "isolation-of-glucose"
+  year: 1802
+  title: "Isolation of Glucose from Grapes"
+  category: "Biochemistry"
+  text: "Conducted significant research into sugars and was the first to isolate glucose (grape sugar). He demonstrated that it was chemically distinct from sucrose (cane sugar), contributing to the early understanding of organic compounds."
+  participants:
+    - "joseph-proust"
+
+- key: "double-slit-experiment-wave-theory"
+  year: 1803
+  title: "Wave Theory of Light (Double-Slit Experiment)"
+  category: "Physics, Optics"
+  text: "Performed his groundbreaking double-slit experiment, which demonstrated the interference of light waves. This experiment provided crucial evidence for the wave theory of light, challenging the dominant corpuscular theory proposed by Newton."
+  participants:
+    - "thomas-young"
+
+- key: "youngs-modulus-elasticity"
+  year: 1807
+  title: "Concept of Elasticity (Young's Modulus)"
+  category: "Solid Mechanics"
+  text: "In his 'Course of Lectures on Natural Philosophy', he introduced a numerical measure for the stiffness of a material, now known as Young's modulus. This concept is fundamental to engineering and materials science for quantifying the relationship between stress and strain."
+  participants:
+    - "thomas-young"
+
+- key: "atomic-theory"
+  year: 1803
+  title: "Development of Modern Atomic Theory"
+  category: "Chemistry"
+  text: "Proposed a new atomic theory, postulating that all matter is composed of indivisible atoms of varying weights. He stated that elements consist of atoms of a single type, and compounds consist of atoms of different elements combined in simple whole-number ratios. This laid the groundwork for modern chemistry."
+  participants:
+    - "john-dalton"
+
+- key: "fraunhofer-lines-spectroscopy"
+  year: 1814
+  title: "Discovery and Mapping of Fraunhofer Lines"
+  category: "Spectroscopy, Astronomy"
+  text: "Systematically studied and mapped the dark absorption lines in the solar spectrum, now known as Fraunhofer lines. Using high-precision instruments of his own design, he mapped over 500 lines, which laid the foundation for spectroscopy and allowed for the chemical analysis of stars."
+  participants:
+    - "joseph-von-fraunhofer"
+
+- key: "carnot-cycle-motive-power"
+  year: 1824
+  title: "The Carnot Cycle and Motive Power of Fire"
+  category: "Thermodynamics"
+  text: "Published 'Réflexions sur la Puissance Motrice du Feu' (Reflections on the Motive Power of Fire), his only major work. In it, he introduced the Carnot cycle, a theoretical model for an ideal heat engine, and established the fundamental principles governing the conversion of heat into mechanical work."
+  participants:
+    - "nicolas-leonard-sadi-carnot"
+
+- key: "pioneering-of-non-euclidean-geometry"
+  year: 1829
+  title: "Pioneering of Non-Euclidean Geometry"
+  category: "History of Mathematics, Non-Euclidean Geometry"
+  text: "A paradigm shift in mathematics where scholars, initially working independently, challenged Euclid's fifth postulate (the parallel postulate). This led to the development of self-consistent geometries where parallel lines behave differently. This collective effort, started secretly by Gauss and first published by Lobachevsky and Bolyai (Hyperbolic Geometry), was later generalized by Riemann to any number of dimensions, laying the groundwork for modern physics."
+  participants:
+    - "carl-friedrich-gauss"
+    - "nikolai-ivanovich-lobachevsky"
+    - "janos-bolyai"
+    - "georg-friedrich-bernhard-riemann"
+
+- key: "electromagnetic-induction"
+  year: 1831
+  title: "Discovery of Electromagnetic Induction"
+  category: "Electromagnetism"
+  text: "Through a series of brilliant experiments, Faraday discovered that a changing magnetic field induces an electric current in a nearby circuit. This principle, known as Faraday's Law of Induction, is the foundation for the electric generator and transformer, making the large-scale generation of electricity possible."
+  participants:
+    - "michael-faraday"
+
+- key: "laws-of-electrolysis"
+  year: 1834
+  title: "Laws of Electrolysis"
+  category: "Electrochemistry"
+  text: "Established the two fundamental laws of electrolysis, which quantitatively describe the decomposition of chemical solutions by electricity. In the process, he coined many essential terms still used today, such as electrode, anode, cathode, and ion, laying the foundation for electrochemistry."
+  participants:
+    - "michael-faraday"
+
+- key: "electromagnetic-field-theory-foundation"
+  year: 1852
+  title: "Concept of Lines of Force and the Electromagnetic Field"
+  category: "Electromagnetism, Physics"
+  text: "Introduced the revolutionary concept of 'lines of force' to visualize electric and magnetic fields physically filling the space around magnets and charges. This departure from the 'action at a distance' theory was the essential conceptual foundation for James Clerk Maxwell's mathematical unification of electromagnetism."
+  participants:
+    - "michael-faraday"
+    - "james-clerk-maxwell"
+
+- key: "kinetic-theory-of-gases"
+  year: 1860
+  title: "Kinetic Theory of Gases and Maxwell Distribution"
+  category: "Statistical Mechanics"
+  text: "Applied statistical methods to the kinetic theory of gases, developing the Maxwell distribution. This described the distribution of speeds of molecules in a gas at a certain temperature, providing a statistical understanding of temperature and heat and founding the field of statistical mechanics."
+  participants:
+    - "james-clerk-maxwell"
+
+- key: "first-color-photograph"
+  year: 1861
+  title: "Creation of the First Durable Color Photograph"
+  category: "Optics, Photography"
+  text: "Based on his research into color perception, he created the world's first durable color photograph using a three-color-separation process. By taking three black-and-white photos through red, green, and blue filters and then recombining them, he demonstrated the principle of additive color mixing."
+  participants:
+    - "james-clerk-maxwell"
+
+- key: "hamiltonian-mechanics"
+  year: 1833
+  title: "Formulation of Hamiltonian Mechanics"
+  category: "Classical Mechanics, Mathematical Physics"
+  text: "Reformulated Newtonian mechanics, now known as Hamiltonian mechanics. This approach, which describes a system's state by its position and momentum coordinates, proved to be central to the development of statistical mechanics and quantum mechanics."
+  participants:
+    - "william-rowan-hamilton"
+
+- key: "doppler-effect"
+  year: 1842
+  title: "Postulation of the Doppler Effect"
+  category: "Wave Physics, Astronomy"
+  text: "In his paper 'On the colored light of the binary stars', he first proposed the principle that the observed frequency and wavelength of a wave change relative to an observer moving towards or away from the wave source. This phenomenon, now known as the Doppler effect, is a fundamental concept in wave physics and a crucial tool in fields like astronomy (redshift), medicine (ultrasound), and meteorology (Doppler radar)."
+  participants:
+    - "christian-doppler"
+    - "christophorus-buys-ballot"
+
+- key: "telescopic-astronomical-observations"
+  year: 1610
+  title: "Groundbreaking Telescopic Observations"
+  category: "Astronomy"
+  text: "Published 'Sidereus Nuncius' (Starry Messenger), detailing his observations using a telescope. He discovered Jupiter's moons and the phases of Venus, providing strong evidence for the Copernican model and challenging the geocentric view. This marked a shift towards empirical, observation-based science, influencing all subsequent physicists, including Newton."
+  participants:
+    - "galileo-galilei"
+    - "isaac-newton"
+
+- key: "special-relativity"
+  year: 1905
+  title: "Special Theory of Relativity"
+  category: "Physics"
+  text: "Published his theory of special relativity, which reconciled Maxwell's equations for electricity and magnetism with the laws of mechanics. It proposed that the laws of physics are the same for all non-accelerating observers and that the speed of light in a vacuum is constant, leading to the unification of space and time into spacetime and the famous equation E=mc²."
+  participants:
+    - "albert-einstein"
+    - "james-clerk-maxwell"
+
+- key: "general-relativity"
+  year: 1915
+  title: "General Theory of Relativity"
+  category: "Physics, Cosmology"
+  text: "Published his theory of general relativity, which provides the current description of gravitation as a geometric property of spacetime. Using the mathematics developed by Riemann, Einstein explained that gravity is the curvature of spacetime caused by mass and energy, fundamentally reformulating Newton's law of universal gravitation."
+  participants:
+    - "albert-einstein"
+    - "isaac-newton"
+    - "georg-friedrich-bernhard-riemann"
