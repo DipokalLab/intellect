@@ -440,6 +440,618 @@
       "text": "Published his theory of general relativity, which provides the current description of gravitation as a geometric property of spacetime. Using the mathematics developed by Riemann, Einstein explained that gravity is the curvature of spacetime caused by mass and energy, fundamentally reformulating Newton's law of universal gravitation.",
       "id": "general-relativity",
       "type": "achievement"
+    },
+    {
+      "key": "mechanical-equivalent-of-heat",
+      "year": 1845,
+      "title": "Determining the Mechanical Equivalent of Heat",
+      "category": "Thermodynamics",
+      "text": "Through a series of famously precise experiments (most notably involving a paddlewheel turning in water), Joule established that heat is a form of energy. He determined the quantitative relationship between mechanical work and heat, providing the experimental foundation for the law of conservation of energy, which is now known as the First Law of Thermodynamics.",
+      "id": "mechanical-equivalent-of-heat",
+      "type": "achievement"
+    },
+    {
+      "key": "joule-heating-law",
+      "year": 1840,
+      "title": "Joule's First Law of Heating",
+      "category": "Electromagnetism",
+      "text": "Formulated the law of heating, which states that the heat produced by an electric current flowing through a conductor is proportional to the square of the current multiplied by the resistance (P ∝ I²R). This principle, known as Joule heating, is fundamental to electrical engineering and explains how electrical energy is converted into heat.",
+      "id": "joule-heating-law",
+      "type": "achievement"
+    },
+    {
+      "key": "conservation-of-energy-principle",
+      "year": 1847,
+      "title": "Mathematical Formulation of the Conservation of Energy",
+      "category": "Thermodynamics, Physics",
+      "text": "Published his definitive paper 'On the Conservation of Force', which provided a rigorous mathematical formulation for the principle of conservation of energy (the First Law of Thermodynamics). Building upon the experimental work of James Prescott Joule, Helmholtz generalized the principle, demonstrating that energy is never lost but only transforms between different forms (mechanical, thermal, electrical, etc.).",
+      "id": "conservation-of-energy-principle",
+      "type": "achievement"
+    },
+    {
+      "key": "physiology-of-perception",
+      "year": 1867,
+      "title": "Theories of Vision and Hearing",
+      "category": "Physiology, Neuroscience",
+      "text": "Developed comprehensive theories on the physiology of perception. He revived and mathematically expanded Thomas Young's ideas on color vision, resulting in the influential Young-Helmholtz trichromatic theory. He also proposed the resonance theory of hearing, suggesting that different parts of the cochlea respond to different sound frequencies.",
+      "id": "physiology-of-perception",
+      "type": "achievement"
+    },
+    {
+      "key": "speed-of-light-measurement-terrestrial",
+      "year": 1849,
+      "title": "First Terrestrial Measurement of the Speed of Light",
+      "category": "Optics",
+      "text": "Initially working with Léon Foucault, Fizeau later developed his own method to perform the first purely terrestrial measurement of the speed of light. Using an apparatus with a rapidly rotating toothed wheel and a distant mirror, he obtained a value for 'c' that was far more accurate than previous astronomical estimates. This work established a new experimental standard in physics.",
+      "id": "speed-of-light-measurement-terrestrial",
+      "type": "achievement"
+    },
+    {
+      "key": "fizeau-experiment-aether-drag",
+      "year": 1851,
+      "title": "Fizeau Experiment on Light in Moving Water",
+      "category": "Optics, Relativity",
+      "text": "Conducted a famous experiment to measure the speed of light in moving water, investigating how the medium's movement affects the light's speed. The results, which showed a partial 'dragging' of light, were difficult to explain at the time and later became crucial experimental evidence supporting Albert Einstein's special theory of relativity and its formula for the addition of velocities.",
+      "id": "fizeau-experiment-aether-drag",
+      "type": "achievement"
+    },
+    {
+      "key": "second-law-thermodynamics-entropy",
+      "year": 1850,
+      "title": "Formulation of the Second Law of Thermodynamics and Entropy",
+      "category": "Thermodynamics",
+      "text": "In his 1850 paper, 'On the Motive Power of Heat', Clausius stated the second law of thermodynamics, introducing the concept that heat does not spontaneously pass from a colder to a hotter body. Building on the work of Sadi Carnot, he later (1865) introduced and named the concept of 'entropy' (S) as a precise way to measure the direction of spontaneous change and the unavailability of energy to do work.",
+      "id": "second-law-thermodynamics-entropy",
+      "type": "achievement"
+    },
+    {
+      "key": "kinetic-theory-gases-mean-free-path",
+      "year": 1857,
+      "title": "Contributions to the Kinetic Theory of Gases",
+      "category": "Statistical Mechanics",
+      "text": "Made significant contributions to the kinetic theory of gases, refining the model by considering not only translational but also rotational and vibrational motion of molecules. He introduced the crucial concept of the 'mean free path' of a particle, a key idea later developed by James Clerk Maxwell.",
+      "id": "kinetic-theory-gases-mean-free-path",
+      "type": "achievement"
+    },
+    {
+      "key": "absolute-temperature-thermodynamics",
+      "year": 1848,
+      "title": "Laws of Thermodynamics and the Absolute Temperature Scale",
+      "category": "Thermodynamics",
+      "text": "Synthesized the work of earlier scientists to help formalize the first and second laws of thermodynamics. In 1848, based on the theories of Sadi Carnot, he proposed an absolute temperature scale independent of any specific substance, now known as the Kelvin scale. His work, in conjunction with the experimental findings of James Prescott Joule and the theoretical formulations of Rudolf Clausius, established the foundations of classical thermodynamics.",
+      "id": "absolute-temperature-thermodynamics",
+      "type": "achievement"
+    },
+    {
+      "key": "transatlantic-telegraph-cable",
+      "year": 1866,
+      "title": "Scientific Consultation for the Transatlantic Telegraph Cable",
+      "category": "Engineering, Electromagnetism",
+      "text": "Served as a key scientific advisor on the transatlantic telegraph cable project. He applied his deep understanding of electrical theory to solve problems of signal distortion over long distances and invented the mirror galvanometer to detect the faint signals. His contributions were crucial for the project's eventual success, which revolutionized global communication.",
+      "id": "transatlantic-telegraph-cable",
+      "type": "achievement"
+    },
+    {
+      "key": "spectral-analysis-development",
+      "year": 1859,
+      "title": "Development of Spectral Analysis",
+      "category": "Spectroscopy, Chemistry",
+      "text": "In a landmark collaboration with Gustav Kirchhoff, Bunsen developed the field of spectral analysis. They demonstrated that each element, when heated, emits light with a unique and characteristic line spectrum. This breakthrough, building upon Fraunhofer's earlier observation of solar lines, allowed them to determine the chemical composition of substances with incredible precision.",
+      "id": "spectral-analysis-development",
+      "type": "achievement"
+    },
+    {
+      "key": "discovery-of-cesium-rubidium",
+      "year": 1860,
+      "title": "Discovery of New Elements via Spectroscopy",
+      "category": "Chemistry",
+      "text": "Using the spectroscope they had invented, Bunsen and Gustav Kirchhoff analyzed the spectral lines of mineral water from Dürkheim. This led them to discover two new alkali metals: cesium in 1860 and rubidium in 1861. These were the first elements ever to be discovered using the new spectroscopic method.",
+      "id": "discovery-of-cesium-rubidium",
+      "type": "achievement"
+    },
+    {
+      "key": "periodic-table-and-law",
+      "year": 1869,
+      "title": "Formulation of the Periodic Table and Periodic Law",
+      "category": "Chemistry",
+      "text": "Arranged the known elements according to their atomic mass and observed that their chemical properties recurred periodically. This formulation, known as the Periodic Law, was developed nearly simultaneously and independently by Lothar Meyer. Mendeleev's version was particularly powerful as he left gaps for undiscovered elements and accurately predicted their properties (e.g., eka-silicon, eka-aluminium).",
+      "id": "periodic-table-and-law",
+      "type": "achievement"
+    },
+    {
+      "key": "principles-of-chemistry-textbook",
+      "year": 1869,
+      "title": "Authored 'The Principles of Chemistry'",
+      "category": "Chemistry, Education",
+      "text": "While searching for a way to logically organize the elements for his definitive textbook, 'The Principles of Chemistry', Mendeleev discovered the patterns that led to the periodic table. His book was translated into many languages and was highly influential in standardizing the teaching of chemistry around the world, directly impacting future generations of chemists like Svante Arrhenius.",
+      "id": "principles-of-chemistry-textbook",
+      "type": "achievement"
+    },
+    {
+      "key": "statistical-definition-of-entropy",
+      "year": 1877,
+      "title": "Statistical Foundation of the Second Law of Thermodynamics",
+      "category": "Statistical Mechanics",
+      "text": "Developed the statistical interpretation of the second law of thermodynamics. He proposed that the entropy of a system, a concept established by Rudolf Clausius, is a measure of the number of possible microscopic arrangements of its atoms. This profound link between the macroscopic and microscopic worlds is encapsulated in the famous Boltzmann equation, S = k log W.",
+      "id": "statistical-definition-of-entropy",
+      "type": "achievement"
+    },
+    {
+      "key": "development-of-statistical-mechanics",
+      "year": 1872,
+      "title": "Advancement of the Kinetic Theory of Gases",
+      "category": "Statistical Mechanics",
+      "text": "Significantly advanced the kinetic theory of gases, building upon the foundational statistical work of James Clerk Maxwell. Boltzmann developed the transport equation that bears his name, which describes how a gas evolves towards thermodynamic equilibrium. He was a staunch defender of the atomic theory when it was still not universally accepted.",
+      "id": "development-of-statistical-mechanics",
+      "type": "achievement"
+    },
+    {
+      "key": "proof-of-electromagnetic-waves",
+      "year": 1887,
+      "title": "Experimental Confirmation of Electromagnetic Waves",
+      "category": "Electromagnetism",
+      "text": "Designed and conducted a series of brilliant experiments to generate and detect electromagnetic waves in his laboratory, proving their existence. This work was a stunning confirmation of the predictions made by James Clerk Maxwell's theory of electromagnetism. Hertz demonstrated that these waves travel at the speed of light and exhibit properties like reflection and refraction, thus proving that light is a form of electromagnetic radiation.",
+      "id": "proof-of-electromagnetic-waves",
+      "type": "achievement"
+    },
+    {
+      "key": "discovery-of-photoelectric-effect",
+      "year": 1887,
+      "title": "Discovery of the Photoelectric Effect",
+      "category": "Quantum Physics",
+      "text": "During his experiments on electromagnetic waves, Hertz observed that illuminating a metal surface with ultraviolet light made it easier for sparks to jump from it. While he did not fully explain this phenomenon, his discovery of the photoelectric effect was a crucial early observation that challenged classical wave theory and was later explained by Albert Einstein as evidence for the quantization of light (photons).",
+      "id": "discovery-of-photoelectric-effect",
+      "type": "achievement"
+    },
+    {
+      "key": "michelson-morley-experiment",
+      "year": 1887,
+      "title": "The Michelson-Morley Experiment",
+      "category": "Experimental Physics, Relativity",
+      "text": "Collaborated with Albert Michelson, bringing his exceptional experimental skill and precision to their famous experiment. Morley's expertise in handling gases and making precise measurements was vital to ensuring the experiment's integrity. The resulting null result profoundly impacted physics, paving the way for Einstein's theories.",
+      "id": "michelson-morley-experiment",
+      "type": "achievement"
+    },
+    {
+      "key": "discovery-of-radioactivity",
+      "year": 1896,
+      "title": "Discovery of Spontaneous Radioactivity",
+      "category": "Nuclear Physics",
+      "text": "While investigating fluorescence in uranium salts, Becquerel accidentally discovered that the uranium emitted a new, penetrating form of radiation without any external energy source. This discovery of spontaneous radioactivity was the first evidence of a process originating within the atomic nucleus. His work was immediately pursued by Marie and Pierre Curie, leading to their discovery of other radioactive elements. For this collective work, all three shared the 1903 Nobel Prize in Physics.",
+      "id": "discovery-of-radioactivity",
+      "type": "achievement"
+    },
+    {
+      "key": "discovery-of-alpha-and-beta-radiation",
+      "year": 1899,
+      "title": "Discovery and Naming of Alpha and Beta Radiation",
+      "category": "Radioactivity",
+      "text": "Building on Henri Becquerel's discovery of radioactivity, Rutherford conducted experiments to show that uranium emissions were composed of at least two different types of rays. He named them alpha and beta radiation based on their penetrating power, laying the groundwork for the study of nuclear decay.",
+      "id": "discovery-of-alpha-and-beta-radiation",
+      "type": "achievement"
+    },
+    {
+      "key": "quantum-hypothesis-black-body-radiation",
+      "year": 1900,
+      "title": "The Quantum Hypothesis and Black-Body Radiation Law",
+      "category": "Quantum Mechanics",
+      "text": "To solve the black-body radiation problem, Planck introduced the revolutionary concept that energy is emitted and absorbed in discrete packets, or 'quanta'. This quantum hypothesis (E=hν), where 'h' is now known as Planck's constant, marked the birth of quantum mechanics. His idea was famously applied by Albert Einstein to explain the photoelectric effect, which solidified the concept of energy quantization.",
+      "id": "quantum-hypothesis-black-body-radiation",
+      "type": "achievement"
+    },
+    {
+      "key": "support-for-relativity",
+      "year": 1906,
+      "title": "Early Supporter of Relativity",
+      "category": "History of Science",
+      "text": "As a leading figure in German physics, Planck was one of the first influential scientists to recognize the profound importance of Albert Einstein's special theory of relativity. His early and staunch support was crucial in helping Einstein's revolutionary ideas gain acceptance within the wider scientific community.",
+      "id": "support-for-relativity",
+      "type": "achievement"
+    },
+    {
+      "key": "schwarzschild-solution-general-relativity",
+      "year": 1915,
+      "title": "First Exact Solution to the Einstein Field Equations",
+      "category": "General Relativity",
+      "text": "Just months after Albert Einstein published his theory of general relativity, Schwarzschild derived the first exact, non-trivial solution to the complex field equations. His solution described the gravitational field outside a single, spherical, non-rotating mass and predicted the existence of a region from which nothing, not even light, can escape—now known as a black hole and defined by the Schwarzschild radius.",
+      "id": "schwarzschild-solution-general-relativity",
+      "type": "achievement"
+    },
+    {
+      "key": "eclipse-expedition-and-relativity-confirmation",
+      "year": 1919,
+      "title": "Experimental Confirmation of General Relativity",
+      "category": "General Relativity, Experimental Physics",
+      "text": "Led a famous expedition to the island of Príncipe to observe a solar eclipse. By measuring the apparent shift in the position of stars near the Sun, his observations confirmed that gravity bends light, providing the first major experimental proof of Albert Einstein's general theory of relativity. This event catapulted Einstein to worldwide fame.",
+      "id": "eclipse-expedition-and-relativity-confirmation",
+      "type": "achievement"
+    },
+    {
+      "key": "internal-constitution-of-the-stars",
+      "year": 1920,
+      "title": "The Internal Constitution of the Stars",
+      "category": "Astrophysics",
+      "text": "In his groundbreaking paper, Eddington was the first to correctly theorize that the source of stellar energy was the fusion of hydrogen into helium. This work, which also explained the role of radiation pressure in stellar equilibrium, built upon the earlier work on black-body radiation by Max Planck and revolutionized the understanding of stellar structure and evolution.",
+      "id": "internal-constitution-of-the-stars",
+      "type": "achievement"
+    },
+    {
+      "key": "bohr-model-of-the-atom",
+      "year": 1913,
+      "title": "The Bohr Model of the Atom",
+      "category": "Quantum Mechanics",
+      "text": "Proposed a revolutionary model of the atom that incorporated quantum theory. Building upon Ernest Rutherford's nuclear model, Bohr postulated that electrons orbit the nucleus in specific, quantized energy levels and that light is emitted or absorbed when an electron jumps between these levels. This model successfully explained the spectral lines of hydrogen and was a crucial step towards modern quantum mechanics.",
+      "id": "bohr-model-of-the-atom",
+      "type": "achievement"
+    },
+    {
+      "key": "principle-of-complementarity-and-copenhagen-interpretation",
+      "year": 1927,
+      "title": "Principle of Complementarity and the Copenhagen Interpretation",
+      "category": "Quantum Mechanics",
+      "text": "Developed the principle of complementarity, stating that quantum objects have contradictory properties (like being both a wave and a particle) that are equally valid but cannot be observed simultaneously. This principle became a cornerstone of the Copenhagen interpretation of quantum mechanics, a view he famously debated with Albert Einstein over many years.",
+      "id": "principle-of-complementarity-and-copenhagen-interpretation",
+      "type": "achievement"
+    },
+    {
+      "key": "measurement-of-galactic-redshifts",
+      "year": 1912,
+      "title": "Pioneering Measurement of Galactic Velocities",
+      "category": "Cosmology",
+      "text": "Was the first astronomer to measure the radial velocities of 'spiral nebulae' (galaxies) using spectroscopy. Applying the Doppler effect, he discovered that most of these objects were receding from Earth at enormous speeds, a phenomenon known as redshift. These pioneering measurements provided the crucial observational data that Edwin Hubble would later use to formulate his law of cosmic expansion.",
+      "id": "measurement-of-galactic-redshifts",
+      "type": "achievement"
+    },
+    {
+      "key": "bohr-sommerfeld-atomic-model",
+      "year": 1916,
+      "title": "Refinement of the Atomic Model (Bohr-Sommerfeld Model)",
+      "category": "Quantum Mechanics",
+      "text": "Expanded upon Niels Bohr's atomic model to account for the fine structure of spectral lines, which the original model could not explain. He introduced elliptical orbits for electrons and applied Albert Einstein's theory of special relativity to their motion. This successful refinement was a crucial step in the development of the old quantum theory.",
+      "id": "bohr-sommerfeld-atomic-model",
+      "type": "achievement"
+    },
+    {
+      "key": "mentorship-of-future-physicists",
+      "year": 1920,
+      "title": "Mentorship of a Generation of Physicists",
+      "category": "History of Science",
+      "text": "As a professor, Sommerfeld was an exceptionally influential teacher and mentor. He supervised an unprecedented number of doctoral students who would later become pioneers of quantum mechanics and Nobel laureates, including Wolfgang Pauli, Werner Heisenberg, and Hans Bethe, shaping the future of theoretical physics.",
+      "id": "mentorship-of-future-physicists",
+      "type": "achievement"
+    },
+    {
+      "key": "noethers-theorem",
+      "year": 1918,
+      "title": "Noether's Theorem",
+      "category": "Mathematical Physics",
+      "text": "Proved her groundbreaking theorem, which states that every differentiable symmetry of the action of a physical system has a corresponding conservation law. This profound insight, which connected symmetry and conservation laws, became a fundamental pillar of modern physics, providing a powerful tool for theories like Albert Einstein's general relativity.",
+      "id": "noethers-theorem",
+      "type": "achievement"
+    },
+    {
+      "key": "foundations-of-modern-algebra",
+      "year": 1921,
+      "title": "Foundations of Modern Abstract Algebra",
+      "category": "Abstract Algebra",
+      "text": "Published her seminal paper on the theory of ideals in rings, which laid the foundation for modern abstract algebra. Her work on rings, fields, and algebras (now called Noetherian rings) revolutionized the field and provided essential mathematical tools for other areas, including the formalism of general relativity.",
+      "id": "foundations-of-modern-algebra",
+      "type": "achievement"
+    },
+    {
+      "key": "friedmann-equations-expanding-universe",
+      "year": 1922,
+      "title": "Dynamic Universe Models (Friedmann Equations)",
+      "category": "Cosmology",
+      "text": "Was the first to derive non-static solutions to Albert Einstein's field equations of general relativity. His work showed that the universe could be expanding, contracting, or cyclical, directly challenging Einstein's own initial assumption of a static universe. These 'Friedmann equations' provided the essential theoretical framework for the expanding universe and the Big Bang theory.",
+      "id": "friedmann-equations-expanding-universe",
+      "type": "achievement"
+    },
+    {
+      "key": "foundation-for-observational-cosmology",
+      "year": 1922,
+      "title": "Theoretical Foundation for an Expanding Universe",
+      "category": "Cosmology",
+      "text": "Friedmann's theoretical models of a dynamic universe, though initially met with skepticism, laid the mathematical groundwork that would later be confirmed by observational evidence. His predictions were eventually supported by the discoveries of galactic redshifts by Vesto Slipher and the subsequent formulation of the Hubble-Lemaître law.",
+      "id": "foundation-for-observational-cosmology",
+      "type": "achievement"
+    },
+    {
+      "key": "kapteyns-universe-model",
+      "year": 1922,
+      "title": "First Detailed Model of the Milky Way (Kapteyn's Universe)",
+      "category": "Galactic Astronomy",
+      "text": "Through extensive statistical studies of stars, Kapteyn constructed the first comprehensive model of our galaxy. His model correctly depicted a flattened, rotating disk-like system but incorrectly placed the Sun near the center and greatly underestimated its size, as he did not account for interstellar dust. This work sparked the 'Great Debate' and was eventually superseded by Harlow Shapley's model.",
+      "id": "kapteyns-universe-model",
+      "type": "achievement"
+    },
+    {
+      "key": "discovery-of-star-streams",
+      "year": 1904,
+      "title": "Discovery of Galactic Star Streams",
+      "category": "Stellar Kinematics",
+      "text": "By analyzing the proper motions of stars, Kapteyn discovered that they were not moving randomly but were organized into two 'star streams' moving in nearly opposite directions. This was the first observational evidence for the systematic rotation of the Milky Way galaxy, a concept later confirmed and detailed by astronomers like Bertil Lindblad and Jan Oort.",
+      "id": "discovery-of-star-streams",
+      "type": "achievement"
+    },
+    {
+      "key": "de-broglie-hypothesis-wave-particle-duality",
+      "year": 1924,
+      "title": "The de Broglie Hypothesis of Matter Waves",
+      "category": "Quantum Mechanics",
+      "text": "In his PhD thesis, de Broglie proposed his revolutionary hypothesis of wave-particle duality. Extending Albert Einstein's work on the dual nature of light, he postulated that all matter, including particles like electrons, also exhibits wave-like properties. This radical idea, which assigned a wavelength to every particle, was a foundational concept for quantum mechanics and was later experimentally confirmed by the electron diffraction experiments of Clinton Davisson and Lester Germer.",
+      "id": "de-broglie-hypothesis-wave-particle-duality",
+      "type": "achievement"
+    },
+    {
+      "key": "bose-einstein-statistics",
+      "year": 1924,
+      "title": "Quantum Statistics of Indistinguishable Particles (Bose-Einstein Statistics)",
+      "category": "Quantum Statistics",
+      "text": "Developed a new method for statistical mechanics by treating photons as a gas of identical, indistinguishable particles. This allowed him to derive Max Planck's law for black-body radiation from purely statistical principles. He sent his paper to Albert Einstein, who, recognizing its importance, translated it, had it published, and extended the concept to atoms. This collaboration resulted in the formulation of Bose-Einstein statistics, which describes the behavior of the class of particles now known as 'bosons'.",
+      "id": "bose-einstein-statistics",
+      "type": "achievement"
+    },
+    {
+      "key": "matrix-mechanics-formulation",
+      "year": 1925,
+      "title": "Formulation of Matrix Mechanics",
+      "category": "Quantum Mechanics",
+      "text": "Developed matrix mechanics, the first mathematically complete and consistent formulation of quantum mechanics. His initial breakthrough was quickly extended and formalized into a coherent theory in collaboration with Max Born and Pascual Jordan. It described the behavior of electrons in atoms using matrices instead of classical orbits.",
+      "id": "matrix-mechanics-formulation",
+      "type": "achievement"
+    },
+    {
+      "key": "uncertainty-principle",
+      "year": 1927,
+      "title": "The Uncertainty Principle",
+      "category": "Quantum Mechanics",
+      "text": "Formulated his famous uncertainty principle, which states that there is a fundamental limit to the precision with which certain pairs of physical properties of a particle, such as position and momentum, can be known simultaneously. This principle is a cornerstone of quantum mechanics and a key feature of the Copenhagen interpretation, which he developed in close collaboration with Niels Bohr.",
+      "id": "uncertainty-principle",
+      "type": "achievement"
+    },
+    {
+      "key": "pauli-exclusion-principle",
+      "year": 1925,
+      "title": "The Pauli Exclusion Principle",
+      "category": "Quantum Mechanics",
+      "text": "Formulated the exclusion principle, which states that no two identical fermions (such as electrons) can occupy the same quantum state simultaneously. This principle, building on the quantum number framework from the Bohr-Sommerfeld model, was crucial for explaining the electron shell structure of atoms and the organization of the periodic table.",
+      "id": "pauli-exclusion-principle",
+      "type": "achievement"
+    },
+    {
+      "key": "neutrino-hypothesis",
+      "year": 1930,
+      "title": "Postulation of the Neutrino",
+      "category": "Particle Physics",
+      "text": "To explain the apparent violation of conservation of energy in beta decay, Pauli postulated the existence of a new, neutral, and weakly interacting particle. The particle was later christened the 'neutrino' by Enrico Fermi, who incorporated it into his successful theory of the weak force, solidifying Pauli's hypothesis.",
+      "id": "neutrino-hypothesis",
+      "type": "achievement"
+    },
+    {
+      "key": "schrodinger-wave-equation",
+      "year": 1926,
+      "title": "The Schrödinger Equation",
+      "category": "Quantum Mechanics",
+      "text": "Developed a wave equation that describes how the quantum state of a physical system changes over time. This formulation of quantum mechanics, known as wave mechanics, was an alternative to the matrix mechanics of Werner Heisenberg but was soon shown to be mathematically equivalent. It provided a more intuitive way for physicists to visualize and calculate quantum phenomena.",
+      "id": "schrodinger-wave-equation",
+      "type": "achievement"
+    },
+    {
+      "key": "schrodingers-cat-thought-experiment",
+      "year": 1935,
+      "title": "Schrödinger's Cat Thought Experiment",
+      "category": "Quantum Mechanics",
+      "text": "Devised his famous 'Schrödinger's Cat' thought experiment to illustrate what he saw as the paradoxical nature of the Copenhagen interpretation of quantum mechanics. The experiment was part of an ongoing debate with Niels Bohr about the nature of quantum reality and the problem of measurement.",
+      "id": "schrodingers-cat-thought-experiment",
+      "type": "achievement"
+    },
+    {
+      "key": "beta-decay-theory",
+      "year": 1933,
+      "title": "Theory of Beta Decay and the Weak Force",
+      "category": "Particle Physics",
+      "text": "Developed the first successful theory of beta decay, describing the process by which a neutron transforms into a proton and an electron. He incorporated the then-hypothetical particle proposed by Wolfgang Pauli to explain energy conservation, christening it the 'neutrino' (Italian for 'little neutral one'), and effectively created the first quantitative theory of the weak nuclear force.",
+      "id": "beta-decay-theory",
+      "type": "achievement"
+    },
+    {
+      "key": "chicago-pile-1-nuclear-reactor",
+      "year": 1942,
+      "title": "First Self-Sustaining Nuclear Chain Reaction",
+      "category": "Experimental Physics, Nuclear Engineering",
+      "text": "Led the team that designed and built Chicago Pile-1, the world's first artificial nuclear reactor. On December 2, 1942, he directed the experiment that achieved the first controlled, self-sustaining nuclear chain reaction. This was a critical step in the Manhattan Project and the dawn of the nuclear age, made possible by the discovery of fission by Lise Meitner and Otto Hahn.",
+      "id": "chicago-pile-1-nuclear-reactor",
+      "type": "achievement"
+    },
+    {
+      "key": "dirac-equation-antimatter",
+      "year": 1928,
+      "title": "The Dirac Equation and the Prediction of Antimatter",
+      "category": "Quantum Electrodynamics",
+      "text": "Formulated the Dirac equation, a relativistic wave equation for the electron that elegantly united the quantum mechanics of Schrödinger and Heisenberg with Albert Einstein's special relativity. The equation naturally accounted for electron spin and, most profoundly, predicted the existence of a positively charged anti-electron (the positron), thus predicting antimatter before it was observed.",
+      "id": "dirac-equation-antimatter",
+      "type": "achievement"
+    },
+    {
+      "key": "fermi-dirac-statistics",
+      "year": 1926,
+      "title": "Formulation of Fermi-Dirac Statistics",
+      "category": "Quantum Statistics",
+      "text": "Independently of Enrico Fermi, Dirac developed the statistical laws governing particles that obey the Pauli exclusion principle (now known as fermions). The resulting Fermi-Dirac statistics are essential for understanding the behavior of electrons in solids and are the counterpart to the Bose-Einstein statistics for bosons.",
+      "id": "fermi-dirac-statistics",
+      "type": "achievement"
+    },
+    {
+      "key": "probabilistic-interpretation-wave-function",
+      "year": 1926,
+      "title": "The Born Rule (Probabilistic Interpretation of the Wave Function)",
+      "category": "Quantum Mechanics",
+      "text": "Proposed the now-standard interpretation of the quantum mechanical wave function, a concept developed by Erwin Schrödinger. The Born rule states that the square of the wave function's amplitude represents the probability density of finding a particle at a given point. This introduction of fundamental probability into quantum mechanics was a radical departure from classical physics and is a cornerstone of the Copenhagen interpretation.",
+      "id": "probabilistic-interpretation-wave-function",
+      "type": "achievement"
+    },
+    {
+      "key": "development-of-matrix-mechanics",
+      "year": 1925,
+      "title": "Mathematical Formulation of Matrix Mechanics",
+      "category": "Quantum Mechanics",
+      "text": "Recognized that the non-commuting algebra in Werner Heisenberg's initial paper on quantum theory could be expressed using the mathematics of matrices. He, along with his assistant Pascual Jordan, quickly formalized Heisenberg's ideas into the first complete and consistent formulation of quantum mechanics, known as matrix mechanics.",
+      "id": "development-of-matrix-mechanics",
+      "type": "achievement"
+    },
+    {
+      "key": "discovery-of-external-galaxies",
+      "year": 1924,
+      "title": "Proof of the Existence of Other Galaxies",
+      "category": "Galactic Astronomy",
+      "text": "By observing Cepheid variable stars in the Andromeda Nebula, Hubble calculated its distance, proving it was a massive galaxy far outside our own Milky Way. This settled the 'Great Debate' and fundamentally changed our understanding of the universe's scale. His work relied on the crucial period-luminosity relationship for Cepheids discovered by Henrietta Swan Leavitt.",
+      "id": "discovery-of-external-galaxies",
+      "type": "achievement"
+    },
+    {
+      "key": "hubbles-law-expanding-universe",
+      "year": 1929,
+      "title": "Hubble's Law and the Expanding Universe",
+      "category": "Cosmology",
+      "text": "By combining his own distance measurements of galaxies with the redshift data collected by Vesto Slipher, Hubble formulated his eponymous law: that a galaxy's recessional velocity is proportional to its distance. This provided the first observational evidence for the expansion of the universe, a concept theoretically predicted by Alexander Friedmann and Georges Lemaître.",
+      "id": "hubbles-law-expanding-universe",
+      "type": "achievement"
+    },
+    {
+      "key": "discovery-of-the-neutron",
+      "year": 1932,
+      "title": "Experimental Discovery of the Neutron",
+      "category": "Nuclear Physics, Particle Physics",
+      "text": "Performed a series of experiments that proved the existence of the neutron, a neutral particle in the atomic nucleus. His work confirmed a hypothesis put forward years earlier by his mentor, Ernest Rutherford, and correctly interpreted the results of recent experiments by Irène and Frédéric Joliot-Curie. The discovery of the neutron was a landmark that completed the model of the atom and was crucial for the later development of nuclear fission.",
+      "id": "discovery-of-the-neutron",
+      "type": "achievement"
+    },
+    {
+      "key": "discovery-of-the-positron",
+      "year": 1932,
+      "title": "Discovery of the Positron (Antimatter)",
+      "category": "Particle Physics",
+      "text": "While analyzing cosmic ray tracks in a cloud chamber, Anderson discovered a particle with the same mass as an electron but with a positive charge. This particle was the positron, the first-ever observed piece of antimatter. His discovery provided a spectacular confirmation of the existence of antiparticles, which had been theoretically predicted four years earlier by Paul Dirac's relativistic equation for the electron.",
+      "id": "discovery-of-the-positron",
+      "type": "achievement"
+    },
+    {
+      "key": "discovery-of-the-muon",
+      "year": 1936,
+      "title": "Co-discovery of the Muon",
+      "category": "Particle Physics",
+      "text": "Continuing his cosmic ray research with his student Seth Neddermeyer, Anderson discovered another new particle, the muon. Initially mistaken for the particle predicted by Hideki Yukawa to mediate the strong nuclear force, the muon's discovery was unexpected and added a new puzzle to the growing field of particle physics, famously prompting the question, 'Who ordered that?'",
+      "id": "discovery-of-the-muon",
+      "type": "achievement"
+    },
+    {
+      "key": "stern-gerlach-experiment",
+      "year": 1922,
+      "title": "The Stern-Gerlach Experiment and Space Quantization",
+      "category": "Quantum Mechanics",
+      "text": "In a landmark experiment conducted with Walther Gerlach, Stern provided direct experimental evidence for the quantization of angular momentum ('space quantization'). By passing a beam of silver atoms through an inhomogeneous magnetic field, they observed the beam splitting into two discrete parts, a result inexplicable by classical physics. This was a stunning confirmation of the quantum theories developed by Arnold Sommerfeld and Niels Bohr and was later understood as the first observation of electron spin.",
+      "id": "stern-gerlach-experiment",
+      "type": "achievement"
+    },
+    {
+      "key": "meson-theory-nuclear-forces",
+      "year": 1935,
+      "title": "Meson Theory of Nuclear Forces",
+      "category": "Particle Physics, Nuclear Physics",
+      "text": "Proposed a revolutionary theory to explain the strong nuclear force that binds protons and neutrons. He postulated that this force is mediated by the exchange of a new, massive particle, the 'meson'. Although the muon, discovered by Carl Anderson, was initially mistaken for this particle, the actual particle predicted by Yukawa (the pi-meson, or pion) was discovered in 1947 by Cecil Powell's team.",
+      "id": "meson-theory-nuclear-forces",
+      "type": "achievement"
+    },
+    {
+      "key": "discovery-of-nuclear-fission",
+      "year": 1938,
+      "title": "Discovery of Nuclear Fission",
+      "category": "Nuclear Chemistry, Nuclear Physics",
+      "text": "In experiments conducted with Fritz Strassmann, Hahn bombarded uranium with neutrons and discovered the unexpected presence of barium as a byproduct. Puzzled by the result, he corresponded with his long-time collaborator Lise Meitner, who, along with her nephew Otto Frisch, correctly interpreted the phenomenon as the nucleus splitting apart—a process they termed 'nuclear fission'. This discovery was a crucial step towards both nuclear power and atomic weapons.",
+      "id": "discovery-of-nuclear-fission",
+      "type": "achievement"
+    },
+    {
+      "key": "stellar-nucleosynthesis-cno-cycle",
+      "year": 1939,
+      "title": "Stellar Nucleosynthesis and the CNO Cycle",
+      "category": "Astrophysics, Nuclear Physics",
+      "text": "In his seminal paper 'Energy Production in Stars', Bethe detailed the specific nuclear fusion reactions that power stars. Building on the general hypothesis of stellar fusion proposed by Arthur Stanley Eddington, Bethe described both the proton-proton chain (dominant in stars like the Sun) and the CNO (carbon-nitrogen-oxygen) cycle, which is the primary energy source in more massive stars.",
+      "id": "stellar-nucleosynthesis-cno-cycle",
+      "type": "achievement"
+    },
+    {
+      "key": "manhattan-project-theoretical-division",
+      "year": 1943,
+      "title": "Head of Theoretical Division, Manhattan Project",
+      "category": "Nuclear Engineering, History of Science",
+      "text": "During World War II, Bethe was appointed head of the Theoretical Division at the secret Los Alamos Laboratory. He led a large team of scientists, including Richard Feynman, and worked closely with project leaders like Enrico Fermi and J. Robert Oppenheimer to perform the complex calculations necessary for designing the first atomic bomb.",
+      "id": "manhattan-project-theoretical-division",
+      "type": "achievement"
+    },
+    {
+      "key": "b2fh-stellar-nucleosynthesis",
+      "year": 1957,
+      "title": "Theory of Stellar Nucleosynthesis (B²FH Paper)",
+      "category": "Astrophysics, Nuclear Physics",
+      "text": "Co-authored the landmark B²FH paper ('Synthesis of the Elements in Stars'), which provided a comprehensive theory for how all chemical elements heavier than helium are created inside stars through nuclear fusion. This work, building on Hans Bethe's earlier explanation of energy in stars, remains the foundation of our understanding of cosmic chemical evolution.",
+      "id": "b2fh-stellar-nucleosynthesis",
+      "type": "achievement"
+    },
+    {
+      "key": "steady-state-cosmological-model",
+      "year": 1948,
+      "title": "The Steady State Theory",
+      "category": "Cosmology",
+      "text": "In collaboration with Hermann Bondi and Thomas Gold, Hoyle proposed the Steady State model of the universe. This theory suggested that the universe is eternal and, although expanding, maintains a constant density through the continuous creation of new matter. It was the main rival to the 'Big Bang' theory—a term Hoyle himself coined derisively—until it was largely disproven by observational evidence.",
+      "id": "steady-state-cosmological-model",
+      "type": "achievement"
+    },
+    {
+      "key": "qed-and-feynman-diagrams",
+      "year": 1948,
+      "title": "Quantum Electrodynamics and Feynman Diagrams",
+      "category": "Quantum Electrodynamics",
+      "text": "Developed a powerful and intuitive formulation of quantum electrodynamics (QED), the theory of how light and matter interact. He introduced his famous Feynman diagrams, a pictorial method for visualizing and calculating particle interactions. His work, developed independently alongside Julian Schwinger and Sin-Itiro Tomonaga, resolved key theoretical problems and remains a fundamental tool in particle physics.",
+      "id": "qed-and-feynman-diagrams",
+      "type": "achievement"
+    },
+    {
+      "key": "manhattan-project-computation",
+      "year": 1943,
+      "title": "Group Leader in the Manhattan Project",
+      "category": "Nuclear Engineering",
+      "text": "As a young physicist, Feynman was recruited to the Manhattan Project at Los Alamos. He served as a group leader under Hans Bethe in the Theoretical Division, where he developed crucial computational methods for calculating the physics of the atomic bomb and helped engineer the project's computation center.",
+      "id": "manhattan-project-computation",
+      "type": "achievement"
+    },
+    {
+      "key": "unification-of-qed",
+      "year": 1949,
+      "title": "Unification of Quantum Electrodynamics",
+      "category": "Quantum Electrodynamics",
+      "text": "In a landmark paper, Dyson proved that the different formulations of quantum electrodynamics—the path-integral approach of Richard Feynman, and the operator methods of Julian Schwinger and Sin-Itiro Tomonaga—were mathematically equivalent. His work unified these approaches and made the complex theory accessible and usable for a generation of physicists.",
+      "id": "unification-of-qed",
+      "type": "achievement"
+    },
+    {
+      "key": "dyson-sphere-concept",
+      "year": 1960,
+      "title": "The Dyson Sphere Concept",
+      "category": "Astroengineering, SETI",
+      "text": "Proposed the concept of a 'Dyson sphere', a hypothetical megastructure that an advanced civilization could build to completely encompass a star and capture all of its energy output. This speculative idea has become a staple of science fiction and a theoretical concept in the search for extraterrestrial intelligence (SETI).",
+      "id": "dyson-sphere-concept",
+      "type": "achievement"
+    },
+    {
+      "key": "discovery-of-cmb",
+      "year": 1964,
+      "title": "Discovery of the Cosmic Microwave Background Radiation",
+      "category": "Cosmology, Observational Astronomy",
+      "text": "While working with Arno Penzias at Bell Labs, Wilson detected a persistent, uniform background noise in their radio antenna that they could not eliminate. They soon realized this signal was the Cosmic Microwave Background radiation, the remnant heat from the Big Bang. Their accidental discovery provided the strongest evidence for the Big Bang theory, confirming the theoretical predictions made by a team at Princeton University led by Robert H. Dicke.",
+      "id": "discovery-of-cmb",
+      "type": "achievement"
     }
   ],
   "edges": [
@@ -702,9 +1314,731 @@
     {
       "source": "georg-friedrich-bernhard-riemann",
       "target": "general-relativity"
+    },
+    {
+      "source": "james-prescott-joul",
+      "target": "mechanical-equivalent-of-heat"
+    },
+    {
+      "source": "nicolas-leonard-sadi-carnot",
+      "target": "mechanical-equivalent-of-heat"
+    },
+    {
+      "source": "james-prescott-joul",
+      "target": "joule-heating-law"
+    },
+    {
+      "source": "hermann-von-helmholtz",
+      "target": "conservation-of-energy-principle"
+    },
+    {
+      "source": "james-prescott-joul",
+      "target": "conservation-of-energy-principle"
+    },
+    {
+      "source": "hermann-von-helmholtz",
+      "target": "physiology-of-perception"
+    },
+    {
+      "source": "thomas-young",
+      "target": "physiology-of-perception"
+    },
+    {
+      "source": "hippolyte-fizeau",
+      "target": "speed-of-light-measurement-terrestrial"
+    },
+    {
+      "source": "leon-foucault",
+      "target": "speed-of-light-measurement-terrestrial"
+    },
+    {
+      "source": "hippolyte-fizeau",
+      "target": "fizeau-experiment-aether-drag"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "fizeau-experiment-aether-drag"
+    },
+    {
+      "source": "rudolf-clausius",
+      "target": "second-law-thermodynamics-entropy"
+    },
+    {
+      "source": "nicolas-leonard-sadi-carnot",
+      "target": "second-law-thermodynamics-entropy"
+    },
+    {
+      "source": "rudolf-clausius",
+      "target": "kinetic-theory-gases-mean-free-path"
+    },
+    {
+      "source": "james-clerk-maxwell",
+      "target": "kinetic-theory-gases-mean-free-path"
+    },
+    {
+      "source": "william-thomson",
+      "target": "absolute-temperature-thermodynamics"
+    },
+    {
+      "source": "james-prescott-joul",
+      "target": "absolute-temperature-thermodynamics"
+    },
+    {
+      "source": "rudolf-clausius",
+      "target": "absolute-temperature-thermodynamics"
+    },
+    {
+      "source": "nicolas-leonard-sadi-carnot",
+      "target": "absolute-temperature-thermodynamics"
+    },
+    {
+      "source": "william-thomson",
+      "target": "transatlantic-telegraph-cable"
+    },
+    {
+      "source": "robert-bunsen",
+      "target": "spectral-analysis-development"
+    },
+    {
+      "source": "gustav-kirchhoff",
+      "target": "spectral-analysis-development"
+    },
+    {
+      "source": "joseph-von-fraunhofer",
+      "target": "spectral-analysis-development"
+    },
+    {
+      "source": "robert-bunsen",
+      "target": "discovery-of-cesium-rubidium"
+    },
+    {
+      "source": "gustav-kirchhoff",
+      "target": "discovery-of-cesium-rubidium"
+    },
+    {
+      "source": "dmitri-mendeleev",
+      "target": "periodic-table-and-law"
+    },
+    {
+      "source": "lothar-meyer",
+      "target": "periodic-table-and-law"
+    },
+    {
+      "source": "dmitri-mendeleev",
+      "target": "principles-of-chemistry-textbook"
+    },
+    {
+      "source": "svante-arrhenius",
+      "target": "principles-of-chemistry-textbook"
+    },
+    {
+      "source": "ludwig-boltzmann",
+      "target": "statistical-definition-of-entropy"
+    },
+    {
+      "source": "rudolf-clausius",
+      "target": "statistical-definition-of-entropy"
+    },
+    {
+      "source": "ludwig-boltzmann",
+      "target": "development-of-statistical-mechanics"
+    },
+    {
+      "source": "james-clerk-maxwell",
+      "target": "development-of-statistical-mechanics"
+    },
+    {
+      "source": "heinrich-rudolf-hertz",
+      "target": "proof-of-electromagnetic-waves"
+    },
+    {
+      "source": "james-clerk-maxwell",
+      "target": "proof-of-electromagnetic-waves"
+    },
+    {
+      "source": "heinrich-rudolf-hertz",
+      "target": "discovery-of-photoelectric-effect"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "discovery-of-photoelectric-effect"
+    },
+    {
+      "source": "albert-abraham-michelson",
+      "target": "michelson-morley-experiment"
+    },
+    {
+      "source": "edward-williams-morley",
+      "target": "michelson-morley-experiment"
+    },
+    {
+      "source": "henri-becquerel",
+      "target": "discovery-of-radioactivity"
+    },
+    {
+      "source": "marie-curie",
+      "target": "discovery-of-radioactivity"
+    },
+    {
+      "source": "pierre-curie",
+      "target": "discovery-of-radioactivity"
+    },
+    {
+      "source": "ernest-rutherford",
+      "target": "discovery-of-alpha-and-beta-radiation"
+    },
+    {
+      "source": "henri-becquerel",
+      "target": "discovery-of-alpha-and-beta-radiation"
+    },
+    {
+      "source": "max-planck",
+      "target": "quantum-hypothesis-black-body-radiation"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "quantum-hypothesis-black-body-radiation"
+    },
+    {
+      "source": "max-planck",
+      "target": "support-for-relativity"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "support-for-relativity"
+    },
+    {
+      "source": "karl-schwarzschild",
+      "target": "schwarzschild-solution-general-relativity"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "schwarzschild-solution-general-relativity"
+    },
+    {
+      "source": "arthur-stanley-eddington",
+      "target": "eclipse-expedition-and-relativity-confirmation"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "eclipse-expedition-and-relativity-confirmation"
+    },
+    {
+      "source": "arthur-stanley-eddington",
+      "target": "internal-constitution-of-the-stars"
+    },
+    {
+      "source": "max-planck",
+      "target": "internal-constitution-of-the-stars"
+    },
+    {
+      "source": "niels-bohr",
+      "target": "bohr-model-of-the-atom"
+    },
+    {
+      "source": "ernest-rutherford",
+      "target": "bohr-model-of-the-atom"
+    },
+    {
+      "source": "niels-bohr",
+      "target": "principle-of-complementarity-and-copenhagen-interpretation"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "principle-of-complementarity-and-copenhagen-interpretation"
+    },
+    {
+      "source": "vesto-slipher",
+      "target": "measurement-of-galactic-redshifts"
+    },
+    {
+      "source": "edwin-hubble",
+      "target": "measurement-of-galactic-redshifts"
+    },
+    {
+      "source": "christian-doppler",
+      "target": "measurement-of-galactic-redshifts"
+    },
+    {
+      "source": "arnold-sommerfeld",
+      "target": "bohr-sommerfeld-atomic-model"
+    },
+    {
+      "source": "niels-bohr",
+      "target": "bohr-sommerfeld-atomic-model"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "bohr-sommerfeld-atomic-model"
+    },
+    {
+      "source": "arnold-sommerfeld",
+      "target": "mentorship-of-future-physicists"
+    },
+    {
+      "source": "werner-heisenberg",
+      "target": "mentorship-of-future-physicists"
+    },
+    {
+      "source": "wolfgang-pauli",
+      "target": "mentorship-of-future-physicists"
+    },
+    {
+      "source": "emmy-noether",
+      "target": "noethers-theorem"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "noethers-theorem"
+    },
+    {
+      "source": "david-hilbert",
+      "target": "noethers-theorem"
+    },
+    {
+      "source": "emmy-noether",
+      "target": "foundations-of-modern-algebra"
+    },
+    {
+      "source": "david-hilbert",
+      "target": "foundations-of-modern-algebra"
+    },
+    {
+      "source": "alexander-friedmann",
+      "target": "friedmann-equations-expanding-universe"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "friedmann-equations-expanding-universe"
+    },
+    {
+      "source": "alexander-friedmann",
+      "target": "foundation-for-observational-cosmology"
+    },
+    {
+      "source": "vesto-slipher",
+      "target": "foundation-for-observational-cosmology"
+    },
+    {
+      "source": "edwin-hubble",
+      "target": "foundation-for-observational-cosmology"
+    },
+    {
+      "source": "georges-lemaitre",
+      "target": "foundation-for-observational-cosmology"
+    },
+    {
+      "source": "jacobus-kapteyn",
+      "target": "kapteyns-universe-model"
+    },
+    {
+      "source": "harlow-shapley",
+      "target": "kapteyns-universe-model"
+    },
+    {
+      "source": "jacobus-kapteyn",
+      "target": "discovery-of-star-streams"
+    },
+    {
+      "source": "jan-oort",
+      "target": "discovery-of-star-streams"
+    },
+    {
+      "source": "louis-de-broglie",
+      "target": "de-broglie-hypothesis-wave-particle-duality"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "de-broglie-hypothesis-wave-particle-duality"
+    },
+    {
+      "source": "clinton-davisson",
+      "target": "de-broglie-hypothesis-wave-particle-duality"
+    },
+    {
+      "source": "lester-germer",
+      "target": "de-broglie-hypothesis-wave-particle-duality"
+    },
+    {
+      "source": "satyendra-nath-bose",
+      "target": "bose-einstein-statistics"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "bose-einstein-statistics"
+    },
+    {
+      "source": "max-planck",
+      "target": "bose-einstein-statistics"
+    },
+    {
+      "source": "werner-heisenberg",
+      "target": "matrix-mechanics-formulation"
+    },
+    {
+      "source": "max-born",
+      "target": "matrix-mechanics-formulation"
+    },
+    {
+      "source": "pascual-jordan",
+      "target": "matrix-mechanics-formulation"
+    },
+    {
+      "source": "werner-heisenberg",
+      "target": "uncertainty-principle"
+    },
+    {
+      "source": "niels-bohr",
+      "target": "uncertainty-principle"
+    },
+    {
+      "source": "wolfgang-pauli",
+      "target": "pauli-exclusion-principle"
+    },
+    {
+      "source": "niels-bohr",
+      "target": "pauli-exclusion-principle"
+    },
+    {
+      "source": "arnold-sommerfeld",
+      "target": "pauli-exclusion-principle"
+    },
+    {
+      "source": "wolfgang-pauli",
+      "target": "neutrino-hypothesis"
+    },
+    {
+      "source": "enrico-fermi",
+      "target": "neutrino-hypothesis"
+    },
+    {
+      "source": "erwin-schrodinger",
+      "target": "schrodinger-wave-equation"
+    },
+    {
+      "source": "werner-heisenberg",
+      "target": "schrodinger-wave-equation"
+    },
+    {
+      "source": "erwin-schrodinger",
+      "target": "schrodingers-cat-thought-experiment"
+    },
+    {
+      "source": "niels-bohr",
+      "target": "schrodingers-cat-thought-experiment"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "schrodingers-cat-thought-experiment"
+    },
+    {
+      "source": "enrico-fermi",
+      "target": "beta-decay-theory"
+    },
+    {
+      "source": "wolfgang-pauli",
+      "target": "beta-decay-theory"
+    },
+    {
+      "source": "enrico-fermi",
+      "target": "chicago-pile-1-nuclear-reactor"
+    },
+    {
+      "source": "lise-meitner",
+      "target": "chicago-pile-1-nuclear-reactor"
+    },
+    {
+      "source": "otto-hahn",
+      "target": "chicago-pile-1-nuclear-reactor"
+    },
+    {
+      "source": "paul-dirac",
+      "target": "dirac-equation-antimatter"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "dirac-equation-antimatter"
+    },
+    {
+      "source": "erwin-schrodinger",
+      "target": "dirac-equation-antimatter"
+    },
+    {
+      "source": "werner-heisenberg",
+      "target": "dirac-equation-antimatter"
+    },
+    {
+      "source": "paul-dirac",
+      "target": "fermi-dirac-statistics"
+    },
+    {
+      "source": "enrico-fermi",
+      "target": "fermi-dirac-statistics"
+    },
+    {
+      "source": "wolfgang-pauli",
+      "target": "fermi-dirac-statistics"
+    },
+    {
+      "source": "max-born",
+      "target": "probabilistic-interpretation-wave-function"
+    },
+    {
+      "source": "erwin-schrodinger",
+      "target": "probabilistic-interpretation-wave-function"
+    },
+    {
+      "source": "max-born",
+      "target": "development-of-matrix-mechanics"
+    },
+    {
+      "source": "werner-heisenberg",
+      "target": "development-of-matrix-mechanics"
+    },
+    {
+      "source": "pascual-jordan",
+      "target": "development-of-matrix-mechanics"
+    },
+    {
+      "source": "edwin-hubble",
+      "target": "discovery-of-external-galaxies"
+    },
+    {
+      "source": "henrietta-swan-leavitt",
+      "target": "discovery-of-external-galaxies"
+    },
+    {
+      "source": "harlow-shapley",
+      "target": "discovery-of-external-galaxies"
+    },
+    {
+      "source": "edwin-hubble",
+      "target": "hubbles-law-expanding-universe"
+    },
+    {
+      "source": "vesto-slipher",
+      "target": "hubbles-law-expanding-universe"
+    },
+    {
+      "source": "alexander-friedmann",
+      "target": "hubbles-law-expanding-universe"
+    },
+    {
+      "source": "georges-lemaitre",
+      "target": "hubbles-law-expanding-universe"
+    },
+    {
+      "source": "james-chadwick",
+      "target": "discovery-of-the-neutron"
+    },
+    {
+      "source": "ernest-rutherford",
+      "target": "discovery-of-the-neutron"
+    },
+    {
+      "source": "irene-joliot-curie",
+      "target": "discovery-of-the-neutron"
+    },
+    {
+      "source": "frederic-joliot-curie",
+      "target": "discovery-of-the-neutron"
+    },
+    {
+      "source": "carl-david-anderson",
+      "target": "discovery-of-the-positron"
+    },
+    {
+      "source": "paul-dirac",
+      "target": "discovery-of-the-positron"
+    },
+    {
+      "source": "carl-david-anderson",
+      "target": "discovery-of-the-muon"
+    },
+    {
+      "source": "hideki-yukawa",
+      "target": "discovery-of-the-muon"
+    },
+    {
+      "source": "otto-stern",
+      "target": "stern-gerlach-experiment"
+    },
+    {
+      "source": "walther-gerlach",
+      "target": "stern-gerlach-experiment"
+    },
+    {
+      "source": "arnold-sommerfeld",
+      "target": "stern-gerlach-experiment"
+    },
+    {
+      "source": "niels-bohr",
+      "target": "stern-gerlach-experiment"
+    },
+    {
+      "source": "hideki-yukawa",
+      "target": "meson-theory-nuclear-forces"
+    },
+    {
+      "source": "carl-david-anderson",
+      "target": "meson-theory-nuclear-forces"
+    },
+    {
+      "source": "cecil-powell",
+      "target": "meson-theory-nuclear-forces"
+    },
+    {
+      "source": "otto-hahn",
+      "target": "discovery-of-nuclear-fission"
+    },
+    {
+      "source": "lise-meitner",
+      "target": "discovery-of-nuclear-fission"
+    },
+    {
+      "source": "fritz-strassmann",
+      "target": "discovery-of-nuclear-fission"
+    },
+    {
+      "source": "otto-frisch",
+      "target": "discovery-of-nuclear-fission"
+    },
+    {
+      "source": "hans-bethe",
+      "target": "stellar-nucleosynthesis-cno-cycle"
+    },
+    {
+      "source": "arthur-stanley-eddington",
+      "target": "stellar-nucleosynthesis-cno-cycle"
+    },
+    {
+      "source": "hans-bethe",
+      "target": "manhattan-project-theoretical-division"
+    },
+    {
+      "source": "enrico-fermi",
+      "target": "manhattan-project-theoretical-division"
+    },
+    {
+      "source": "j-robert-oppenheimer",
+      "target": "manhattan-project-theoretical-division"
+    },
+    {
+      "source": "fred-hoyle",
+      "target": "b2fh-stellar-nucleosynthesis"
+    },
+    {
+      "source": "william-a-fowler",
+      "target": "b2fh-stellar-nucleosynthesis"
+    },
+    {
+      "source": "margaret-burbidge",
+      "target": "b2fh-stellar-nucleosynthesis"
+    },
+    {
+      "source": "geoffrey-burbidge",
+      "target": "b2fh-stellar-nucleosynthesis"
+    },
+    {
+      "source": "hans-bethe",
+      "target": "b2fh-stellar-nucleosynthesis"
+    },
+    {
+      "source": "fred-hoyle",
+      "target": "steady-state-cosmological-model"
+    },
+    {
+      "source": "hermann-bondi",
+      "target": "steady-state-cosmological-model"
+    },
+    {
+      "source": "thomas-gold",
+      "target": "steady-state-cosmological-model"
+    },
+    {
+      "source": "richard-feynman",
+      "target": "qed-and-feynman-diagrams"
+    },
+    {
+      "source": "julian-schwinger",
+      "target": "qed-and-feynman-diagrams"
+    },
+    {
+      "source": "sin-itiro-tomonaga",
+      "target": "qed-and-feynman-diagrams"
+    },
+    {
+      "source": "paul-dirac",
+      "target": "qed-and-feynman-diagrams"
+    },
+    {
+      "source": "richard-feynman",
+      "target": "manhattan-project-computation"
+    },
+    {
+      "source": "hans-bethe",
+      "target": "manhattan-project-computation"
+    },
+    {
+      "source": "j-robert-oppenheimer",
+      "target": "manhattan-project-computation"
+    },
+    {
+      "source": "freeman-dyson",
+      "target": "unification-of-qed"
+    },
+    {
+      "source": "richard-feynman",
+      "target": "unification-of-qed"
+    },
+    {
+      "source": "julian-schwinger",
+      "target": "unification-of-qed"
+    },
+    {
+      "source": "sin-itiro-tomonaga",
+      "target": "unification-of-qed"
+    },
+    {
+      "source": "freeman-dyson",
+      "target": "dyson-sphere-concept"
+    },
+    {
+      "source": "robert-woodrow-wilson",
+      "target": "discovery-of-cmb"
+    },
+    {
+      "source": "arno-penzias",
+      "target": "discovery-of-cmb"
+    },
+    {
+      "source": "robert-h-dicke",
+      "target": "discovery-of-cmb"
     }
   ],
   "persons": [
+    {
+      "scholar_id": "wolfgang-pauli",
+      "name": "Wolfgang Pauli",
+      "birth": 1900,
+      "death": 1958,
+      "field": "Theoretical Physics, Quantum Mechanics",
+      "photo_url": null,
+      "nationality": "Austrian-Swiss-American",
+      "id": "wolfgang-pauli",
+      "type": "person"
+    },
+    {
+      "scholar_id": "william-thomson",
+      "name": "William Thomson, 1st Baron Kelvin",
+      "birth": 1824,
+      "death": 1907,
+      "field": "Physics, Thermodynamics, Engineering",
+      "photo_url": null,
+      "nationality": "British",
+      "id": "william-thomson",
+      "type": "person"
+    },
     {
       "scholar_id": "william-rowan-hamilton",
       "name": "William Rowan Hamilton",
@@ -714,6 +2048,28 @@
       "photo_url": null,
       "nationality": "Irish",
       "id": "william-rowan-hamilton",
+      "type": "person"
+    },
+    {
+      "scholar_id": "werner-heisenberg",
+      "name": "Werner Heisenberg",
+      "birth": 1901,
+      "death": 1976,
+      "field": "Theoretical Physics, Quantum Mechanics",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "werner-heisenberg",
+      "type": "person"
+    },
+    {
+      "scholar_id": "vesto-slipher",
+      "name": "Vesto Slipher",
+      "birth": 1875,
+      "death": 1969,
+      "field": "Astronomy, Spectroscopy",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "vesto-slipher",
       "type": "person"
     },
     {
@@ -739,6 +2095,61 @@
       "type": "person"
     },
     {
+      "scholar_id": "satyendra-nath-bose",
+      "name": "Satyendra Nath Bose",
+      "birth": 1894,
+      "death": 1974,
+      "field": "Mathematical Physics, Quantum Mechanics",
+      "photo_url": null,
+      "nationality": "Indian",
+      "id": "satyendra-nath-bose",
+      "type": "person"
+    },
+    {
+      "scholar_id": "rudolf-clausius",
+      "name": "Rudolf Clausius",
+      "birth": 1822,
+      "death": 1888,
+      "field": "Physics, Thermodynamics",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "rudolf-clausius",
+      "type": "person"
+    },
+    {
+      "scholar_id": "robert-woodrow-wilson",
+      "name": "Robert Woodrow Wilson",
+      "birth": 1936,
+      "death": null,
+      "field": "Physics, Astronomy, Cosmology",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "robert-woodrow-wilson",
+      "type": "person"
+    },
+    {
+      "scholar_id": "robert-bunsen",
+      "name": "Robert Bunsen",
+      "birth": 1811,
+      "death": 1899,
+      "field": "Chemistry, Physics, Geology",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "robert-bunsen",
+      "type": "person"
+    },
+    {
+      "scholar_id": "richard-feynman",
+      "name": "Richard Feynman",
+      "birth": 1918,
+      "death": 1988,
+      "field": "Theoretical Physics, Quantum Electrodynamics, Particle Physics",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "richard-feynman",
+      "type": "person"
+    },
+    {
       "scholar_id": "rene-descartes",
       "name": "René Descartes",
       "birth": 1596,
@@ -761,6 +2172,39 @@
       "type": "person"
     },
     {
+      "scholar_id": "paul-dirac",
+      "name": "Paul Dirac",
+      "birth": 1902,
+      "death": 1984,
+      "field": "Theoretical Physics, Quantum Mechanics",
+      "photo_url": null,
+      "nationality": "British",
+      "id": "paul-dirac",
+      "type": "person"
+    },
+    {
+      "scholar_id": "otto-stern",
+      "name": "Otto Stern",
+      "birth": 1888,
+      "death": 1969,
+      "field": "Experimental Physics, Quantum Mechanics",
+      "photo_url": null,
+      "nationality": "German-American",
+      "id": "otto-stern",
+      "type": "person"
+    },
+    {
+      "scholar_id": "otto-hahn",
+      "name": "Otto Hahn",
+      "birth": 1879,
+      "death": 1968,
+      "field": "Radiochemistry, Nuclear Physics",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "otto-hahn",
+      "type": "person"
+    },
+    {
       "scholar_id": "nikolai-ivanovich-lobachevsky",
       "name": "Nikolai Ivanovich Lobachevsky",
       "birth": 1792,
@@ -769,6 +2213,17 @@
       "photo_url": null,
       "nationality": "Russian",
       "id": "nikolai-ivanovich-lobachevsky",
+      "type": "person"
+    },
+    {
+      "scholar_id": "niels-bohr",
+      "name": "Niels Bohr",
+      "birth": 1885,
+      "death": 1962,
+      "field": "Theoretical Physics, Quantum Mechanics",
+      "photo_url": null,
+      "nationality": "Danish",
+      "id": "niels-bohr",
       "type": "person"
     },
     {
@@ -794,6 +2249,50 @@
       "type": "person"
     },
     {
+      "scholar_id": "max-planck",
+      "name": "Max Planck",
+      "birth": 1858,
+      "death": 1947,
+      "field": "Theoretical Physics, Quantum Mechanics",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "max-planck",
+      "type": "person"
+    },
+    {
+      "scholar_id": "max-born",
+      "name": "Max Born",
+      "birth": 1882,
+      "death": 1970,
+      "field": "Theoretical Physics, Quantum Mechanics, Optics",
+      "photo_url": null,
+      "nationality": "German-British",
+      "id": "max-born",
+      "type": "person"
+    },
+    {
+      "scholar_id": "ludwig-boltzmann",
+      "name": "Ludwig Boltzmann",
+      "birth": 1844,
+      "death": 1906,
+      "field": "Physics, Statistical Mechanics, Thermodynamics",
+      "photo_url": null,
+      "nationality": "Austrian",
+      "id": "ludwig-boltzmann",
+      "type": "person"
+    },
+    {
+      "scholar_id": "louis-de-broglie",
+      "name": "Louis de Broglie",
+      "birth": 1892,
+      "death": 1987,
+      "field": "Theoretical Physics, Quantum Mechanics",
+      "photo_url": null,
+      "nationality": "French",
+      "id": "louis-de-broglie",
+      "type": "person"
+    },
+    {
       "scholar_id": "leonhard-euler",
       "name": "Leonhard Euler",
       "birth": 1707,
@@ -813,6 +2312,17 @@
       "photo_url": null,
       "nationality": "German",
       "id": "kepler",
+      "type": "person"
+    },
+    {
+      "scholar_id": "karl-schwarzschild",
+      "name": "Karl Schwarzschild",
+      "birth": 1873,
+      "death": 1916,
+      "field": "Physics, Astronomy, Astrophysics",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "karl-schwarzschild",
       "type": "person"
     },
     {
@@ -871,6 +2381,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "james-prescott-joul",
+      "name": "James Prescott Joule",
+      "birth": 1818,
+      "death": 1889,
+      "field": "Physics, Thermodynamics",
+      "photo_url": null,
+      "nationality": "English",
+      "id": "james-prescott-joul",
+      "type": "person"
+    },
+    {
       "scholar_id": "james-clerk-maxwell",
       "name": "James Clerk Maxwell",
       "birth": 1831,
@@ -882,6 +2403,39 @@
       "type": "person"
     },
     {
+      "scholar_id": "james-chadwick",
+      "name": "James Chadwick",
+      "birth": 1891,
+      "death": 1974,
+      "field": "Nuclear Physics",
+      "photo_url": null,
+      "nationality": "British",
+      "id": "james-chadwick",
+      "type": "person"
+    },
+    {
+      "scholar_id": "jacobus-kapteyn",
+      "name": "Jacobus Kapteyn",
+      "birth": 1851,
+      "death": 1922,
+      "field": "Astronomy, Stellar Statistics",
+      "photo_url": null,
+      "nationality": "Dutch",
+      "id": "jacobus-kapteyn",
+      "type": "person"
+    },
+    {
+      "scholar_id": "j-robert-oppenheimer",
+      "name": "J. Robert Oppenheimer",
+      "birth": 1904,
+      "death": 1967,
+      "field": "Theoretical Physics, Nuclear Physics",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "j-robert-oppenheimer",
+      "type": "person"
+    },
+    {
       "scholar_id": "isaac-newton",
       "name": "Isaac Newton",
       "birth": 1643,
@@ -890,6 +2444,72 @@
       "photo_url": null,
       "nationality": "English",
       "id": "isaac-newton",
+      "type": "person"
+    },
+    {
+      "scholar_id": "hippolyte-fizeau",
+      "name": "Hippolyte Fizeau",
+      "birth": 1819,
+      "death": 1896,
+      "field": "Physics, Optics, Astronomy",
+      "photo_url": null,
+      "nationality": "French",
+      "id": "hippolyte-fizeau",
+      "type": "person"
+    },
+    {
+      "scholar_id": "hideki-yukawa",
+      "name": "Hideki Yukawa",
+      "birth": 1907,
+      "death": 1981,
+      "field": "Theoretical Physics, Particle Physics",
+      "photo_url": null,
+      "nationality": "Japanese",
+      "id": "hideki-yukawa",
+      "type": "person"
+    },
+    {
+      "scholar_id": "hermann-von-helmholtz",
+      "name": "Hermann von Helmholtz",
+      "birth": 1821,
+      "death": 1894,
+      "field": "Physics, Physiology, Psychology, Medicine",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "hermann-von-helmholtz",
+      "type": "person"
+    },
+    {
+      "scholar_id": "henri-becquerel",
+      "name": "Henri Becquerel",
+      "birth": 1852,
+      "death": 1908,
+      "field": "Physics, Radioactivity",
+      "photo_url": null,
+      "nationality": "French",
+      "id": "henri-becquerel",
+      "type": "person"
+    },
+    {
+      "scholar_id": "heinrich-rudolf-hertz",
+      "name": "Heinrich Rudolf Hertz",
+      "birth": 1857,
+      "death": 1894,
+      "field": "Physics, Electromagnetism",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "heinrich-rudolf-hertz",
+      "type": "person"
+    },
+    {
+      "scholar_id": "hans-bethe",
+      "name": "Hans Bethe",
+      "birth": 1906,
+      "death": 2005,
+      "field": "Theoretical Physics, Nuclear Physics, Astrophysics",
+      "photo_url": null,
+      "nationality": "German-American",
+      "id": "hans-bethe",
       "type": "person"
     },
     {
@@ -915,6 +2535,28 @@
       "type": "person"
     },
     {
+      "scholar_id": "freeman-dyson",
+      "name": "Freeman Dyson",
+      "birth": 1923,
+      "death": 2020,
+      "field": "Theoretical Physics, Mathematics, Astrophysics",
+      "photo_url": null,
+      "nationality": "British-American",
+      "id": "freeman-dyson",
+      "type": "person"
+    },
+    {
+      "scholar_id": "fred-hoyle",
+      "name": "Fred Hoyle",
+      "birth": 1915,
+      "death": 2001,
+      "field": "Cosmology, Astrophysics",
+      "photo_url": null,
+      "nationality": "British",
+      "id": "fred-hoyle",
+      "type": "person"
+    },
+    {
       "scholar_id": "francis-bacon",
       "name": "Francis Bacon",
       "birth": 1561,
@@ -937,6 +2579,50 @@
       "type": "person"
     },
     {
+      "scholar_id": "erwin-schrodinger",
+      "name": "Erwin Schrödinger",
+      "birth": 1887,
+      "death": 1961,
+      "field": "Theoretical Physics, Quantum Mechanics",
+      "photo_url": null,
+      "nationality": "Austrian-Irish",
+      "id": "erwin-schrodinger",
+      "type": "person"
+    },
+    {
+      "scholar_id": "ernest-rutherford",
+      "name": "Ernest Rutherford",
+      "birth": 1871,
+      "death": 1937,
+      "field": "Nuclear Physics, Chemistry",
+      "photo_url": null,
+      "nationality": "New Zealander-British",
+      "id": "ernest-rutherford",
+      "type": "person"
+    },
+    {
+      "scholar_id": "enrico-fermi",
+      "name": "Enrico Fermi",
+      "birth": 1901,
+      "death": 1954,
+      "field": "Nuclear Physics, Theoretical Physics, Experimental Physics",
+      "photo_url": null,
+      "nationality": "Italian-American",
+      "id": "enrico-fermi",
+      "type": "person"
+    },
+    {
+      "scholar_id": "emmy-noether",
+      "name": "Emmy Noether",
+      "birth": 1882,
+      "death": 1935,
+      "field": "Abstract Algebra, Theoretical Physics",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "emmy-noether",
+      "type": "person"
+    },
+    {
       "scholar_id": "emilie-du-chatelet",
       "name": "Émilie du Châtelet",
       "birth": 1706,
@@ -945,6 +2631,39 @@
       "photo_url": null,
       "nationality": "French",
       "id": "emilie-du-chatelet",
+      "type": "person"
+    },
+    {
+      "scholar_id": "edwin-hubble",
+      "name": "Edwin Hubble",
+      "birth": 1889,
+      "death": 1953,
+      "field": "Astronomy, Cosmology",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "edwin-hubble",
+      "type": "person"
+    },
+    {
+      "scholar_id": "edward-williams-morley",
+      "name": "Edward Williams Morley",
+      "birth": 1838,
+      "death": 1923,
+      "field": "Chemistry, Physics",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "edward-williams-morley",
+      "type": "person"
+    },
+    {
+      "scholar_id": "dmitri-mendeleev",
+      "name": "Dmitri Mendeleev",
+      "birth": 1834,
+      "death": 1907,
+      "field": "Chemistry, Physics",
+      "photo_url": null,
+      "nationality": "Russian",
+      "id": "dmitri-mendeleev",
       "type": "person"
     },
     {
@@ -1025,6 +2744,38 @@
       "type": "person"
     },
     {
+      "scholar_id": "carl-david-anderson",
+      "name": "Carl David Anderson",
+      "birth": 1905,
+      "death": 1991,
+      "field": "Experimental Physics, Particle Physics",
+      "photo_url": null,
+      "id": "carl-david-anderson",
+      "type": "person"
+    },
+    {
+      "scholar_id": "arthur-stanley-eddington",
+      "name": "Arthur Stanley Eddington",
+      "birth": 1882,
+      "death": 1944,
+      "field": "Astrophysics, Physics, Mathematics",
+      "photo_url": null,
+      "nationality": "English",
+      "id": "arthur-stanley-eddington",
+      "type": "person"
+    },
+    {
+      "scholar_id": "arnold-sommerfeld",
+      "name": "Arnold Sommerfeld",
+      "birth": 1868,
+      "death": 1951,
+      "field": "Theoretical Physics, Quantum Mechanics",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "arnold-sommerfeld",
+      "type": "person"
+    },
+    {
       "scholar_id": "aristotle",
       "name": "Aristotle",
       "birth": -384,
@@ -1058,6 +2809,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "alexander-friedmann",
+      "name": "Alexander Friedmann",
+      "birth": 1888,
+      "death": 1925,
+      "field": "Cosmology, Physics, Mathematics",
+      "photo_url": null,
+      "nationality": "Russian",
+      "id": "alexander-friedmann",
+      "type": "person"
+    },
+    {
       "scholar_id": "albert-einstein",
       "name": "Albert Einstein",
       "birth": 1879,
@@ -1066,6 +2828,17 @@
       "photo_url": "/images/albert-einstein.jpg",
       "nationality": "German-American",
       "id": "albert-einstein",
+      "type": "person"
+    },
+    {
+      "scholar_id": "albert-abraham-michelson",
+      "name": "Albert Abraham Michelson",
+      "birth": 1852,
+      "death": 1931,
+      "field": "Physics, Optics",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "albert-abraham-michelson",
       "type": "person"
     }
   ]
