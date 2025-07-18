@@ -47,6 +47,7 @@ const TimelineGraph: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [data, setData] = useState<GraphData | null>(null);
   const [selectedNode, setSelectedNode] = useState<GraphNode | null>(null);
+  const [hoveredNodeId, setHoveredNodeId] = useState<string | null>(null);
   const {
     setData: setCacheData,
     focusedPersonId,
@@ -205,9 +206,11 @@ const TimelineGraph: React.FC = () => {
         .attr("stroke", "#999")
         .attr("stroke-opacity", 0.6)
         .attr("fill", "none")
-        .selectAll("path")
+        .selectAll<SVGPathElement, Edge>("path")
         .data(edges)
-        .join("path");
+        .join("path")
+        .attr("stroke-width", 1.5)
+        .attr("class", "edge");
 
       const nodeGroup = g
         .append("g")
@@ -215,7 +218,78 @@ const TimelineGraph: React.FC = () => {
         .data(allNodes)
         .join("g")
         .style("cursor", "pointer")
-        .on("click", (event, d) => setSelectedNode(d));
+        .on("click", (event, d) => setSelectedNode(d))
+        .on("mouseenter", (event, d) => {
+          setHoveredNodeId(d.id);
+
+          link
+            .attr("stroke", (e) => {
+              const sourceId =
+                typeof e.source === "object"
+                  ? (e.source as GraphNode).id
+                  : e.source;
+              const targetId =
+                typeof e.target === "object"
+                  ? (e.target as GraphNode).id
+                  : e.target;
+              return sourceId === d.id || targetId === d.id
+                ? "#1271ff"
+                : "#999";
+            })
+            .attr("stroke-width", (e) => {
+              const sourceId =
+                typeof e.source === "object"
+                  ? (e.source as GraphNode).id
+                  : e.source;
+              const targetId =
+                typeof e.target === "object"
+                  ? (e.target as GraphNode).id
+                  : e.target;
+              return sourceId === d.id || targetId === d.id ? 3 : 1.5;
+            })
+            .attr("stroke-opacity", (e) => {
+              const sourceId =
+                typeof e.source === "object"
+                  ? (e.source as GraphNode).id
+                  : e.source;
+              const targetId =
+                typeof e.target === "object"
+                  ? (e.target as GraphNode).id
+                  : e.target;
+              return sourceId === d.id || targetId === d.id ? 1 : 0.3;
+            });
+
+          nodeGroup.style("opacity", (n) => {
+            if (n.id === d.id) return 1;
+
+            const isConnected = edges.some((e) => {
+              const sourceId =
+                typeof e.source === "object"
+                  ? (e.source as GraphNode).id
+                  : e.source;
+              const targetId =
+                typeof e.target === "object"
+                  ? (e.target as GraphNode).id
+                  : e.target;
+              return (
+                (sourceId === d.id && targetId === n.id) ||
+                (targetId === d.id && sourceId === n.id)
+              );
+            });
+
+            return isConnected ? 1 : 0.3;
+          });
+        })
+        .on("mouseleave", () => {
+          setHoveredNodeId(null);
+
+          link
+            .attr("stroke", "#999")
+            .attr("stroke-width", 1.5)
+            .attr("stroke-opacity", 0.6);
+
+          nodeGroup.style("opacity", 1);
+        });
 
       nodeGroup
         .filter((d) => d.type === "person")
