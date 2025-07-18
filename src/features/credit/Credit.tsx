@@ -1,4 +1,3 @@
-import { TopPersonSearch } from "@/features/search/TopPersonSearch";
 import {
   Dialog,
   DialogContent,
@@ -8,14 +7,14 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { Antenna } from "lucide-react";
+import { CircleQuestionMark } from "lucide-react";
 
 export function Credit() {
   return (
     <Dialog>
       <DialogTrigger asChild>
         <Button variant="outline">
-          <Antenna />
+          <CircleQuestionMark />
         </Button>
       </DialogTrigger>
       <DialogContent>
