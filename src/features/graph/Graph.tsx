@@ -334,11 +334,41 @@ const TimelineGraph: React.FC = () => {
         .attr("font-size", "12px")
         .attr("fill", "#333");
 
+      const blurGradient = defs
+        .append("linearGradient")
+        .attr("id", "bottom-blur-gradient")
+        .attr("x1", "0%")
+        .attr("y1", "100%")
+        .attr("x2", "0%")
+        .attr("y2", "0%");
+
+      blurGradient
+        .append("stop")
+        .attr("offset", "0%")
+        .attr("stop-color", "white")
+        .attr("stop-opacity", "1");
+
+      blurGradient
+        .append("stop")
+        .attr("offset", "100%")
+        .attr("stop-color", "white")
+        .attr("stop-opacity", "0");
+
+      svg
+        .append("rect")
+        .attr("x", 0)
+        .attr("y", height - 60)
+        .attr("width", width)
+        .attr("height", 60)
+        .attr("fill", "url(#bottom-blur-gradient)")
+        .style("pointer-events", "none");
+
       const initialXAxisScale = transformRef.current.rescaleX(yearScale);
       const xAxis = d3.axisBottom(initialXAxisScale).tickFormat(formatYear);
       const xAxisGroup = svg
         .append("g")
         .attr("transform", `translate(0, ${height - 30})`)
+        .style("z-index", "50")
         .call(xAxis);
       xAxisGroup.selectAll("text").attr("fill", "#333");
 
