@@ -1052,6 +1052,60 @@
       "text": "While working with Arno Penzias at Bell Labs, Wilson detected a persistent, uniform background noise in their radio antenna that they could not eliminate. They soon realized this signal was the Cosmic Microwave Background radiation, the remnant heat from the Big Bang. Their accidental discovery provided the strongest evidence for the Big Bang theory, confirming the theoretical predictions made by a team at Princeton University led by Robert H. Dicke.",
       "id": "discovery-of-cmb",
       "type": "achievement"
+    },
+    {
+      "key": "compton-effect",
+      "year": 1923,
+      "title": "Discovery of the Compton Effect",
+      "category": "Quantum Mechanics",
+      "text": "Demonstrated that high-energy photons, when scattered by electrons, lose energy and thus increase in wavelength. This phenomenon, which treats light as a stream of particles with momentum, provided definitive experimental proof for the particle nature of light that had been proposed by Albert Einstein in his work on the photoelectric effect. For this discovery, Compton was awarded the Nobel Prize in Physics in 1927.",
+      "id": "compton-effect",
+      "type": "achievement"
+    },
+    {
+      "key": "manhattan-project-met-lab",
+      "year": 1942,
+      "title": "Head of the Metallurgical Laboratory (Manhattan Project)",
+      "category": "Nuclear Engineering",
+      "text": "Served as the head of the Metallurgical Laboratory at the University of Chicago, a key branch of the Manhattan Project. His lab was responsible for developing the process to produce plutonium for the bomb and was the site where the team led by Enrico Fermi achieved the world's first self-sustaining nuclear chain reaction.",
+      "id": "manhattan-project-met-lab",
+      "type": "achievement"
+    },
+    {
+      "key": "x-ray-crystallography-bragg",
+      "year": 1913,
+      "title": "Development of X-ray Crystallography and Bragg's Law",
+      "category": "X-ray Crystallography, Solid-State Physics",
+      "text": "In a famous father-son collaboration, they pioneered the field of X-ray crystallography. Building on Max von Laue's discovery of X-ray diffraction, William Lawrence Bragg formulated the simple yet profound Bragg's Law (nλ = 2d sinθ), while William Henry Bragg developed the X-ray spectrometer to make the precise measurements. Their joint work allowed for the determination of crystal structures for the first time, for which they shared the 1915 Nobel Prize in Physics.",
+      "id": "x-ray-crystallography-bragg",
+      "type": "achievement"
+    },
+    {
+      "key": "incandescent-light-bulb-improvement",
+      "year": 1913,
+      "title": "Invention of the Gas-Filled Incandescent Lamp",
+      "category": "Engineering",
+      "text": "While working at General Electric, Langmuir made crucial improvements to the light bulb originally invented by Thomas Edison. He discovered that filling the bulb with an inert gas (like argon) and using a tightly coiled tungsten filament dramatically increased the bulb's efficiency and lifespan, making electric lighting commercially viable for mass use.",
+      "id": "incandescent-light-bulb-improvement",
+      "type": "achievement"
+    },
+    {
+      "key": "surface-chemistry-and-plasma",
+      "year": 1916,
+      "title": "Foundations of Surface Chemistry and Plasma Physics",
+      "category": "Surface Chemistry, Plasma Physics",
+      "text": "Conducted pioneering research into the chemistry of thin molecular films, developing the Langmuir adsorption isotherm. For this foundational work in surface chemistry, he was awarded the 1932 Nobel Prize. In related work on vacuum tubes, he was also the first to use the term 'plasma' to describe an ionized gas, a name adopted by later physicists like Hannes Alfvén.",
+      "id": "surface-chemistry-and-plasma",
+      "type": "achievement"
+    },
+    {
+      "key": "debye-model-specific-heat",
+      "year": 1912,
+      "title": "Debye Model of Specific Heat in Solids",
+      "category": "Solid-State Physics, Thermodynamics",
+      "text": "Developed a model to explain the heat capacity of solids at low temperatures. His model treated atomic vibrations as collective modes (phonons), which was a significant improvement upon Albert Einstein's earlier model that assumed atoms vibrated independently. The Debye model accurately predicted the T³ dependence of specific heat at low temperatures.",
+      "id": "debye-model-specific-heat",
+      "type": "achievement"
     }
   ],
   "edges": [
@@ -1936,10 +1990,6 @@
       "target": "b2fh-stellar-nucleosynthesis"
     },
     {
-      "source": "geoffrey-burbidge",
-      "target": "b2fh-stellar-nucleosynthesis"
-    },
-    {
       "source": "hans-bethe",
       "target": "b2fh-stellar-nucleosynthesis"
     },
@@ -2014,6 +2064,58 @@
     {
       "source": "robert-h-dicke",
       "target": "discovery-of-cmb"
+    },
+    {
+      "source": "arthur-compton",
+      "target": "compton-effect"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "compton-effect"
+    },
+    {
+      "source": "arthur-compton",
+      "target": "manhattan-project-met-lab"
+    },
+    {
+      "source": "enrico-fermi",
+      "target": "manhattan-project-met-lab"
+    },
+    {
+      "source": "william-henry-bragg",
+      "target": "x-ray-crystallography-bragg"
+    },
+    {
+      "source": "william-lawrence-bragg",
+      "target": "x-ray-crystallography-bragg"
+    },
+    {
+      "source": "max-von-laue",
+      "target": "x-ray-crystallography-bragg"
+    },
+    {
+      "source": "irving-langmuir",
+      "target": "incandescent-light-bulb-improvement"
+    },
+    {
+      "source": "thomas-edison",
+      "target": "incandescent-light-bulb-improvement"
+    },
+    {
+      "source": "irving-langmuir",
+      "target": "surface-chemistry-and-plasma"
+    },
+    {
+      "source": "hannes-alfven",
+      "target": "surface-chemistry-and-plasma"
+    },
+    {
+      "source": "peter-debye",
+      "target": "debye-model-specific-heat"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "debye-model-specific-heat"
     }
   ],
   "persons": [
@@ -2051,6 +2153,39 @@
       "type": "person"
     },
     {
+      "scholar_id": "william-lawrence-bragg",
+      "name": "William Lawrence Bragg",
+      "birth": 1890,
+      "death": 1971,
+      "field": "Physics, X-ray Crystallography",
+      "photo_url": null,
+      "nationality": "British",
+      "id": "william-lawrence-bragg",
+      "type": "person"
+    },
+    {
+      "scholar_id": "william-henry-bragg",
+      "name": "William Henry Bragg",
+      "birth": 1862,
+      "death": 1942,
+      "field": "Physics, X-ray Crystallography",
+      "photo_url": null,
+      "nationality": "British",
+      "id": "william-henry-bragg",
+      "type": "person"
+    },
+    {
+      "scholar_id": "william-a-fowler",
+      "name": "William A. Fowler",
+      "birth": 1911,
+      "death": 1995,
+      "field": "Experimental Nuclear Physics, Astrophysics",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "william-a-fowler",
+      "type": "person"
+    },
+    {
       "scholar_id": "werner-heisenberg",
       "name": "Werner Heisenberg",
       "birth": 1901,
@@ -2059,6 +2194,17 @@
       "photo_url": null,
       "nationality": "German",
       "id": "werner-heisenberg",
+      "type": "person"
+    },
+    {
+      "scholar_id": "walther-gerlach",
+      "name": "Walther Gerlach",
+      "birth": 1889,
+      "death": 1979,
+      "field": "Experimental Physics, Quantum Mechanics",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "walther-gerlach",
       "type": "person"
     },
     {
@@ -2084,6 +2230,39 @@
       "type": "person"
     },
     {
+      "scholar_id": "thomas-gold",
+      "name": "Thomas Gold",
+      "birth": 1920,
+      "death": 2004,
+      "field": "Cosmology, Astrophysics, Geophysics",
+      "photo_url": null,
+      "nationality": "Austrian-British-American",
+      "id": "thomas-gold",
+      "type": "person"
+    },
+    {
+      "scholar_id": "thomas-edison",
+      "name": "Thomas Edison",
+      "birth": 1847,
+      "death": 1931,
+      "field": "Invention, Engineering, Business",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "thomas-edison",
+      "type": "person"
+    },
+    {
+      "scholar_id": "svante-arrhenius",
+      "name": "Svante Arrhenius",
+      "birth": 1859,
+      "death": 1927,
+      "field": "Chemistry, Physics, Climatology",
+      "photo_url": null,
+      "nationality": "Swedish",
+      "id": "svante-arrhenius",
+      "type": "person"
+    },
+    {
       "scholar_id": "socrates",
       "name": "Socrates",
       "birth": -470,
@@ -2092,6 +2271,17 @@
       "photo_url": null,
       "nationality": "Ancient Athens",
       "id": "socrates",
+      "type": "person"
+    },
+    {
+      "scholar_id": "sin-itiro-tomonaga",
+      "name": "Sin-Itiro Tomonaga",
+      "birth": 1906,
+      "death": 1979,
+      "field": "Theoretical Physics, Quantum Electrodynamics",
+      "photo_url": null,
+      "nationality": "Japanese",
+      "id": "sin-itiro-tomonaga",
       "type": "person"
     },
     {
@@ -2125,6 +2315,17 @@
       "photo_url": null,
       "nationality": "American",
       "id": "robert-woodrow-wilson",
+      "type": "person"
+    },
+    {
+      "scholar_id": "robert-h-dicke",
+      "name": "Robert H. Dicke",
+      "birth": 1916,
+      "death": 1997,
+      "field": "Experimental Physics, Gravitation, Cosmology",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "robert-h-dicke",
       "type": "person"
     },
     {
@@ -2172,6 +2373,28 @@
       "type": "person"
     },
     {
+      "scholar_id": "pierre-curie",
+      "name": "Pierre Curie",
+      "birth": 1859,
+      "death": 1906,
+      "field": "Physics, Crystallography, Radioactivity",
+      "photo_url": null,
+      "nationality": "French",
+      "id": "pierre-curie",
+      "type": "person"
+    },
+    {
+      "scholar_id": "peter-debye",
+      "name": "Peter Debye",
+      "birth": 1884,
+      "death": 1966,
+      "field": "Physical Chemistry, Physics",
+      "photo_url": null,
+      "nationality": "Dutch-American",
+      "id": "peter-debye",
+      "type": "person"
+    },
+    {
       "scholar_id": "paul-dirac",
       "name": "Paul Dirac",
       "birth": 1902,
@@ -2180,6 +2403,17 @@
       "photo_url": null,
       "nationality": "British",
       "id": "paul-dirac",
+      "type": "person"
+    },
+    {
+      "scholar_id": "pascual-jordan",
+      "name": "Pascual Jordan",
+      "birth": 1902,
+      "death": 1980,
+      "field": "Theoretical Physics, Quantum Mechanics, Quantum Field Theory",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "pascual-jordan",
       "type": "person"
     },
     {
@@ -2202,6 +2436,17 @@
       "photo_url": null,
       "nationality": "German",
       "id": "otto-hahn",
+      "type": "person"
+    },
+    {
+      "scholar_id": "otto-frisch",
+      "name": "Otto Frisch",
+      "birth": 1904,
+      "death": 1979,
+      "field": "Nuclear Physics, Experimental Physics",
+      "photo_url": null,
+      "nationality": "Austrian-British",
+      "id": "otto-frisch",
       "type": "person"
     },
     {
@@ -2249,6 +2494,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "max-von-laue",
+      "name": "Max von Laue",
+      "birth": 1879,
+      "death": 1960,
+      "field": "Physics, X-ray Crystallography, Optics",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "max-von-laue",
+      "type": "person"
+    },
+    {
       "scholar_id": "max-planck",
       "name": "Max Planck",
       "birth": 1858,
@@ -2268,6 +2524,28 @@
       "photo_url": null,
       "nationality": "German-British",
       "id": "max-born",
+      "type": "person"
+    },
+    {
+      "scholar_id": "marie-curie",
+      "name": "Marie Curie",
+      "birth": 1867,
+      "death": 1934,
+      "field": "Physics, Chemistry, Radioactivity",
+      "photo_url": null,
+      "nationality": "Polish-French",
+      "id": "marie-curie",
+      "type": "person"
+    },
+    {
+      "scholar_id": "margaret-burbidge",
+      "name": "Margaret Burbidge",
+      "birth": 1919,
+      "death": 2020,
+      "field": "Observational Astronomy, Astrophysics",
+      "photo_url": null,
+      "nationality": "British-American",
+      "id": "margaret-burbidge",
       "type": "person"
     },
     {
@@ -2293,6 +2571,39 @@
       "type": "person"
     },
     {
+      "scholar_id": "lothar-meyer",
+      "name": "Lothar Meyer",
+      "birth": 1830,
+      "death": 1895,
+      "field": "Chemistry",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "lothar-meyer",
+      "type": "person"
+    },
+    {
+      "scholar_id": "lise-meitner",
+      "name": "Lise Meitner",
+      "birth": 1878,
+      "death": 1968,
+      "field": "Nuclear Physics, Radioactivity",
+      "photo_url": null,
+      "nationality": "Austrian-Swedish",
+      "id": "lise-meitner",
+      "type": "person"
+    },
+    {
+      "scholar_id": "lester-germer",
+      "name": "Lester Germer",
+      "birth": 1896,
+      "death": 1971,
+      "field": "Experimental Physics, Quantum Mechanics",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "lester-germer",
+      "type": "person"
+    },
+    {
       "scholar_id": "leonhard-euler",
       "name": "Leonhard Euler",
       "birth": 1707,
@@ -2301,6 +2612,17 @@
       "photo_url": null,
       "nationality": "Swiss",
       "id": "leonhard-euler",
+      "type": "person"
+    },
+    {
+      "scholar_id": "leon-foucault",
+      "name": "Léon Foucault",
+      "birth": 1819,
+      "death": 1868,
+      "field": "Experimental Physics, Optics",
+      "photo_url": null,
+      "nationality": "French",
+      "id": "leon-foucault",
       "type": "person"
     },
     {
@@ -2323,6 +2645,17 @@
       "photo_url": null,
       "nationality": "German",
       "id": "karl-schwarzschild",
+      "type": "person"
+    },
+    {
+      "scholar_id": "julian-schwinger",
+      "name": "Julian Schwinger",
+      "birth": 1918,
+      "death": 1994,
+      "field": "Theoretical Physics, Quantum Electrodynamics, Quantum Field Theory",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "julian-schwinger",
       "type": "person"
     },
     {
@@ -2378,6 +2711,17 @@
       "photo_url": null,
       "nationality": "Hungarian",
       "id": "janos-bolyai",
+      "type": "person"
+    },
+    {
+      "scholar_id": "jan-oort",
+      "name": "Jan Oort",
+      "birth": 1900,
+      "death": 1992,
+      "field": "Astronomy, Astrophysics",
+      "photo_url": null,
+      "nationality": "Dutch",
+      "id": "jan-oort",
       "type": "person"
     },
     {
@@ -2447,6 +2791,28 @@
       "type": "person"
     },
     {
+      "scholar_id": "irving-langmuir",
+      "name": "Irving Langmuir",
+      "birth": 1881,
+      "death": 1957,
+      "field": "Surface Chemistry, Physics",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "irving-langmuir",
+      "type": "person"
+    },
+    {
+      "scholar_id": "irene-joliot-curie",
+      "name": "Irène Joliot-Curie",
+      "birth": 1897,
+      "death": 1956,
+      "field": "Nuclear Physics, Radiochemistry",
+      "photo_url": null,
+      "nationality": "French",
+      "id": "irene-joliot-curie",
+      "type": "person"
+    },
+    {
       "scholar_id": "hippolyte-fizeau",
       "name": "Hippolyte Fizeau",
       "birth": 1819,
@@ -2480,6 +2846,28 @@
       "type": "person"
     },
     {
+      "scholar_id": "hermann-bondi",
+      "name": "Hermann Bondi",
+      "birth": 1919,
+      "death": 2005,
+      "field": "Cosmology, Mathematics, General Relativity",
+      "photo_url": null,
+      "nationality": "Austrian-British",
+      "id": "hermann-bondi",
+      "type": "person"
+    },
+    {
+      "scholar_id": "henrietta-swan-leavitt",
+      "name": "Henrietta Swan Leavitt",
+      "birth": 1868,
+      "death": 1921,
+      "field": "Observational Astronomy",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "henrietta-swan-leavitt",
+      "type": "person"
+    },
+    {
       "scholar_id": "henri-becquerel",
       "name": "Henri Becquerel",
       "birth": 1852,
@@ -2502,6 +2890,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "harlow-shapley",
+      "name": "Harlow Shapley",
+      "birth": 1885,
+      "death": 1972,
+      "field": "Astronomy, Galactic Astronomy",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "harlow-shapley",
+      "type": "person"
+    },
+    {
       "scholar_id": "hans-bethe",
       "name": "Hans Bethe",
       "birth": 1906,
@@ -2510,6 +2909,39 @@
       "photo_url": null,
       "nationality": "German-American",
       "id": "hans-bethe",
+      "type": "person"
+    },
+    {
+      "scholar_id": "hannes-alfven",
+      "name": "Hannes Alfvén",
+      "birth": 1908,
+      "death": 1995,
+      "field": "Plasma Physics, Astrophysics, Geophysics",
+      "photo_url": null,
+      "nationality": "Swedish",
+      "id": "hannes-alfven",
+      "type": "person"
+    },
+    {
+      "scholar_id": "gustav-kirchhoff",
+      "name": "Gustav Kirchhoff",
+      "birth": 1824,
+      "death": 1887,
+      "field": "Physics, Spectroscopy, Electrical Engineering",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "gustav-kirchhoff",
+      "type": "person"
+    },
+    {
+      "scholar_id": "georges-lemaitre",
+      "name": "Georges Lemaître",
+      "birth": 1894,
+      "death": 1966,
+      "field": "Cosmology, Physics, Astrophysics",
+      "photo_url": null,
+      "nationality": "Belgian",
+      "id": "georges-lemaitre",
       "type": "person"
     },
     {
@@ -2535,6 +2967,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "fritz-strassmann",
+      "name": "Fritz Strassmann",
+      "birth": 1902,
+      "death": 1980,
+      "field": "Analytical Chemistry, Radiochemistry",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "fritz-strassmann",
+      "type": "person"
+    },
+    {
       "scholar_id": "freeman-dyson",
       "name": "Freeman Dyson",
       "birth": 1923,
@@ -2543,6 +2986,17 @@
       "photo_url": null,
       "nationality": "British-American",
       "id": "freeman-dyson",
+      "type": "person"
+    },
+    {
+      "scholar_id": "frederic-joliot-curie",
+      "name": "Frédéric Joliot-Curie",
+      "birth": 1900,
+      "death": 1958,
+      "field": "Nuclear Physics, Radiochemistry",
+      "photo_url": null,
+      "nationality": "French",
+      "id": "frederic-joliot-curie",
       "type": "person"
     },
     {
@@ -2678,6 +3132,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "david-hilbert",
+      "name": "David Hilbert",
+      "birth": 1862,
+      "death": 1943,
+      "field": "Mathematics, Mathematical Physics, Logic",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "david-hilbert",
+      "type": "person"
+    },
+    {
       "scholar_id": "daniel-bernoulli",
       "name": "Daniel Bernoulli",
       "birth": 1700,
@@ -2697,6 +3162,17 @@
       "photo_url": null,
       "nationality": "Poland, Prussia",
       "id": "copernicus",
+      "type": "person"
+    },
+    {
+      "scholar_id": "clinton-davisson",
+      "name": "Clinton Davisson",
+      "birth": 1881,
+      "death": 1958,
+      "field": "Experimental Physics, Quantum Mechanics",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "clinton-davisson",
       "type": "person"
     },
     {
@@ -2733,6 +3209,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "cecil-powell",
+      "name": "Cecil Powell",
+      "birth": 1903,
+      "death": 1969,
+      "field": "Experimental Physics, Particle Physics",
+      "photo_url": null,
+      "nationality": "British",
+      "id": "cecil-powell",
+      "type": "person"
+    },
+    {
       "scholar_id": "carl-friedrich-gauss",
       "name": "Carl Friedrich Gauss",
       "birth": 1777,
@@ -2765,6 +3252,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "arthur-compton",
+      "name": "Arthur Compton",
+      "birth": 1892,
+      "death": 1962,
+      "field": "Experimental Physics, Quantum Mechanics",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "arthur-compton",
+      "type": "person"
+    },
+    {
       "scholar_id": "arnold-sommerfeld",
       "name": "Arnold Sommerfeld",
       "birth": 1868,
@@ -2773,6 +3271,17 @@
       "photo_url": null,
       "nationality": "German",
       "id": "arnold-sommerfeld",
+      "type": "person"
+    },
+    {
+      "scholar_id": "arno-penzias",
+      "name": "Arno Penzias",
+      "birth": 1933,
+      "death": 2024,
+      "field": "Physics, Astronomy, Cosmology",
+      "photo_url": null,
+      "nationality": "German-American",
+      "id": "arno-penzias",
       "type": "person"
     },
     {

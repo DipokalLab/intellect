@@ -993,7 +993,6 @@
     - "fred-hoyle"
     - "william-a-fowler"
     - "margaret-burbidge"
-    - "geoffrey-burbidge"
     - "hans-bethe"
 
 - key: "steady-state-cosmological-model"
@@ -1055,3 +1054,58 @@
     - "robert-woodrow-wilson"
     - "arno-penzias"
     - "robert-h-dicke"
+
+- key: "compton-effect"
+  year: 1923
+  title: "Discovery of the Compton Effect"
+  category: "Quantum Mechanics"
+  text: "Demonstrated that high-energy photons, when scattered by electrons, lose energy and thus increase in wavelength. This phenomenon, which treats light as a stream of particles with momentum, provided definitive experimental proof for the particle nature of light that had been proposed by Albert Einstein in his work on the photoelectric effect. For this discovery, Compton was awarded the Nobel Prize in Physics in 1927."
+  participants:
+    - "arthur-compton"
+    - "albert-einstein"
+
+- key: "manhattan-project-met-lab"
+  year: 1942
+  title: "Head of the Metallurgical Laboratory (Manhattan Project)"
+  category: "Nuclear Engineering"
+  text: "Served as the head of the Metallurgical Laboratory at the University of Chicago, a key branch of the Manhattan Project. His lab was responsible for developing the process to produce plutonium for the bomb and was the site where the team led by Enrico Fermi achieved the world's first self-sustaining nuclear chain reaction."
+  participants:
+    - "arthur-compton"
+    - "enrico-fermi"
+
+- key: "x-ray-crystallography-bragg"
+  year: 1913
+  title: "Development of X-ray Crystallography and Bragg's Law"
+  category: "X-ray Crystallography, Solid-State Physics"
+  text: "In a famous father-son collaboration, they pioneered the field of X-ray crystallography. Building on Max von Laue's discovery of X-ray diffraction, William Lawrence Bragg formulated the simple yet profound Bragg's Law (nλ = 2d sinθ), while William Henry Bragg developed the X-ray spectrometer to make the precise measurements. Their joint work allowed for the determination of crystal structures for the first time, for which they shared the 1915 Nobel Prize in Physics."
+  participants:
+    - "william-henry-bragg"
+    - "william-lawrence-bragg"
+    - "max-von-laue"
+
+- key: "incandescent-light-bulb-improvement"
+  year: 1913
+  title: "Invention of the Gas-Filled Incandescent Lamp"
+  category: "Engineering"
+  text: "While working at General Electric, Langmuir made crucial improvements to the light bulb originally invented by Thomas Edison. He discovered that filling the bulb with an inert gas (like argon) and using a tightly coiled tungsten filament dramatically increased the bulb's efficiency and lifespan, making electric lighting commercially viable for mass use."
+  participants:
+    - "irving-langmuir"
+    - "thomas-edison"
+
+- key: "surface-chemistry-and-plasma"
+  year: 1916
+  title: "Foundations of Surface Chemistry and Plasma Physics"
+  category: "Surface Chemistry, Plasma Physics"
+  text: "Conducted pioneering research into the chemistry of thin molecular films, developing the Langmuir adsorption isotherm. For this foundational work in surface chemistry, he was awarded the 1932 Nobel Prize. In related work on vacuum tubes, he was also the first to use the term 'plasma' to describe an ionized gas, a name adopted by later physicists like Hannes Alfvén."
+  participants:
+    - "irving-langmuir"
+    - "hannes-alfven"
+
+- key: "debye-model-specific-heat"
+  year: 1912
+  title: "Debye Model of Specific Heat in Solids"
+  category: "Solid-State Physics, Thermodynamics"
+  text: "Developed a model to explain the heat capacity of solids at low temperatures. His model treated atomic vibrations as collective modes (phonons), which was a significant improvement upon Albert Einstein's earlier model that assumed atoms vibrated independently. The Debye model accurately predicted the T³ dependence of specific heat at low temperatures."
+  participants:
+    - "peter-debye"
+    - "albert-einstein"
