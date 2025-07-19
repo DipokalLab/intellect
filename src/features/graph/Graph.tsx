@@ -158,7 +158,7 @@ const TimelineGraph: React.FC = () => {
         }
       });
 
-      const yearDomain = [1500, 1700];
+      const yearDomain = [1600, 1700];
 
       const padding = 80;
       const yearScale = d3
@@ -408,6 +408,53 @@ const TimelineGraph: React.FC = () => {
       if (focusedPersonId) {
         const targetNode = allNodes.find((n) => n.id === focusedPersonId);
         if (targetNode) {
+          const focusedNodeElement = nodeGroup.filter(
+            (d) => d.id === focusedPersonId
+          );
+
+          if (!focusedNodeElement.empty()) {
+            const glowElement = focusedNodeElement
+              .insert(
+                targetNode.type === "person" ? "circle" : "rect",
+                ":first-child"
+              )
+              .attr("class", "highlight-glow")
+              .attr("stroke", "#1aeb36")
+              .attr("stroke-width", 2)
+              .attr("fill", "#1aeb36")
+              .attr("fill-opacity", 0.3);
+
+            if (targetNode.type === "person") {
+              glowElement.attr("r", 16);
+            } else {
+              glowElement
+                .attr("width", 24)
+                .attr("height", 24)
+                .attr("rx", 4)
+                .attr("ry", 4)
+                .attr("x", -12)
+                .attr("y", -12);
+            }
+
+            const pulse = () => {
+              if (glowElement.node()) {
+                glowElement
+                  .transition()
+                  .duration(2000)
+                  .attr("stroke-width", 6)
+                  .attr("fill-opacity", 0.5)
+                  .attr("stroke-opacity", 1)
+                  .transition()
+                  .duration(200)
+                  .attr("stroke-width", 2)
+                  .attr("fill-opacity", 0.3)
+                  .attr("stroke-opacity", 0.5)
+                  .on("end", pulse);
+              }
+            };
+            pulse();
+          }
+
           const x = targetNode.fx!;
           const y =
             targetNode.type === "person" ? height * 0.35 : height * 0.65;
@@ -425,7 +472,16 @@ const TimelineGraph: React.FC = () => {
             .duration(750)
             .call(zoomHandler.transform, transform)
             .on("end", () => {
-              setFocusedPerson(null);
+              g.selectAll(".highlight-glow")
+                .transition()
+                .duration(3000)
+                .attr("stroke-opacity", 0)
+                .attr("fill-opacity", 0)
+                .remove();
+
+              setTimeout(() => {
+                setFocusedPerson(null);
+              }, 3000);
             });
         } else {
           setFocusedPerson(null);
