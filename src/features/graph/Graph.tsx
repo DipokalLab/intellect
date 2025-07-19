@@ -199,7 +199,7 @@ const TimelineGraph: React.FC = () => {
             )
             .strength(0.1)
         )
-        .force("collide", d3.forceCollide().radius(25));
+        .force("collide", d3.forceCollide().radius(75));
 
       const link = g
         .append("g")
