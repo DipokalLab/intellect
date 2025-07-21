@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 import { UserSearch, ChevronsUpDown, Check } from "lucide-react";
 
 import { cn } from "@/lib/utils";
@@ -22,10 +22,6 @@ import { useGraphStore } from "../graph/store";
 interface PersonNode {
   id: string;
   name: string;
-}
-
-interface GraphData {
-  persons: PersonNode[];
 }
 
 interface TopPersonSearchProps {

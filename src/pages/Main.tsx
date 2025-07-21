@@ -1,12 +1,6 @@
 import Graph from "@/features/graph/Graph";
 import { Search } from "@/features/search/Search";
-import { TopPersonSearch } from "@/features/search/TopPersonSearch";
 import TopRightTitle from "@/features/title/Title";
-
-interface PersonNode {
-  id: string;
-  name: string;
-}
 
 export default function HomePage() {
   return (

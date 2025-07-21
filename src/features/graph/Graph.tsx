@@ -47,7 +47,7 @@ const TimelineGraph: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [data, setData] = useState<GraphData | null>(null);
   const [selectedNode, setSelectedNode] = useState<GraphNode | null>(null);
-  const [hoveredNodeId, setHoveredNodeId] = useState<string | null>(null);
+  const [_, setHoveredNodeId] = useState<string | null>(null);
   const {
     setData: setCacheData,
     focusedPersonId,
@@ -219,8 +219,8 @@ const TimelineGraph: React.FC = () => {
         .data(allNodes)
         .join("g")
         .style("cursor", "pointer")
-        .on("click", (event, d) => setSelectedNode(d))
-        .on("mouseenter", (event, d) => {
+        .on("click", (_, d) => setSelectedNode(d))
+        .on("mouseenter", (_, d) => {
           setHoveredNodeId(d.id);
 
           link
