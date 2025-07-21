@@ -158,7 +158,8 @@ const TimelineGraph: React.FC = () => {
         }
       });
 
-      const yearDomain = [1600, 1700];
+      const startYear = 1650;
+      const yearDomain = [startYear, startYear + window.innerWidth / 18];
 
       const padding = 80;
       const yearScale = d3

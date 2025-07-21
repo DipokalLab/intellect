@@ -17,10 +17,17 @@ export function Search() {
   };
 
   return (
-    <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10 gap-2 flex">
-      <FilterButton />
+    <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10 gap-2 flex items-center">
+      <div className="hidden md:flex">
+        <FilterButton />
+      </div>
+
       <TopPersonSearch onPersonSelect={handleSelection} />
-      <Credit />
+
+      <div className="hidden md:flex">
+        <Credit />
+      </div>
+
       <Button
         variant="outline"
         onClick={() => window.open("https://github.com/DipokalLab/intellect")}
