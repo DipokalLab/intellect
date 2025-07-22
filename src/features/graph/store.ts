@@ -42,6 +42,12 @@ interface GraphState extends GraphData {
   toggleField: (field: string) => void;
   clearAllFields: () => void;
   selectAllFields: () => void;
+
+  isConnectEnabled: boolean;
+  setIsConnectEnabled: (enabled: boolean) => void;
+  connected: string[];
+  setConnected: (id: string) => void;
+  resetConnected: () => void;
 }
 
 export const useGraphStore = create<GraphState>((set, get) => ({
@@ -87,4 +93,18 @@ export const useGraphStore = create<GraphState>((set, get) => ({
     });
     set({ selectedFields: Array.from(fieldsSet) });
   },
+
+  setIsConnectEnabled: (enabled) => set({ isConnectEnabled: enabled }),
+  isConnectEnabled: false,
+  connected: [],
+  setConnected: (id) =>
+    set((state) => {
+      const isConnected = state.connected.includes(id);
+      if (isConnected) {
+        return { connected: state.connected.filter((prevId) => prevId !== id) };
+      } else {
+        return { connected: [...state.connected, id] };
+      }
+    }),
+  resetConnected: () => set({ connected: [] }),
 }));

@@ -27,12 +27,18 @@ const TimelineGraph: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [data, setData] = useState<GraphData | null>(null);
   const [selectedNode, setSelectedNode] = useState<GraphNode | null>(null);
+  const [isOpenDialog, setIsOpenDialog] = useState<boolean>(false);
+
   const {
     setData: setCacheData,
     focusedPersonId,
     setFocusedPerson,
     setSelectedFields,
     selectedFields,
+    isConnectEnabled,
+    connected,
+    setConnected,
+    resetConnected,
   } = useGraphStore();
 
   const simulationRef = useRef<d3.Simulation<
@@ -57,6 +63,8 @@ const TimelineGraph: React.FC = () => {
     null,
     undefined
   > | null>(null);
+  const isConnectedRef = useRef<boolean>(false);
+
   const zoomRef = useRef<d3.ZoomBehavior<SVGSVGElement, unknown> | null>(null);
   const transformRef = useRef(d3.zoomIdentity);
   const yearScaleRef = useRef<d3.ScaleLinear<number, number> | null>(null);
@@ -301,8 +309,14 @@ const TimelineGraph: React.FC = () => {
           const nodeGroup = enter
             .append("g")
             .style("cursor", "pointer")
-            .on("click", (_, d) => setSelectedNode(d))
+            .on("click", (_, d) => {
+              setSelectedNode(d);
+
+              if (isConnectedRef.current) return;
+              setIsOpenDialog(true);
+            })
             .on("mouseenter", (_, d) => {
+              if (isConnectedRef.current) return;
               nodeRef.current?.style("opacity", (n) => {
                 const isConnected = allEdges.some(
                   (e) =>
@@ -347,6 +361,8 @@ const TimelineGraph: React.FC = () => {
                 });
             })
             .on("mouseleave", () => {
+              if (isConnectedRef.current) return;
+
               nodeRef.current?.style("opacity", 1);
               linkRef.current?.style("stroke-opacity", 0.6);
               linkRef.current
@@ -491,6 +507,72 @@ const TimelineGraph: React.FC = () => {
     }
   }, [focusedPersonId, filteredData, setFocusedPerson]);
 
+  useEffect(() => {
+    if (!nodeRef.current || !linkRef.current || !filteredData) return;
+
+    if (!isConnectEnabled || connected.length === 0) {
+      nodeRef.current.style("opacity", 1);
+      linkRef.current
+        .style("stroke-opacity", 0.6)
+        .attr("stroke", "#999")
+        .attr("stroke-width", 1.5);
+      return;
+    }
+
+    const { edges } = filteredData;
+    const allEdges = edges as d3.SimulationLinkDatum<GraphNode>[];
+
+    const connectedSet = new Set(connected);
+    const highlightedNodesSet = new Set(connected);
+
+    allEdges.forEach((edge) => {
+      const sourceId = getSourceId(edge);
+      const targetId = getTargetId(edge);
+
+      if (connectedSet.has(sourceId)) {
+        highlightedNodesSet.add(targetId);
+      }
+      if (connectedSet.has(targetId)) {
+        highlightedNodesSet.add(sourceId);
+      }
+    });
+
+    nodeRef.current.style("opacity", (n) =>
+      highlightedNodesSet.has(n.id) ? 1 : 0.3
+    );
+
+    linkRef.current
+      .style("stroke-opacity", (e) =>
+        connectedSet.has(getSourceId(e)) || connectedSet.has(getTargetId(e))
+          ? 1
+          : 0.3
+      )
+      .attr("stroke", (e) =>
+        connectedSet.has(getSourceId(e)) || connectedSet.has(getTargetId(e))
+          ? "#1271ff"
+          : "#999"
+      )
+      .attr("stroke-width", (e) =>
+        connectedSet.has(getSourceId(e)) || connectedSet.has(getTargetId(e))
+          ? 3
+          : 1.5
+      );
+  }, [connected, isConnectEnabled, filteredData]);
+
+  useEffect(() => {
+    isConnectedRef.current = isConnectEnabled;
+    if (!isConnectEnabled) {
+      resetConnected();
+    }
+  }, [isConnectEnabled]);
+
+  useEffect(() => {
+    if (!selectedNode) return;
+    if (!isConnectEnabled) return;
+
+    setConnected(selectedNode.id);
+  }, [selectedNode, setConnected]);
+
   const renderDialogContent = () => {
     if (!selectedNode) return null;
     if (selectedNode.type === "person") {
@@ -534,10 +616,11 @@ const TimelineGraph: React.FC = () => {
       <div ref={containerRef} className="flex-1" style={{ minHeight: "600px" }}>
         <svg ref={svgRef} style={{ width: "100%", height: "100%" }}></svg>
         <Dialog
-          open={!!selectedNode}
+          open={isOpenDialog}
           onOpenChange={(isOpen) => {
             if (!isOpen) {
               setSelectedNode(null);
+              setIsOpenDialog(false);
             }
           }}
         >
