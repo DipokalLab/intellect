@@ -541,22 +541,26 @@ const TimelineGraph: React.FC = () => {
       highlightedNodesSet.has(n.id) ? 1 : 0.3
     );
 
+    const lastConnectedNodeId = connected[connected.length - 1];
+
+    const shouldHighlightEdge = (
+      e: d3.SimulationLinkDatum<GraphNode>
+    ): boolean => {
+      const sourceId = getSourceId(e);
+      const targetId = getTargetId(e);
+
+      const isInternallyConnected =
+        connectedSet.has(sourceId) && connectedSet.has(targetId);
+      const isConnectedToLastNode =
+        sourceId === lastConnectedNodeId || targetId === lastConnectedNodeId;
+
+      return isInternallyConnected || isConnectedToLastNode;
+    };
+
     linkRef.current
-      .style("stroke-opacity", (e) =>
-        connectedSet.has(getSourceId(e)) || connectedSet.has(getTargetId(e))
-          ? 1
-          : 0.3
-      )
-      .attr("stroke", (e) =>
-        connectedSet.has(getSourceId(e)) || connectedSet.has(getTargetId(e))
-          ? "#1271ff"
-          : "#999"
-      )
-      .attr("stroke-width", (e) =>
-        connectedSet.has(getSourceId(e)) || connectedSet.has(getTargetId(e))
-          ? 3
-          : 1.5
-      );
+      .style("stroke-opacity", (e) => (shouldHighlightEdge(e) ? 1 : 0.3))
+      .attr("stroke", (e) => (shouldHighlightEdge(e) ? "#1271ff" : "#999"))
+      .attr("stroke-width", (e) => (shouldHighlightEdge(e) ? 3 : 1.5));
   }, [connected, isConnectEnabled, filteredData]);
 
   useEffect(() => {
