@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-interface AchievementNode {
+export interface AchievementNode extends d3.SimulationNodeDatum {
   id: string;
   type: "achievement";
   year: number;
@@ -9,7 +9,7 @@ interface AchievementNode {
   text: string;
 }
 
-interface PersonNode {
+export interface PersonNode extends d3.SimulationNodeDatum {
   id: string;
   type: "person";
   name: string;
@@ -20,12 +20,13 @@ interface PersonNode {
   photo_url?: string;
 }
 
-interface Edge {
-  source: string;
-  target: string;
-}
+export type GraphNode = AchievementNode | PersonNode;
 
-interface GraphData {
+export interface Edge {
+  source: string | GraphNode;
+  target: string | GraphNode;
+}
+export interface GraphData {
   nodes: AchievementNode[];
   persons: PersonNode[];
   edges: Edge[];
