@@ -1106,6 +1106,312 @@
       "text": "Developed a model to explain the heat capacity of solids at low temperatures. His model treated atomic vibrations as collective modes (phonons), which was a significant improvement upon Albert Einstein's earlier model that assumed atoms vibrated independently. The Debye model accurately predicted the T³ dependence of specific heat at low temperatures.",
       "id": "debye-model-specific-heat",
       "type": "achievement"
+    },
+    {
+      "key": "turing-machine-computation-foundations",
+      "year": 1936,
+      "title": "The Turing Machine and the Foundations of Computation",
+      "category": "Computer Science, Mathematical Logic",
+      "text": "In his seminal 1936 paper, Turing introduced a formal model of computation known as the Turing machine to solve the 'Entscheidungsproblem' (decision problem) posed by David Hilbert. This work established the fundamental principles of computation and algorithms. His model was proven to be equivalent to the lambda calculus developed independently by Alonzo Church, leading to the Church-Turing thesis.",
+      "id": "turing-machine-computation-foundations",
+      "type": "achievement"
+    },
+    {
+      "key": "enigma-code-breaking",
+      "year": 1941,
+      "title": "Breaking the Enigma Code at Bletchley Park",
+      "category": "Cryptanalysis, History of Technology",
+      "text": "Was a leading figure at the British codebreaking centre, Bletchley Park, during World War II. He developed several techniques for breaking German ciphers, and his crucial design improvements for the 'Bombe' machine, in collaboration with Gordon Welchman, enabled the Allies to decipher vast numbers of encrypted messages from the German Enigma machine, significantly shortening the war.",
+      "id": "enigma-code-breaking",
+      "type": "achievement"
+    },
+    {
+      "key": "analytical-engine-design",
+      "year": 1837,
+      "title": "Design of the Analytical Engine",
+      "category": "History of Computing",
+      "text": "Designed the Analytical Engine, the first design for a general-purpose, programmable mechanical computer. It contained an Arithmetic Logic Unit ('the Mill') and integrated memory ('the Store'), and its design was a century ahead of its time. He collaborated closely with Ada Lovelace, who recognized the machine's potential and wrote what is considered the first computer program for it.",
+      "id": "analytical-engine-design",
+      "type": "achievement"
+    },
+    {
+      "key": "difference-engine",
+      "year": 1822,
+      "title": "The Difference Engine",
+      "category": "History of Computing",
+      "text": "Designed and began construction of the Difference Engine, an automatic mechanical calculator designed to tabulate mathematical tables and eliminate human error. Though never fully completed in his lifetime, it was a pioneering effort in automated computation. The principles he developed laid the conceptual groundwork for later computing pioneers like Alan Turing.",
+      "id": "difference-engine",
+      "type": "achievement"
+    },
+    {
+      "key": "laws-of-thought-boolean-algebra",
+      "year": 1854,
+      "title": "Invention of Boolean Algebra",
+      "category": "Mathematical Logic, Computer Science",
+      "text": "In his book 'The Laws of Thought', Boole developed a system of algebraic logic, now known as Boolean algebra. He demonstrated that logical propositions could be expressed and manipulated through algebraic equations, typically with binary values (true/false, 1/0). This abstract work remained a niche part of mathematics until Claude Shannon famously applied it in the 1930s to the design of digital electronic circuits, making it the foundation of the digital age.",
+      "id": "laws-of-thought-boolean-algebra",
+      "type": "achievement"
+    },
+    {
+      "key": "z3-first-programmable-computer",
+      "year": 1941,
+      "title": "Creation of the First Working Programmable Computer (Z3)",
+      "category": "History of Computing",
+      "text": "Working in relative isolation in Germany, Zuse designed and built the Z3, the world's first fully functional, program-controlled, and automatic digital computer. While his electromechanical design was different from later electronic computers, it was a practical realization of the principles of a universal computing machine, which had been envisioned mechanically by Charles Babbage and formalized theoretically by Alan Turing.",
+      "id": "z3-first-programmable-computer",
+      "type": "achievement"
+    },
+    {
+      "key": "plankalkul-programming-language",
+      "year": 1945,
+      "title": "Design of the First High-Level Programming Language (Plankalkül)",
+      "category": "Computer Science",
+      "text": "Designed Plankalkül ('Plan Calculus'), the first high-level programming language ever conceived. It included advanced features like arrays and records. Although not implemented in his lifetime due to the circumstances of post-war Germany, it was a more elaborate design than any contemporary languages and demonstrated a sophisticated understanding of programming concepts, building on the legacy of early programming concepts from Ada Lovelace.",
+      "id": "plankalkul-programming-language",
+      "type": "achievement"
+    },
+    {
+      "key": "von-neumann-architecture",
+      "year": 1945,
+      "title": "The Von Neumann Architecture",
+      "category": "Computer Architecture",
+      "text": "In his 'First Draft of a Report on the EDVAC', von Neumann described a computer architecture where both program instructions and data are stored in the same shared memory. This 'stored-program computer' concept became the fundamental basis for nearly all modern computers, moving beyond the separate data and program structures used by earlier pioneers like Alan Turing and Konrad Zuse.",
+      "id": "von-neumann-architecture",
+      "type": "achievement"
+    },
+    {
+      "key": "game-theory-and-economics",
+      "year": 1944,
+      "title": "Co-founding of Game Theory",
+      "category": "Game Theory, Economics",
+      "text": "Co-authored the book 'Theory of Games and Economic Behavior' with Oskar Morgenstern. This work established the field of game theory as a mathematical discipline, providing a new framework for analyzing strategic interactions between rational decision-makers.",
+      "id": "game-theory-and-economics",
+      "type": "achievement"
+    },
+    {
+      "key": "edsac-first-stored-program-computer",
+      "year": 1949,
+      "title": "Development of EDSAC, the First Practical Stored-Program Computer",
+      "category": "History of Computing, Computer Architecture",
+      "text": "Led the team at the University of Cambridge that designed and built the EDSAC (Electronic Delay Storage Automatic Calculator). It was one of the earliest stored-program computers to become fully operational and provide a regular computing service. The design was heavily influenced by John von Neumann's seminal 'First Draft of a Report on the EDVAC'.",
+      "id": "edsac-first-stored-program-computer",
+      "type": "achievement"
+    },
+    {
+      "key": "invention-of-microprogramming",
+      "year": 1951,
+      "title": "Invention of Microprogramming",
+      "category": "Computer Architecture",
+      "text": "Invented the concept of microprogramming, a method to implement a computer's control unit as a sequence of micro-instructions. This idea, which made CPU design more systematic and orderly, was a fundamental contribution to computer architecture and was inspired by the need to create a more organized design than the ad-hoc methods used in earlier machines.",
+      "id": "invention-of-microprogramming",
+      "type": "achievement"
+    },
+    {
+      "key": "moores-law",
+      "year": 1965,
+      "title": "Moore's Law",
+      "category": "Semiconductor Industry",
+      "text": "In an article, Moore observed that the number of transistors on a microchip doubles approximately every two years. This observation, now known as Moore's Law, became a guiding principle and a self-fulfilling prophecy for the semiconductor industry, driving decades of innovation and planning. It was made possible by the integrated circuit, co-invented by his future collaborator Robert Noyce.",
+      "id": "moores-law",
+      "type": "achievement"
+    },
+    {
+      "key": "founding-of-intel",
+      "year": 1968,
+      "title": "Co-founding of Intel Corporation",
+      "category": "Business, Technology",
+      "text": "Co-founded Intel Corporation with Robert Noyce. Under their leadership, Intel became a dominant force in the semiconductor industry, developing key technologies like the microprocessor that were central to the personal computer revolution.",
+      "id": "founding-of-intel",
+      "type": "achievement"
+    },
+    {
+      "key": "integrated-circuit-invention",
+      "year": 1959,
+      "title": "Co-invention of the Integrated Circuit",
+      "category": "Semiconductor Technology, Electronics",
+      "text": "Conceived the first monolithic integrated circuit (IC), a microchip where all components are fabricated on a single piece of silicon. His design, which included a practical method for interconnecting the components, was developed independently and nearly simultaneously with the work of Jack Kilby at Texas Instruments. The IC is the foundational technology of all modern electronics.",
+      "id": "integrated-circuit-invention",
+      "type": "achievement"
+    },
+    {
+      "key": "founding-of-intel-noyce",
+      "year": 1968,
+      "title": "Co-founding of Intel Corporation",
+      "category": "Business, Technology",
+      "text": "Co-founded Intel Corporation with Gordon Moore. As CEO, Noyce's leadership style fostered innovation, and the company went on to develop the first commercially available microprocessor, an invention that launched the personal computer revolution.",
+      "id": "founding-of-intel-noyce",
+      "type": "achievement"
+    },
+    {
+      "key": "first-compiler-a0",
+      "year": 1952,
+      "title": "Invention of the First Compiler (A-0)",
+      "category": "Programming Languages",
+      "text": "Invented the A-0 system, the first compiler ever created. This was a revolutionary tool that translated symbolic mathematical code into machine code, allowing programmers to work at a higher level of abstraction. Her work was a practical application of the theoretical concepts of computation established by pioneers like Alan Turing and laid the groundwork for future high-level languages.",
+      "id": "first-compiler-a0",
+      "type": "achievement"
+    },
+    {
+      "key": "cobol-development",
+      "year": 1959,
+      "title": "Pioneering Work on COBOL",
+      "category": "Programming Languages",
+      "text": "Was a key technical consultant on the committee that developed COBOL (Common Business-Oriented Language). She championed the idea of machine-independent programming languages that used English-like commands, making programming more accessible, particularly for business applications, a vision that influenced countless subsequent language designers.",
+      "id": "cobol-development",
+      "type": "achievement"
+    },
+    {
+      "key": "fortran-invention",
+      "year": 1957,
+      "title": "Invention of FORTRAN",
+      "category": "Programming Languages",
+      "text": "Led the IBM team that created FORTRAN (Formula Translation), the first widely used high-level programming language. FORTRAN allowed programmers to write scientific and engineering formulas in a more natural syntax, which the computer would then translate into machine code. This was made possible by the concept of the compiler, pioneered by Grace Hopper.",
+      "id": "fortran-invention",
+      "type": "achievement"
+    },
+    {
+      "key": "unix-operating-system",
+      "year": 1969,
+      "title": "Co-creation of the UNIX Operating System",
+      "category": "Operating Systems",
+      "text": "In a legendary partnership at Bell Labs, Ritchie and Ken Thompson created the UNIX operating system. UNIX was designed with a philosophy of simplicity, modularity, and elegance that has influenced nearly every operating system since, including Linux, macOS, and Android. For this work, they received the Turing Award in 1983.",
+      "id": "unix-operating-system",
+      "type": "achievement"
+    },
+    {
+      "key": "c-programming-language",
+      "year": 1972,
+      "title": "Creation of the C Programming Language",
+      "category": "Programming Languages",
+      "text": "Ritchie created the C programming language, a powerful and efficient language that bridged the gap between high-level languages and machine hardware. It was developed from Ken Thompson's earlier B language, specifically to rewrite their UNIX operating system. Its influence is so profound that it forms the basis for many other modern languages like C++, Java, and Python.",
+      "id": "c-programming-language",
+      "type": "achievement"
+    },
+    {
+      "key": "python-programming-language-creation",
+      "year": 1991,
+      "title": "Creation of the Python Programming Language",
+      "category": "Programming Languages",
+      "text": "Created the Python programming language, emphasizing code readability and a simple, clean syntax. Python was conceived as a successor to the ABC language and has grown to become one of the world's most popular programming languages, widely used in web development, data science, and artificial intelligence. Its primary implementation (CPython) is written in C, the language created by Dennis Ritchie, and Python was designed to offer a simpler, higher-level alternative.",
+      "id": "python-programming-language-creation",
+      "type": "achievement"
+    },
+    {
+      "key": "dijkstras-algorithm",
+      "year": 1959,
+      "title": "Dijkstra's Algorithm",
+      "category": "Graph Theory, Algorithmics",
+      "text": "Devised his famous algorithm for finding the shortest paths between nodes in a graph. This elegant and efficient algorithm became a cornerstone of computer science and is fundamental in many applications, from network routing protocols to GPS navigation. It is a classic example of the kind of algorithmic problem-solving formalized by pioneers like Alan Turing.",
+      "id": "dijkstras-algorithm",
+      "type": "achievement"
+    },
+    {
+      "key": "structured-programming-advocacy",
+      "year": 1968,
+      "title": "Advocacy for Structured Programming",
+      "category": "Software Engineering",
+      "text": "Authored the influential paper 'Go To Statement Considered Harmful', which became a foundational text for the structured programming movement. Dijkstra argued for eliminating GOTO statements and using structured control flow (loops, conditionals) to create more reliable and understandable programs, a philosophy that heavily influenced the design of later languages like C, developed by Dennis Ritchie and Ken Thompson.",
+      "id": "structured-programming-advocacy",
+      "type": "achievement"
+    },
+    {
+      "key": "the-art-of-computer-programming",
+      "year": 1968,
+      "title": "The Art of Computer Programming (TAOCP)",
+      "category": "Algorithm Analysis, Computer Science",
+      "text": "Authored 'The Art of Computer Programming', a multi-volume series that is considered the definitive and most comprehensive treatise on computer algorithms. This work established the rigorous analysis of algorithms as a central discipline of computer science, building upon the foundational concepts of computability established by pioneers like Alan Turing.",
+      "id": "the-art-of-computer-programming",
+      "type": "achievement"
+    },
+    {
+      "key": "tex-and-metafont",
+      "year": 1978,
+      "title": "Creation of the TeX Typesetting System and METAFONT",
+      "category": "Digital Typography, Software Engineering",
+      "text": "Created the TeX typesetting system to produce high-quality mathematical and scientific documents, and the METAFONT language for designing fonts. TeX's sophisticated parsing and macro capabilities were an advancement in computer language design, a field that was formalized by tools like the Backus-Naur Form developed by John Backus and Peter Naur.",
+      "id": "tex-and-metafont",
+      "type": "achievement"
+    },
+    {
+      "key": "oracle-relational-database",
+      "year": 1977,
+      "title": "Founding of Oracle and Commercialization of the Relational Database",
+      "category": "Database Systems, Business",
+      "text": "Co-founded Software Development Laboratories (which later became Oracle Corporation) with Bob Miner and Ed Oates. Inspired by the groundbreaking paper 'A Relational Model of Data for Large Shared Data Banks' by Edgar F. Codd, they set out to build a commercially viable relational database management system (RDBMS) using the SQL language. Their success with the Oracle database transformed the enterprise software industry.",
+      "id": "oracle-relational-database",
+      "type": "achievement"
+    },
+    {
+      "key": "tcp-ip-protocol-suite",
+      "year": 1974,
+      "title": "Co-invention of the TCP/IP Protocol Suite",
+      "category": "Computer Networking, Internet",
+      "text": "In a foundational collaboration with Robert Kahn, Cerf designed the TCP/IP protocol suite, the fundamental communication language of the Internet. Their design allowed diverse and independent computer networks to be interconnected, creating a true 'network of networks'. This work established the architecture of the modern Internet, for which they jointly received the Turing Award.",
+      "id": "tcp-ip-protocol-suite",
+      "type": "achievement"
+    },
+    {
+      "key": "world-wide-web-invention",
+      "year": 1989,
+      "title": "Invention of the World Wide Web",
+      "category": "Internet, Computer Science",
+      "text": "While at CERN, Berners-Lee invented the World Wide Web. He created its three foundational technologies: the URI (URL) to address resources, HTTP to transfer them, and HTML to format them. His work, which was promoted and developed with his colleague Robert Cailliau, built upon the fundamental TCP/IP protocols of the Internet developed by Vint Cerf and Robert Kahn, creating a user-friendly information space on top of the existing network.",
+      "id": "world-wide-web-invention",
+      "type": "achievement"
+    },
+    {
+      "key": "founding-of-ai",
+      "year": 1956,
+      "title": "Founding of the Field of Artificial Intelligence",
+      "category": "Artificial Intelligence, History of Computing",
+      "text": "Coined the term 'Artificial Intelligence' and was a principal organizer of the seminal 1956 Dartmouth Workshop, which is considered the birth event of AI as a field. The workshop brought together pioneering researchers, including Marvin Minsky and Claude Shannon, to explore the conjecture that machines could be made to simulate intelligence.",
+      "id": "founding-of-ai",
+      "type": "achievement"
+    },
+    {
+      "key": "lisp-programming-language",
+      "year": 1958,
+      "title": "Invention of the LISP Programming Language",
+      "category": "Programming Languages, Artificial Intelligence",
+      "text": "Invented LISP (List Processing), the second-oldest high-level programming language in widespread use today. LISP's design, which was heavily influenced by the lambda calculus of Alonzo Church, introduced many features now common in programming, such as conditional expressions and garbage collection. It became the standard programming language for AI research for many decades.",
+      "id": "lisp-programming-language",
+      "type": "achievement"
+    },
+    {
+      "key": "pioneering-deep-learning",
+      "year": 2012,
+      "title": "Pioneering the Deep Learning Revolution",
+      "category": "Artificial Intelligence, Machine Learning",
+      "text": "Is considered one of the 'Godfathers of AI' for his foundational work on deep neural networks. His persistent research during the 'AI winter' led to breakthroughs that sparked the modern deep learning revolution, culminating in the 2012 AlexNet victory. For this work, he shared the 2018 Turing Award with his collaborators Yoshua Bengio and Yann LeCun.",
+      "id": "pioneering-deep-learning",
+      "type": "achievement"
+    },
+    {
+      "key": "backpropagation-algorithm",
+      "year": 1986,
+      "title": "Popularization of the Backpropagation Algorithm",
+      "category": "Machine Learning",
+      "text": "Co-authored a seminal 1986 paper that demonstrated that the backpropagation algorithm could be used to train deep, multi-layered neural networks effectively. While others had previously discovered the algorithm, this paper was instrumental in popularizing it and showing its power, overcoming limitations pointed out by earlier critics like Marvin Minsky.",
+      "id": "backpropagation-algorithm",
+      "type": "achievement"
+    },
+    {
+      "key": "microsoft-founding-and-basic",
+      "year": 1975,
+      "title": "Co-founding of Microsoft and Altair BASIC",
+      "category": "Software, Business",
+      "text": "Co-founded Microsoft with his childhood friend Paul Allen. Their first product was a BASIC interpreter for the MITS Altair 8800, one of the first personal computers. This established the company's core business of developing and licensing software for the nascent personal computer industry.",
+      "id": "microsoft-founding-and-basic",
+      "type": "achievement"
+    },
+    {
+      "key": "git-version-control-system",
+      "year": 2005,
+      "title": "Creation of the Git Version Control System",
+      "category": "Software Engineering",
+      "text": "Created Git, a distributed version control system, to manage the development of the massive Linux kernel project. His design, emphasizing speed, data integrity, and support for distributed, non-linear workflows, has made Git the most widely used version control system in the world for software development.",
+      "id": "git-version-control-system",
+      "type": "achievement"
     }
   ],
   "edges": [
@@ -2116,9 +2422,343 @@
     {
       "source": "albert-einstein",
       "target": "debye-model-specific-heat"
+    },
+    {
+      "source": "alan-turing",
+      "target": "turing-machine-computation-foundations"
+    },
+    {
+      "source": "alonzo-church",
+      "target": "turing-machine-computation-foundations"
+    },
+    {
+      "source": "david-hilbert",
+      "target": "turing-machine-computation-foundations"
+    },
+    {
+      "source": "alan-turing",
+      "target": "enigma-code-breaking"
+    },
+    {
+      "source": "gordon-welchman",
+      "target": "enigma-code-breaking"
+    },
+    {
+      "source": "charles-babbage",
+      "target": "analytical-engine-design"
+    },
+    {
+      "source": "ada-lovelace",
+      "target": "analytical-engine-design"
+    },
+    {
+      "source": "charles-babbage",
+      "target": "difference-engine"
+    },
+    {
+      "source": "alan-turing",
+      "target": "difference-engine"
+    },
+    {
+      "source": "george-boole",
+      "target": "laws-of-thought-boolean-algebra"
+    },
+    {
+      "source": "claude-shannon",
+      "target": "laws-of-thought-boolean-algebra"
+    },
+    {
+      "source": "konrad-zuse",
+      "target": "z3-first-programmable-computer"
+    },
+    {
+      "source": "charles-babbage",
+      "target": "z3-first-programmable-computer"
+    },
+    {
+      "source": "alan-turing",
+      "target": "z3-first-programmable-computer"
+    },
+    {
+      "source": "konrad-zuse",
+      "target": "plankalkul-programming-language"
+    },
+    {
+      "source": "ada-lovelace",
+      "target": "plankalkul-programming-language"
+    },
+    {
+      "source": "john-von-neumann",
+      "target": "von-neumann-architecture"
+    },
+    {
+      "source": "alan-turing",
+      "target": "von-neumann-architecture"
+    },
+    {
+      "source": "konrad-zuse",
+      "target": "von-neumann-architecture"
+    },
+    {
+      "source": "john-von-neumann",
+      "target": "game-theory-and-economics"
+    },
+    {
+      "source": "oskar-morgenstern",
+      "target": "game-theory-and-economics"
+    },
+    {
+      "source": "maurice-wilkes",
+      "target": "edsac-first-stored-program-computer"
+    },
+    {
+      "source": "john-von-neumann",
+      "target": "edsac-first-stored-program-computer"
+    },
+    {
+      "source": "maurice-wilkes",
+      "target": "invention-of-microprogramming"
+    },
+    {
+      "source": "gordon-moore",
+      "target": "moores-law"
+    },
+    {
+      "source": "robert-noyce",
+      "target": "moores-law"
+    },
+    {
+      "source": "gordon-moore",
+      "target": "founding-of-intel"
+    },
+    {
+      "source": "robert-noyce",
+      "target": "founding-of-intel"
+    },
+    {
+      "source": "robert-noyce",
+      "target": "integrated-circuit-invention"
+    },
+    {
+      "source": "jack-kilby",
+      "target": "integrated-circuit-invention"
+    },
+    {
+      "source": "robert-noyce",
+      "target": "founding-of-intel-noyce"
+    },
+    {
+      "source": "gordon-moore",
+      "target": "founding-of-intel-noyce"
+    },
+    {
+      "source": "grace-hopper",
+      "target": "first-compiler-a0"
+    },
+    {
+      "source": "alan-turing",
+      "target": "first-compiler-a0"
+    },
+    {
+      "source": "grace-hopper",
+      "target": "cobol-development"
+    },
+    {
+      "source": "john-backus",
+      "target": "fortran-invention"
+    },
+    {
+      "source": "grace-hopper",
+      "target": "fortran-invention"
+    },
+    {
+      "source": "dennis-ritchie",
+      "target": "unix-operating-system"
+    },
+    {
+      "source": "ken-thompson",
+      "target": "unix-operating-system"
+    },
+    {
+      "source": "dennis-ritchie",
+      "target": "c-programming-language"
+    },
+    {
+      "source": "ken-thompson",
+      "target": "c-programming-language"
+    },
+    {
+      "source": "guido-van-rossum",
+      "target": "python-programming-language-creation"
+    },
+    {
+      "source": "dennis-ritchie",
+      "target": "python-programming-language-creation"
+    },
+    {
+      "source": "edsger-dijkstra",
+      "target": "dijkstras-algorithm"
+    },
+    {
+      "source": "alan-turing",
+      "target": "dijkstras-algorithm"
+    },
+    {
+      "source": "edsger-dijkstra",
+      "target": "structured-programming-advocacy"
+    },
+    {
+      "source": "dennis-ritchie",
+      "target": "structured-programming-advocacy"
+    },
+    {
+      "source": "ken-thompson",
+      "target": "structured-programming-advocacy"
+    },
+    {
+      "source": "donald-knuth",
+      "target": "the-art-of-computer-programming"
+    },
+    {
+      "source": "alan-turing",
+      "target": "the-art-of-computer-programming"
+    },
+    {
+      "source": "donald-knuth",
+      "target": "tex-and-metafont"
+    },
+    {
+      "source": "john-backus",
+      "target": "tex-and-metafont"
+    },
+    {
+      "source": "peter-naur",
+      "target": "tex-and-metafont"
+    },
+    {
+      "source": "larry-ellison",
+      "target": "oracle-relational-database"
+    },
+    {
+      "source": "edgar-f-codd",
+      "target": "oracle-relational-database"
+    },
+    {
+      "source": "bob-miner",
+      "target": "oracle-relational-database"
+    },
+    {
+      "source": "ed-oates",
+      "target": "oracle-relational-database"
+    },
+    {
+      "source": "vint-cerf",
+      "target": "tcp-ip-protocol-suite"
+    },
+    {
+      "source": "robert-kahn",
+      "target": "tcp-ip-protocol-suite"
+    },
+    {
+      "source": "tim-berners-lee",
+      "target": "world-wide-web-invention"
+    },
+    {
+      "source": "robert-cailliau",
+      "target": "world-wide-web-invention"
+    },
+    {
+      "source": "vint-cerf",
+      "target": "world-wide-web-invention"
+    },
+    {
+      "source": "robert-kahn",
+      "target": "world-wide-web-invention"
+    },
+    {
+      "source": "john-mccarthy",
+      "target": "founding-of-ai"
+    },
+    {
+      "source": "marvin-minsky",
+      "target": "founding-of-ai"
+    },
+    {
+      "source": "claude-shannon",
+      "target": "founding-of-ai"
+    },
+    {
+      "source": "john-mccarthy",
+      "target": "lisp-programming-language"
+    },
+    {
+      "source": "alonzo-church",
+      "target": "lisp-programming-language"
+    },
+    {
+      "source": "geoffrey-hinton",
+      "target": "pioneering-deep-learning"
+    },
+    {
+      "source": "yoshua-bengio",
+      "target": "pioneering-deep-learning"
+    },
+    {
+      "source": "yann-lecun",
+      "target": "pioneering-deep-learning"
+    },
+    {
+      "source": "geoffrey-hinton",
+      "target": "backpropagation-algorithm"
+    },
+    {
+      "source": "david-rumelhart",
+      "target": "backpropagation-algorithm"
+    },
+    {
+      "source": "ronald-j-williams",
+      "target": "backpropagation-algorithm"
+    },
+    {
+      "source": "marvin-minsky",
+      "target": "backpropagation-algorithm"
+    },
+    {
+      "source": "bill-gates",
+      "target": "microsoft-founding-and-basic"
+    },
+    {
+      "source": "paul-allen",
+      "target": "microsoft-founding-and-basic"
+    },
+    {
+      "source": "linus-torvalds",
+      "target": "git-version-control-system"
     }
   ],
   "persons": [
+    {
+      "scholar_id": "yoshua-bengio",
+      "name": "Yoshua Bengio",
+      "birth": 1964,
+      "death": null,
+      "field": "Computer Science, Artificial Intelligence, Machine Learning",
+      "photo_url": null,
+      "nationality": "Canadian",
+      "id": "yoshua-bengio",
+      "type": "person"
+    },
+    {
+      "scholar_id": "yann-lecun",
+      "name": "Yann LeCun",
+      "birth": 1960,
+      "death": null,
+      "field": "Computer Science, Artificial Intelligence, Computational Neuroscience",
+      "photo_url": null,
+      "nationality": "French-American",
+      "id": "yann-lecun",
+      "type": "person"
+    },
     {
       "scholar_id": "wolfgang-pauli",
       "name": "Wolfgang Pauli",
@@ -2208,6 +2848,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "vint-cerf",
+      "name": "Vint Cerf",
+      "birth": 1943,
+      "death": null,
+      "field": "Computer Science, Internet Protocols",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "vint-cerf",
+      "type": "person"
+    },
+    {
       "scholar_id": "vesto-slipher",
       "name": "Vesto Slipher",
       "birth": 1875,
@@ -2216,6 +2867,17 @@
       "photo_url": null,
       "nationality": "American",
       "id": "vesto-slipher",
+      "type": "person"
+    },
+    {
+      "scholar_id": "tim-berners-lee",
+      "name": "Tim Berners-Lee",
+      "birth": 1955,
+      "death": null,
+      "field": "Computer Science, World Wide Web",
+      "photo_url": null,
+      "nationality": "British",
+      "id": "tim-berners-lee",
       "type": "person"
     },
     {
@@ -2307,6 +2969,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "ronald-j-williams",
+      "name": "Ronald J. Williams",
+      "birth": 1945,
+      "death": 2023,
+      "field": "Computer Science, Machine Learning, Reinforcement Learning",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "ronald-j-williams",
+      "type": "person"
+    },
+    {
       "scholar_id": "robert-woodrow-wilson",
       "name": "Robert Woodrow Wilson",
       "birth": 1936,
@@ -2318,6 +2991,28 @@
       "type": "person"
     },
     {
+      "scholar_id": "robert-noyce",
+      "name": "Robert Noyce",
+      "birth": 1927,
+      "death": 1990,
+      "field": "Electrical Engineering, Semiconductor Industry, Business",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "robert-noyce",
+      "type": "person"
+    },
+    {
+      "scholar_id": "robert-kahn",
+      "name": "Robert Kahn",
+      "birth": 1938,
+      "death": null,
+      "field": "Computer Science, Internet Protocols, Electrical Engineering",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "robert-kahn",
+      "type": "person"
+    },
+    {
       "scholar_id": "robert-h-dicke",
       "name": "Robert H. Dicke",
       "birth": 1916,
@@ -2326,6 +3021,17 @@
       "photo_url": null,
       "nationality": "American",
       "id": "robert-h-dicke",
+      "type": "person"
+    },
+    {
+      "scholar_id": "robert-cailliau",
+      "name": "Robert Cailliau",
+      "birth": 1947,
+      "death": null,
+      "field": "Computer Science, Systems Engineering, World Wide Web",
+      "photo_url": null,
+      "nationality": "Belgian",
+      "id": "robert-cailliau",
       "type": "person"
     },
     {
@@ -2384,6 +3090,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "peter-naur",
+      "name": "Peter Naur",
+      "birth": 1928,
+      "death": 2016,
+      "field": "Computer Science, Programming Languages, Astronomy",
+      "photo_url": null,
+      "nationality": "Danish",
+      "id": "peter-naur",
+      "type": "person"
+    },
+    {
       "scholar_id": "peter-debye",
       "name": "Peter Debye",
       "birth": 1884,
@@ -2403,6 +3120,17 @@
       "photo_url": null,
       "nationality": "British",
       "id": "paul-dirac",
+      "type": "person"
+    },
+    {
+      "scholar_id": "paul-allen",
+      "name": "Paul Allen",
+      "birth": 1953,
+      "death": 2018,
+      "field": "Software, Business, Entrepreneurship, Philanthropy",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "paul-allen",
       "type": "person"
     },
     {
@@ -2447,6 +3175,17 @@
       "photo_url": null,
       "nationality": "Austrian-British",
       "id": "otto-frisch",
+      "type": "person"
+    },
+    {
+      "scholar_id": "oskar-morgenstern",
+      "name": "Oskar Morgenstern",
+      "birth": 1902,
+      "death": 1977,
+      "field": "Economics, Game Theory",
+      "photo_url": null,
+      "nationality": "Austrian-American",
+      "id": "oskar-morgenstern",
       "type": "person"
     },
     {
@@ -2527,6 +3266,28 @@
       "type": "person"
     },
     {
+      "scholar_id": "maurice-wilkes",
+      "name": "Maurice Wilkes",
+      "birth": 1913,
+      "death": 2010,
+      "field": "Computer Science",
+      "photo_url": null,
+      "nationality": "British",
+      "id": "maurice-wilkes",
+      "type": "person"
+    },
+    {
+      "scholar_id": "marvin-minsky",
+      "name": "Marvin Minsky",
+      "birth": 1927,
+      "death": 2016,
+      "field": "Artificial Intelligence, Cognitive Science",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "marvin-minsky",
+      "type": "person"
+    },
+    {
       "scholar_id": "marie-curie",
       "name": "Marie Curie",
       "birth": 1867,
@@ -2593,6 +3354,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "linus-torvalds",
+      "name": "Linus Torvalds",
+      "birth": 1969,
+      "death": null,
+      "field": "Software Engineering, Operating Systems",
+      "photo_url": null,
+      "nationality": "Finnish-American",
+      "id": "linus-torvalds",
+      "type": "person"
+    },
+    {
       "scholar_id": "lester-germer",
       "name": "Lester Germer",
       "birth": 1896,
@@ -2626,6 +3398,28 @@
       "type": "person"
     },
     {
+      "scholar_id": "larry-ellison",
+      "name": "Larry Ellison",
+      "birth": 1944,
+      "death": null,
+      "field": "Business, Software, Entrepreneurship",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "larry-ellison",
+      "type": "person"
+    },
+    {
+      "scholar_id": "konrad-zuse",
+      "name": "Konrad Zuse",
+      "birth": 1910,
+      "death": 1995,
+      "field": "Computer Science, Engineering",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "konrad-zuse",
+      "type": "person"
+    },
+    {
       "scholar_id": "kepler",
       "name": "Johannes Kepler",
       "birth": 1571,
@@ -2634,6 +3428,17 @@
       "photo_url": null,
       "nationality": "German",
       "id": "kepler",
+      "type": "person"
+    },
+    {
+      "scholar_id": "ken-thompson",
+      "name": "Ken Thompson",
+      "birth": 1943,
+      "death": null,
+      "field": "Computer Science, Operating Systems, Programming Languages",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "ken-thompson",
       "type": "person"
     },
     {
@@ -2681,6 +3486,28 @@
       "type": "person"
     },
     {
+      "scholar_id": "john-von-neumann",
+      "name": "John von Neumann",
+      "birth": 1903,
+      "death": 1957,
+      "field": "Mathematics, Computer Science, Physics, Economics",
+      "photo_url": null,
+      "nationality": "Hungarian-American",
+      "id": "john-von-neumann",
+      "type": "person"
+    },
+    {
+      "scholar_id": "john-mccarthy",
+      "name": "John McCarthy",
+      "birth": 1927,
+      "death": 2011,
+      "field": "Computer Science, Artificial Intelligence",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "john-mccarthy",
+      "type": "person"
+    },
+    {
       "scholar_id": "john-dalton",
       "name": "John Dalton",
       "birth": 1766,
@@ -2689,6 +3516,17 @@
       "photo_url": null,
       "nationality": "English",
       "id": "john-dalton",
+      "type": "person"
+    },
+    {
+      "scholar_id": "john-backus",
+      "name": "John Backus",
+      "birth": 1924,
+      "death": 2007,
+      "field": "Computer Science, Programming Languages",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "john-backus",
       "type": "person"
     },
     {
@@ -2766,6 +3604,17 @@
       "photo_url": null,
       "nationality": "Dutch",
       "id": "jacobus-kapteyn",
+      "type": "person"
+    },
+    {
+      "scholar_id": "jack-kilby",
+      "name": "Jack Kilby",
+      "birth": 1923,
+      "death": 2005,
+      "field": "Electrical Engineering, Invention",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "jack-kilby",
       "type": "person"
     },
     {
@@ -2934,6 +3783,50 @@
       "type": "person"
     },
     {
+      "scholar_id": "guido-van-rossum",
+      "name": "Guido van Rossum",
+      "birth": 1956,
+      "death": null,
+      "field": "Computer Science, Programming Languages",
+      "photo_url": null,
+      "nationality": "Dutch",
+      "id": "guido-van-rossum",
+      "type": "person"
+    },
+    {
+      "scholar_id": "grace-hopper",
+      "name": "Grace Hopper",
+      "birth": 1906,
+      "death": 1992,
+      "field": "Computer Science, Programming, U.S. Navy",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "grace-hopper",
+      "type": "person"
+    },
+    {
+      "scholar_id": "gordon-welchman",
+      "name": "Gordon Welchman",
+      "birth": 1906,
+      "death": 1985,
+      "field": "Mathematics, Cryptanalysis",
+      "photo_url": null,
+      "nationality": "British",
+      "id": "gordon-welchman",
+      "type": "person"
+    },
+    {
+      "scholar_id": "gordon-moore",
+      "name": "Gordon Moore",
+      "birth": 1929,
+      "death": 2023,
+      "field": "Semiconductor Industry, Electrical Engineering, Business",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "gordon-moore",
+      "type": "person"
+    },
+    {
       "scholar_id": "georges-lemaitre",
       "name": "Georges Lemaître",
       "birth": 1894,
@@ -2945,6 +3838,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "george-boole",
+      "name": "George Boole",
+      "birth": 1815,
+      "death": 1864,
+      "field": "Mathematics, Logic, Computer Science",
+      "photo_url": null,
+      "nationality": "English",
+      "id": "george-boole",
+      "type": "person"
+    },
+    {
       "scholar_id": "georg-friedrich-bernhard-riemann",
       "name": "Bernhard Riemann",
       "birth": 1826,
@@ -2953,6 +3857,17 @@
       "photo_url": null,
       "nationality": "German",
       "id": "georg-friedrich-bernhard-riemann",
+      "type": "person"
+    },
+    {
+      "scholar_id": "geoffrey-hinton",
+      "name": "Geoffrey Hinton",
+      "birth": 1947,
+      "death": null,
+      "field": "Computer Science, Artificial Intelligence, Cognitive Science",
+      "photo_url": null,
+      "nationality": "British-Canadian",
+      "id": "geoffrey-hinton",
       "type": "person"
     },
     {
@@ -3110,6 +4025,50 @@
       "type": "person"
     },
     {
+      "scholar_id": "edsger-dijkstra",
+      "name": "Edsger W. Dijkstra",
+      "birth": 1930,
+      "death": 2002,
+      "field": "Computer Science, Algorithmics, Software Engineering",
+      "photo_url": null,
+      "nationality": "Dutch",
+      "id": "edsger-dijkstra",
+      "type": "person"
+    },
+    {
+      "scholar_id": "edgar-f-codd",
+      "name": "Edgar F. Codd",
+      "birth": 1923,
+      "death": 2003,
+      "field": "Computer Science, Database Theory",
+      "photo_url": null,
+      "nationality": "British-American",
+      "id": "edgar-f-codd",
+      "type": "person"
+    },
+    {
+      "scholar_id": "ed-oates",
+      "name": "Ed Oates",
+      "birth": 1946,
+      "death": null,
+      "field": "Computer Science, Business, Entrepreneurship",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "ed-oates",
+      "type": "person"
+    },
+    {
+      "scholar_id": "donald-knuth",
+      "name": "Donald Knuth",
+      "birth": 1938,
+      "death": null,
+      "field": "Computer Science, Algorithm Analysis, Mathematics",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "donald-knuth",
+      "type": "person"
+    },
+    {
       "scholar_id": "dmitri-mendeleev",
       "name": "Dmitri Mendeleev",
       "birth": 1834,
@@ -3121,6 +4080,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "dennis-ritchie",
+      "name": "Dennis Ritchie",
+      "birth": 1941,
+      "death": 2011,
+      "field": "Computer Science, Operating Systems, Programming Languages",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "dennis-ritchie",
+      "type": "person"
+    },
+    {
       "scholar_id": "denis-diderot",
       "name": "Denis Diderot",
       "birth": 1713,
@@ -3129,6 +4099,17 @@
       "photo_url": null,
       "nationality": "French",
       "id": "denis-diderot",
+      "type": "person"
+    },
+    {
+      "scholar_id": "david-rumelhart",
+      "name": "David Rumelhart",
+      "birth": 1942,
+      "death": 2011,
+      "field": "Cognitive Science, Artificial Intelligence, Psychology",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "david-rumelhart",
       "type": "person"
     },
     {
@@ -3176,6 +4157,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "claude-shannon",
+      "name": "Claude Shannon",
+      "birth": 1916,
+      "death": 2001,
+      "field": "Mathematics, Electrical Engineering, Computer Science, Information Theory",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "claude-shannon",
+      "type": "person"
+    },
+    {
       "scholar_id": "christophorus-buys-ballot",
       "name": "Christophorus Buys Ballot",
       "birth": 1817,
@@ -3209,6 +4201,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "charles-babbage",
+      "name": "Charles Babbage",
+      "birth": 1791,
+      "death": 1871,
+      "field": "Mathematics, Computer Science, Engineering",
+      "photo_url": null,
+      "nationality": "English",
+      "id": "charles-babbage",
+      "type": "person"
+    },
+    {
       "scholar_id": "cecil-powell",
       "name": "Cecil Powell",
       "birth": 1903,
@@ -3238,6 +4241,28 @@
       "field": "Experimental Physics, Particle Physics",
       "photo_url": null,
       "id": "carl-david-anderson",
+      "type": "person"
+    },
+    {
+      "scholar_id": "bob-miner",
+      "name": "Bob Miner",
+      "birth": 1941,
+      "death": 1994,
+      "field": "Computer Science, Software Engineering, Business",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "bob-miner",
+      "type": "person"
+    },
+    {
+      "scholar_id": "bill-gates",
+      "name": "Bill Gates",
+      "birth": 1955,
+      "death": null,
+      "field": "Software, Business, Entrepreneurship, Philanthropy",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "bill-gates",
       "type": "person"
     },
     {
@@ -3307,6 +4332,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "alonzo-church",
+      "name": "Alonzo Church",
+      "birth": 1903,
+      "death": 1995,
+      "field": "Mathematical Logic, Computer Science",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "alonzo-church",
+      "type": "person"
+    },
+    {
       "scholar_id": "alexis-claude-clairaut",
       "name": "Alexis-Claude Clairaut",
       "birth": 1713,
@@ -3348,6 +4384,28 @@
       "photo_url": null,
       "nationality": "American",
       "id": "albert-abraham-michelson",
+      "type": "person"
+    },
+    {
+      "scholar_id": "alan-turing",
+      "name": "Alan Turing",
+      "birth": 1912,
+      "death": 1954,
+      "field": "Computer Science, Mathematics, Cryptanalysis, Artificial Intelligence",
+      "photo_url": null,
+      "nationality": "British",
+      "id": "alan-turing",
+      "type": "person"
+    },
+    {
+      "scholar_id": "ada-lovelace",
+      "name": "Ada Lovelace",
+      "birth": 1815,
+      "death": 1852,
+      "field": "Mathematics, Computer Science",
+      "photo_url": null,
+      "nationality": "English",
+      "id": "ada-lovelace",
       "type": "person"
     }
   ]

@@ -1109,3 +1109,319 @@
   participants:
     - "peter-debye"
     - "albert-einstein"
+
+- key: "turing-machine-computation-foundations"
+  year: 1936
+  title: "The Turing Machine and the Foundations of Computation"
+  category: "Computer Science, Mathematical Logic"
+  text: "In his seminal 1936 paper, Turing introduced a formal model of computation known as the Turing machine to solve the 'Entscheidungsproblem' (decision problem) posed by David Hilbert. This work established the fundamental principles of computation and algorithms. His model was proven to be equivalent to the lambda calculus developed independently by Alonzo Church, leading to the Church-Turing thesis."
+  participants:
+    - "alan-turing"
+    - "alonzo-church"
+    - "david-hilbert"
+
+- key: "enigma-code-breaking"
+  year: 1941
+  title: "Breaking the Enigma Code at Bletchley Park"
+  category: "Cryptanalysis, History of Technology"
+  text: "Was a leading figure at the British codebreaking centre, Bletchley Park, during World War II. He developed several techniques for breaking German ciphers, and his crucial design improvements for the 'Bombe' machine, in collaboration with Gordon Welchman, enabled the Allies to decipher vast numbers of encrypted messages from the German Enigma machine, significantly shortening the war."
+  participants:
+    - "alan-turing"
+    - "gordon-welchman"
+
+- key: "analytical-engine-design"
+  year: 1837
+  title: "Design of the Analytical Engine"
+  category: "History of Computing"
+  text: "Designed the Analytical Engine, the first design for a general-purpose, programmable mechanical computer. It contained an Arithmetic Logic Unit ('the Mill') and integrated memory ('the Store'), and its design was a century ahead of its time. He collaborated closely with Ada Lovelace, who recognized the machine's potential and wrote what is considered the first computer program for it."
+  participants:
+    - "charles-babbage"
+    - "ada-lovelace"
+
+- key: "difference-engine"
+  year: 1822
+  title: "The Difference Engine"
+  category: "History of Computing"
+  text: "Designed and began construction of the Difference Engine, an automatic mechanical calculator designed to tabulate mathematical tables and eliminate human error. Though never fully completed in his lifetime, it was a pioneering effort in automated computation. The principles he developed laid the conceptual groundwork for later computing pioneers like Alan Turing."
+  participants:
+    - "charles-babbage"
+    - "alan-turing"
+
+- key: "laws-of-thought-boolean-algebra"
+  year: 1854
+  title: "Invention of Boolean Algebra"
+  category: "Mathematical Logic, Computer Science"
+  text: "In his book 'The Laws of Thought', Boole developed a system of algebraic logic, now known as Boolean algebra. He demonstrated that logical propositions could be expressed and manipulated through algebraic equations, typically with binary values (true/false, 1/0). This abstract work remained a niche part of mathematics until Claude Shannon famously applied it in the 1930s to the design of digital electronic circuits, making it the foundation of the digital age."
+  participants:
+    - "george-boole"
+    - "claude-shannon"
+
+- key: "z3-first-programmable-computer"
+  year: 1941
+  title: "Creation of the First Working Programmable Computer (Z3)"
+  category: "History of Computing"
+  text: "Working in relative isolation in Germany, Zuse designed and built the Z3, the world's first fully functional, program-controlled, and automatic digital computer. While his electromechanical design was different from later electronic computers, it was a practical realization of the principles of a universal computing machine, which had been envisioned mechanically by Charles Babbage and formalized theoretically by Alan Turing."
+  participants:
+    - "konrad-zuse"
+    - "charles-babbage"
+    - "alan-turing"
+
+- key: "plankalkul-programming-language"
+  year: 1945
+  title: "Design of the First High-Level Programming Language (Plankalkül)"
+  category: "Computer Science"
+  text: "Designed Plankalkül ('Plan Calculus'), the first high-level programming language ever conceived. It included advanced features like arrays and records. Although not implemented in his lifetime due to the circumstances of post-war Germany, it was a more elaborate design than any contemporary languages and demonstrated a sophisticated understanding of programming concepts, building on the legacy of early programming concepts from Ada Lovelace."
+  participants:
+    - "konrad-zuse"
+    - "ada-lovelace"
+
+- key: "von-neumann-architecture"
+  year: 1945
+  title: "The Von Neumann Architecture"
+  category: "Computer Architecture"
+  text: "In his 'First Draft of a Report on the EDVAC', von Neumann described a computer architecture where both program instructions and data are stored in the same shared memory. This 'stored-program computer' concept became the fundamental basis for nearly all modern computers, moving beyond the separate data and program structures used by earlier pioneers like Alan Turing and Konrad Zuse."
+  participants:
+    - "john-von-neumann"
+    - "alan-turing"
+    - "konrad-zuse"
+
+- key: "game-theory-and-economics"
+  year: 1944
+  title: "Co-founding of Game Theory"
+  category: "Game Theory, Economics"
+  text: "Co-authored the book 'Theory of Games and Economic Behavior' with Oskar Morgenstern. This work established the field of game theory as a mathematical discipline, providing a new framework for analyzing strategic interactions between rational decision-makers."
+  participants:
+    - "john-von-neumann"
+    - "oskar-morgenstern"
+
+- key: "edsac-first-stored-program-computer"
+  year: 1949
+  title: "Development of EDSAC, the First Practical Stored-Program Computer"
+  category: "History of Computing, Computer Architecture"
+  text: "Led the team at the University of Cambridge that designed and built the EDSAC (Electronic Delay Storage Automatic Calculator). It was one of the earliest stored-program computers to become fully operational and provide a regular computing service. The design was heavily influenced by John von Neumann's seminal 'First Draft of a Report on the EDVAC'."
+  participants:
+    - "maurice-wilkes"
+    - "john-von-neumann"
+
+- key: "invention-of-microprogramming"
+  year: 1951
+  title: "Invention of Microprogramming"
+  category: "Computer Architecture"
+  text: "Invented the concept of microprogramming, a method to implement a computer's control unit as a sequence of micro-instructions. This idea, which made CPU design more systematic and orderly, was a fundamental contribution to computer architecture and was inspired by the need to create a more organized design than the ad-hoc methods used in earlier machines."
+  participants:
+    - "maurice-wilkes"
+
+- key: "moores-law"
+  year: 1965
+  title: "Moore's Law"
+  category: "Semiconductor Industry"
+  text: "In an article, Moore observed that the number of transistors on a microchip doubles approximately every two years. This observation, now known as Moore's Law, became a guiding principle and a self-fulfilling prophecy for the semiconductor industry, driving decades of innovation and planning. It was made possible by the integrated circuit, co-invented by his future collaborator Robert Noyce."
+  participants:
+    - "gordon-moore"
+    - "robert-noyce"
+
+- key: "founding-of-intel"
+  year: 1968
+  title: "Co-founding of Intel Corporation"
+  category: "Business, Technology"
+  text: "Co-founded Intel Corporation with Robert Noyce. Under their leadership, Intel became a dominant force in the semiconductor industry, developing key technologies like the microprocessor that were central to the personal computer revolution."
+  participants:
+    - "gordon-moore"
+    - "robert-noyce"
+
+- key: "integrated-circuit-invention"
+  year: 1959
+  title: "Co-invention of the Integrated Circuit"
+  category: "Semiconductor Technology, Electronics"
+  text: "Conceived the first monolithic integrated circuit (IC), a microchip where all components are fabricated on a single piece of silicon. His design, which included a practical method for interconnecting the components, was developed independently and nearly simultaneously with the work of Jack Kilby at Texas Instruments. The IC is the foundational technology of all modern electronics."
+  participants:
+    - "robert-noyce"
+    - "jack-kilby"
+
+- key: "founding-of-intel-noyce"
+  year: 1968
+  title: "Co-founding of Intel Corporation"
+  category: "Business, Technology"
+  text: "Co-founded Intel Corporation with Gordon Moore. As CEO, Noyce's leadership style fostered innovation, and the company went on to develop the first commercially available microprocessor, an invention that launched the personal computer revolution."
+  participants:
+    - "robert-noyce"
+    - "gordon-moore"
+
+- key: "first-compiler-a0"
+  year: 1952
+  title: "Invention of the First Compiler (A-0)"
+  category: "Programming Languages"
+  text: "Invented the A-0 system, the first compiler ever created. This was a revolutionary tool that translated symbolic mathematical code into machine code, allowing programmers to work at a higher level of abstraction. Her work was a practical application of the theoretical concepts of computation established by pioneers like Alan Turing and laid the groundwork for future high-level languages."
+  participants:
+    - "grace-hopper"
+    - "alan-turing"
+
+- key: "cobol-development"
+  year: 1959
+  title: "Pioneering Work on COBOL"
+  category: "Programming Languages"
+  text: "Was a key technical consultant on the committee that developed COBOL (Common Business-Oriented Language). She championed the idea of machine-independent programming languages that used English-like commands, making programming more accessible, particularly for business applications, a vision that influenced countless subsequent language designers."
+  participants:
+    - "grace-hopper"
+
+- key: "fortran-invention"
+  year: 1957
+  title: "Invention of FORTRAN"
+  category: "Programming Languages"
+  text: "Led the IBM team that created FORTRAN (Formula Translation), the first widely used high-level programming language. FORTRAN allowed programmers to write scientific and engineering formulas in a more natural syntax, which the computer would then translate into machine code. This was made possible by the concept of the compiler, pioneered by Grace Hopper."
+  participants:
+    - "john-backus"
+    - "grace-hopper"
+
+- key: "unix-operating-system"
+  year: 1969
+  title: "Co-creation of the UNIX Operating System"
+  category: "Operating Systems"
+  text: "In a legendary partnership at Bell Labs, Ritchie and Ken Thompson created the UNIX operating system. UNIX was designed with a philosophy of simplicity, modularity, and elegance that has influenced nearly every operating system since, including Linux, macOS, and Android. For this work, they received the Turing Award in 1983."
+  participants:
+    - "dennis-ritchie"
+    - "ken-thompson"
+
+- key: "c-programming-language"
+  year: 1972
+  title: "Creation of the C Programming Language"
+  category: "Programming Languages"
+  text: "Ritchie created the C programming language, a powerful and efficient language that bridged the gap between high-level languages and machine hardware. It was developed from Ken Thompson's earlier B language, specifically to rewrite their UNIX operating system. Its influence is so profound that it forms the basis for many other modern languages like C++, Java, and Python."
+  participants:
+    - "dennis-ritchie"
+    - "ken-thompson"
+
+- key: "python-programming-language-creation"
+  year: 1991
+  title: "Creation of the Python Programming Language"
+  category: "Programming Languages"
+  text: "Created the Python programming language, emphasizing code readability and a simple, clean syntax. Python was conceived as a successor to the ABC language and has grown to become one of the world's most popular programming languages, widely used in web development, data science, and artificial intelligence. Its primary implementation (CPython) is written in C, the language created by Dennis Ritchie, and Python was designed to offer a simpler, higher-level alternative."
+  participants:
+    - "guido-van-rossum"
+    - "dennis-ritchie"
+
+- key: "dijkstras-algorithm"
+  year: 1959
+  title: "Dijkstra's Algorithm"
+  category: "Graph Theory, Algorithmics"
+  text: "Devised his famous algorithm for finding the shortest paths between nodes in a graph. This elegant and efficient algorithm became a cornerstone of computer science and is fundamental in many applications, from network routing protocols to GPS navigation. It is a classic example of the kind of algorithmic problem-solving formalized by pioneers like Alan Turing."
+  participants:
+    - "edsger-dijkstra"
+    - "alan-turing"
+
+- key: "structured-programming-advocacy"
+  year: 1968
+  title: "Advocacy for Structured Programming"
+  category: "Software Engineering"
+  text: "Authored the influential paper 'Go To Statement Considered Harmful', which became a foundational text for the structured programming movement. Dijkstra argued for eliminating GOTO statements and using structured control flow (loops, conditionals) to create more reliable and understandable programs, a philosophy that heavily influenced the design of later languages like C, developed by Dennis Ritchie and Ken Thompson."
+  participants:
+    - "edsger-dijkstra"
+    - "dennis-ritchie"
+    - "ken-thompson"
+
+- key: "the-art-of-computer-programming"
+  year: 1968
+  title: "The Art of Computer Programming (TAOCP)"
+  category: "Algorithm Analysis, Computer Science"
+  text: "Authored 'The Art of Computer Programming', a multi-volume series that is considered the definitive and most comprehensive treatise on computer algorithms. This work established the rigorous analysis of algorithms as a central discipline of computer science, building upon the foundational concepts of computability established by pioneers like Alan Turing."
+  participants:
+    - "donald-knuth"
+    - "alan-turing"
+
+- key: "tex-and-metafont"
+  year: 1978
+  title: "Creation of the TeX Typesetting System and METAFONT"
+  category: "Digital Typography, Software Engineering"
+  text: "Created the TeX typesetting system to produce high-quality mathematical and scientific documents, and the METAFONT language for designing fonts. TeX's sophisticated parsing and macro capabilities were an advancement in computer language design, a field that was formalized by tools like the Backus-Naur Form developed by John Backus and Peter Naur."
+  participants:
+    - "donald-knuth"
+    - "john-backus"
+    - "peter-naur"
+
+- key: "oracle-relational-database"
+  year: 1977
+  title: "Founding of Oracle and Commercialization of the Relational Database"
+  category: "Database Systems, Business"
+  text: "Co-founded Software Development Laboratories (which later became Oracle Corporation) with Bob Miner and Ed Oates. Inspired by the groundbreaking paper 'A Relational Model of Data for Large Shared Data Banks' by Edgar F. Codd, they set out to build a commercially viable relational database management system (RDBMS) using the SQL language. Their success with the Oracle database transformed the enterprise software industry."
+  participants:
+    - "larry-ellison"
+    - "edgar-f-codd"
+    - "bob-miner"
+    - "ed-oates"
+
+- key: "tcp-ip-protocol-suite"
+  year: 1974
+  title: "Co-invention of the TCP/IP Protocol Suite"
+  category: "Computer Networking, Internet"
+  text: "In a foundational collaboration with Robert Kahn, Cerf designed the TCP/IP protocol suite, the fundamental communication language of the Internet. Their design allowed diverse and independent computer networks to be interconnected, creating a true 'network of networks'. This work established the architecture of the modern Internet, for which they jointly received the Turing Award."
+  participants:
+    - "vint-cerf"
+    - "robert-kahn"
+
+- key: "world-wide-web-invention"
+  year: 1989
+  title: "Invention of the World Wide Web"
+  category: "Internet, Computer Science"
+  text: "While at CERN, Berners-Lee invented the World Wide Web. He created its three foundational technologies: the URI (URL) to address resources, HTTP to transfer them, and HTML to format them. His work, which was promoted and developed with his colleague Robert Cailliau, built upon the fundamental TCP/IP protocols of the Internet developed by Vint Cerf and Robert Kahn, creating a user-friendly information space on top of the existing network."
+  participants:
+    - "tim-berners-lee"
+    - "robert-cailliau"
+    - "vint-cerf"
+    - "robert-kahn"
+
+- key: "founding-of-ai"
+  year: 1956
+  title: "Founding of the Field of Artificial Intelligence"
+  category: "Artificial Intelligence, History of Computing"
+  text: "Coined the term 'Artificial Intelligence' and was a principal organizer of the seminal 1956 Dartmouth Workshop, which is considered the birth event of AI as a field. The workshop brought together pioneering researchers, including Marvin Minsky and Claude Shannon, to explore the conjecture that machines could be made to simulate intelligence."
+  participants:
+    - "john-mccarthy"
+    - "marvin-minsky"
+    - "claude-shannon"
+
+- key: "lisp-programming-language"
+  year: 1958
+  title: "Invention of the LISP Programming Language"
+  category: "Programming Languages, Artificial Intelligence"
+  text: "Invented LISP (List Processing), the second-oldest high-level programming language in widespread use today. LISP's design, which was heavily influenced by the lambda calculus of Alonzo Church, introduced many features now common in programming, such as conditional expressions and garbage collection. It became the standard programming language for AI research for many decades."
+  participants:
+    - "john-mccarthy"
+    - "alonzo-church"
+
+- key: "pioneering-deep-learning"
+  year: 2012
+  title: "Pioneering the Deep Learning Revolution"
+  category: "Artificial Intelligence, Machine Learning"
+  text: "Is considered one of the 'Godfathers of AI' for his foundational work on deep neural networks. His persistent research during the 'AI winter' led to breakthroughs that sparked the modern deep learning revolution, culminating in the 2012 AlexNet victory. For this work, he shared the 2018 Turing Award with his collaborators Yoshua Bengio and Yann LeCun."
+  participants:
+    - "geoffrey-hinton"
+    - "yoshua-bengio"
+    - "yann-lecun"
+
+- key: "backpropagation-algorithm"
+  year: 1986
+  title: "Popularization of the Backpropagation Algorithm"
+  category: "Machine Learning"
+  text: "Co-authored a seminal 1986 paper that demonstrated that the backpropagation algorithm could be used to train deep, multi-layered neural networks effectively. While others had previously discovered the algorithm, this paper was instrumental in popularizing it and showing its power, overcoming limitations pointed out by earlier critics like Marvin Minsky."
+  participants:
+    - "geoffrey-hinton"
+    - "david-rumelhart"
+    - "ronald-j-williams"
+    - "marvin-minsky"
+
+- key: "microsoft-founding-and-basic"
+  year: 1975
+  title: "Co-founding of Microsoft and Altair BASIC"
+  category: "Software, Business"
+  text: "Co-founded Microsoft with his childhood friend Paul Allen. Their first product was a BASIC interpreter for the MITS Altair 8800, one of the first personal computers. This established the company's core business of developing and licensing software for the nascent personal computer industry."
+  participants:
+    - "bill-gates"
+    - "paul-allen"
+
+- key: "git-version-control-system"
+  year: 2005
+  title: "Creation of the Git Version Control System"
+  category: "Software Engineering"
+  text: "Created Git, a distributed version control system, to manage the development of the massive Linux kernel project. His design, emphasizing speed, data integrity, and support for distributed, non-linear workflows, has made Git the most widely used version control system in the world for software development."
+  participants:
+    - "linus-torvalds"
