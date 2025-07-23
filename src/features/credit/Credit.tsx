@@ -19,10 +19,19 @@ export function Credit() {
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>What is Intellect</DialogTitle>
+          <DialogTitle>Intellect</DialogTitle>
           <DialogDescription>
             "Intellect" is a website that summarizes the achievements of great
-            people who changed the world.
+            people who changed the world. <br /> <br /> All code and data are
+            open-sourced, so anyone can contribute. Please contribute via{" "}
+            <a
+              href="https://https://github.com/DipokalLab/intellect"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              the link
+            </a>
+            . <br /> <br />
           </DialogDescription>
         </DialogHeader>
       </DialogContent>
