@@ -32,6 +32,14 @@ export function Credit() {
               the link
             </a>
             . <br /> <br />
+            <b>Contributor</b> <br />
+            <a
+              href="https://hhj.devent.kr/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              H. Jun Huh (Maintainer)
+            </a>
           </DialogDescription>
         </DialogHeader>
       </DialogContent>

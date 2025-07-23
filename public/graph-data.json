@@ -1412,6 +1412,168 @@
       "text": "Created Git, a distributed version control system, to manage the development of the massive Linux kernel project. His design, emphasizing speed, data integrity, and support for distributed, non-linear workflows, has made Git the most widely used version control system in the world for software development.",
       "id": "git-version-control-system",
       "type": "achievement"
+    },
+    {
+      "key": "hopfield-network",
+      "year": 1982,
+      "title": "The Hopfield Network and Associative Memory",
+      "category": "Neural Networks, Statistical Mechanics",
+      "text": "Introduced a recurrent neural network model, now known as the Hopfield network, that could serve as a content-addressable memory. By drawing an analogy between neural networks and physical systems like spin glasses, he provided a clear mathematical framework for understanding emergent properties like memory. His work was a major catalyst for the connectionist revival of the 1980s.",
+      "id": "hopfield-network",
+      "type": "achievement"
+    },
+    {
+      "key": "nobel-prize-machine-learning",
+      "year": 2024,
+      "title": "Foundational Work on Artificial Neural Networks",
+      "category": "Artificial Intelligence, Machine Learning",
+      "text": "For his foundational discoveries and inventions that enable machine learning with artificial neural networks, Hopfield was awarded the 2024 Nobel Prize in Physics. He shared the prize with Geoffrey Hinton for their parallel and complementary work that revived the field and laid the groundwork for modern artificial intelligence.",
+      "id": "nobel-prize-machine-learning",
+      "type": "achievement"
+    },
+    {
+      "key": "attosecond-light-pulses",
+      "year": 2001,
+      "title": "Generation and Investigation of Attosecond Light Pulses",
+      "category": "Attosecond Physics, Optics",
+      "text": "For experimental methods that generate attosecond pulses of light for the study of electron dynamics in matter, Agostini was awarded the 2023 Nobel Prize in Physics. In 2001, his group succeeded in producing and investigating a train of consecutive light pulses, where each pulse lasted just 250 attoseconds. He shared the prize for this foundational work with Ferenc Krausz and Anne L'Huillier, who made parallel and complementary breakthroughs.",
+      "id": "attosecond-light-pulses",
+      "type": "achievement"
+    },
+    {
+      "key": "bell-test-experiments",
+      "year": 1982,
+      "title": "Experimental Test of Bell's Inequalities",
+      "category": "Quantum Mechanics, Experimental Physics",
+      "text": "For his pioneering experiments with entangled photons, establishing the violation of Bell inequalities and pioneering quantum information science, Aspect was awarded the 2022 Nobel Prize in Physics. His meticulously designed experiments provided a definitive answer to the long-standing debate initiated by the EPR paradox, confirming the predictions of quantum mechanics over local realism and demonstrating the reality of what Albert Einstein famously called 'spooky action at a distance'. He shared the prize with John Clauser and Anton Zeilinger for their parallel and complementary work.",
+      "id": "bell-test-experiments",
+      "type": "achievement"
+    },
+    {
+      "key": "complex-systems-disorder-fluctuations",
+      "year": 1979,
+      "title": "Discovery of Hidden Patterns in Disordered Complex Systems",
+      "category": "Statistical Mechanics, Complex Systems",
+      "text": "For his revolutionary contributions to the theory of disordered materials and complex systems, Parisi was awarded the 2021 Nobel Prize in Physics. His work, particularly on spin glasses, revealed hidden mathematical structures in seemingly random systems and has had a profound impact on physics, biology, and machine learning. He shared the prize with Syukuro Manabe and Klaus Hasselmann for their work on complex systems.",
+      "id": "complex-systems-disorder-fluctuations",
+      "type": "achievement"
+    },
+    {
+      "key": "kardar-parisi-zhang-equation",
+      "year": 1986,
+      "title": "The Kardar-Parisi-Zhang (KPZ) Equation",
+      "category": "Statistical Physics",
+      "text": "Co-developed the Kardar-Parisi-Zhang (KPZ) equation, a stochastic partial differential equation that describes the dynamic scaling of growing interfaces. The equation has become a fundamental model in statistical physics for understanding a wide range of non-equilibrium phenomena, from the growth of bacterial colonies to the burning of paper.",
+      "id": "kardar-parisi-zhang-equation",
+      "type": "achievement"
+    },
+    {
+      "key": "discovery-of-sagittarius-a-star",
+      "year": 1998,
+      "title": "Discovery of the Supermassive Black Hole at the Galactic Center",
+      "category": "Galactic Astronomy",
+      "text": "For the discovery of a supermassive compact object at the center of our galaxy, Ghez was awarded the 2020 Nobel Prize in Physics. Leading a team at UCLA, she used groundbreaking adaptive optics techniques at the Keck Observatory to track the orbits of stars around Sagittarius A*. Her independent work, conducted in a friendly rivalry with Reinhard Genzel's group, provided the most convincing evidence to date for the existence of a supermassive black hole, a concept whose theoretical foundation was established by Roger Penrose's work on general relativity.",
+      "id": "discovery-of-sagittarius-a-star",
+      "type": "achievement"
+    },
+    {
+      "key": "penrose-hawking-singularity-theorems",
+      "year": 1970,
+      "title": "Penrose-Hawking Singularity Theorems",
+      "category": "Cosmology, General Relativity",
+      "text": "In a highly influential collaboration with Stephen Hawking, Penrose applied the topological methods he had developed for black holes to the universe as a whole. Their work resulted in the Penrose-Hawking singularity theorems, which showed that if general relativity is correct, the universe must have begun in a singularity—the Big Bang.",
+      "id": "penrose-hawking-singularity-theorems",
+      "type": "achievement"
+    },
+    {
+      "key": "cmb-theoretical-framework",
+      "year": 1965,
+      "title": "Theoretical Framework for the Cosmic Microwave Background",
+      "category": "Physical Cosmology",
+      "text": "For his theoretical discoveries in physical cosmology, Peebles was awarded the 2019 Nobel Prize in Physics. He was a central figure in the Princeton group that predicted the existence and properties of the Cosmic Microwave Background (CMB) radiation. His theoretical work provided the cosmological context for the accidental discovery of the CMB by Arno Penzias and Robert Woodrow Wilson, confirming the Big Bang model.",
+      "id": "cmb-theoretical-framework",
+      "type": "achievement"
+    },
+    {
+      "key": "cold-dark-matter-and-structure-formation",
+      "year": 1982,
+      "title": "Pioneering the Theory of Cold Dark Matter and Structure Formation",
+      "category": "Cosmology",
+      "text": "Peebles was a key architect of the modern cosmological model. He developed the theoretical framework for how cosmic structure (galaxies, galaxy clusters) forms from initial small fluctuations through the gravitational influence of cold dark matter. This work, along with the observational evidence for dark matter from astronomers like Vera Rubin, laid the foundation for the Lambda-CDM model.",
+      "id": "cold-dark-matter-and-structure-formation",
+      "type": "achievement"
+    },
+    {
+      "key": "penrose-hawking-singularity-theorems-hawking",
+      "year": 1970,
+      "title": "Penrose-Hawking Singularity Theorems",
+      "category": "Cosmology, General Relativity",
+      "text": "In a highly influential collaboration with Roger Penrose, Hawking applied the topological methods developed for black holes to the universe as a whole. Their work resulted in the Penrose-Hawking singularity theorems, which showed that if Albert Einstein's theory of general relativity is correct, the universe must have begun in a singularity—the Big Bang.",
+      "id": "penrose-hawking-singularity-theorems-hawking",
+      "type": "achievement"
+    },
+    {
+      "key": "chirped-pulse-amplification-cpa",
+      "year": 1985,
+      "title": "Invention of Chirped Pulse Amplification (CPA)",
+      "category": "Laser Physics, Optics",
+      "text": "For their method of generating high-intensity, ultra-short optical pulses, Mourou was awarded the 2018 Nobel Prize in Physics. He developed the technique, known as Chirped Pulse Amplification (CPA), in close collaboration with his PhD student at the time, Donna Strickland. CPA has become the standard for high-intensity lasers and has enabled a wide range of applications, including corrective eye surgery and the field of attosecond physics pioneered by Anne L'Huillier and others.",
+      "id": "chirped-pulse-amplification-cpa",
+      "type": "achievement"
+    },
+    {
+      "key": "chirped-pulse-amplification-cpa-strickland",
+      "year": 1985,
+      "title": "Co-invention of Chirped Pulse Amplification (CPA)",
+      "category": "Laser Physics, Optics",
+      "text": "For their method of generating high-intensity, ultra-short optical pulses, Strickland was awarded the 2018 Nobel Prize in Physics. As a PhD student under the supervision of Gérard Mourou, she co-invented Chirped Pulse Amplification (CPA). Their groundbreaking 1985 paper, on which she was first author, has become the standard for high-intensity lasers and enabled countless applications, from corrective eye surgery to the field of attosecond physics.",
+      "id": "chirped-pulse-amplification-cpa-strickland",
+      "type": "achievement"
+    },
+    {
+      "key": "first-exoplanet-discovery",
+      "year": 1995,
+      "title": "Discovery of the First Exoplanet Orbiting a Sun-like Star",
+      "category": "Exoplanet Science, Observational Astronomy",
+      "text": "For the discovery of an exoplanet orbiting a solar-type star, Mayor was awarded the 2019 Nobel Prize in Physics. In a landmark collaboration with his PhD student Didier Queloz, he used a high-precision spectrograph to detect the tiny wobble of the star 51 Pegasi, revealing the presence of an orbiting planet (51 Pegasi b). This discovery opened up the brand new field of exoplanet research. He shared the Nobel prize with James Peebles for his separate contributions to cosmology.",
+      "id": "first-exoplanet-discovery",
+      "type": "achievement"
+    },
+    {
+      "key": "optical-tweezers-invention",
+      "year": 1986,
+      "title": "Invention of Optical Tweezers",
+      "category": "Laser Physics, Biophysics",
+      "text": "For the invention of optical tweezers and their application to biological systems, Ashkin was awarded the 2018 Nobel Prize in Physics. He developed a method using the radiation pressure of highly focused laser beams to trap and manipulate microscopic particles, atoms, and eventually living cells without harming them. He shared the Nobel prize with Gérard Mourou and Donna Strickland for their separate but related groundbreaking inventions in laser physics.",
+      "id": "optical-tweezers-invention",
+      "type": "achievement"
+    },
+    {
+      "key": "ligo-gravitational-waves",
+      "year": 2015,
+      "title": "LIGO and the Direct Detection of Gravitational Waves",
+      "category": "Gravitational-wave Astronomy, General Relativity",
+      "text": "For his decisive contributions to the LIGO detector and the observation of gravitational waves, Thorne was awarded the 2017 Nobel Prize in Physics. He laid the theoretical groundwork for gravitational-wave science, predicting the specific wave signatures that cosmic events like black hole mergers would produce. He shared the prize with Rainer Weiss, who designed the detector, and Barry C. Barish, who managed the project. Their discovery was a stunning confirmation of a key prediction made by Albert Einstein a century earlier.",
+      "id": "ligo-gravitational-waves",
+      "type": "achievement"
+    },
+    {
+      "key": "topological-phases-of-matter",
+      "year": 1973,
+      "title": "Theoretical Discoveries of Topological Phase Transitions",
+      "category": "Condensed Matter Physics, Topology",
+      "text": "For theoretical discoveries of topological phase transitions and topological phases of matter, Thouless was awarded the 2016 Nobel Prize in Physics. A key part of this work was his collaboration with J. Michael Kosterlitz in the 1970s, which described the Kosterlitz–Thouless (KT) transition, a new type of phase transition in two-dimensional systems. He shared the Nobel Prize with Kosterlitz and F. Duncan M. Haldane.",
+      "id": "topological-phases-of-matter",
+      "type": "achievement"
+    },
+    {
+      "key": "tknn-invariant-quantum-hall",
+      "year": 1982,
+      "title": "Topological Explanation of the Integer Quantum Hall Effect",
+      "category": "Condensed Matter Physics",
+      "text": "Co-authored a seminal paper that explained the precise integer quantization of the Hall conductance using topological concepts. The integer they derived, known as the Thouless–Kohmoto–Nightingale–den Nijs (TKNN) invariant or Chern number, was a profound application of topology to physics.",
+      "id": "tknn-invariant-quantum-hall",
+      "type": "achievement"
     }
   ],
   "edges": [
@@ -2734,6 +2896,218 @@
     {
       "source": "linus-torvalds",
       "target": "git-version-control-system"
+    },
+    {
+      "source": "john-j-hopfield",
+      "target": "hopfield-network"
+    },
+    {
+      "source": "john-j-hopfield",
+      "target": "nobel-prize-machine-learning"
+    },
+    {
+      "source": "geoffrey-hinton",
+      "target": "nobel-prize-machine-learning"
+    },
+    {
+      "source": "pierre-agostini",
+      "target": "attosecond-light-pulses"
+    },
+    {
+      "source": "ferenc-krausz",
+      "target": "attosecond-light-pulses"
+    },
+    {
+      "source": "anne-lhuillier",
+      "target": "attosecond-light-pulses"
+    },
+    {
+      "source": "alain-aspect",
+      "target": "bell-test-experiments"
+    },
+    {
+      "source": "john-clauser",
+      "target": "bell-test-experiments"
+    },
+    {
+      "source": "anton-zeilinger",
+      "target": "bell-test-experiments"
+    },
+    {
+      "source": "john-stewart-bell",
+      "target": "bell-test-experiments"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "bell-test-experiments"
+    },
+    {
+      "source": "giorgio-parisi",
+      "target": "complex-systems-disorder-fluctuations"
+    },
+    {
+      "source": "syukuro-manabe",
+      "target": "complex-systems-disorder-fluctuations"
+    },
+    {
+      "source": "klaus-hasselmann",
+      "target": "complex-systems-disorder-fluctuations"
+    },
+    {
+      "source": "giorgio-parisi",
+      "target": "kardar-parisi-zhang-equation"
+    },
+    {
+      "source": "mehran-kardar",
+      "target": "kardar-parisi-zhang-equation"
+    },
+    {
+      "source": "yi-cheng-zhang",
+      "target": "kardar-parisi-zhang-equation"
+    },
+    {
+      "source": "andrea-ghez",
+      "target": "discovery-of-sagittarius-a-star"
+    },
+    {
+      "source": "reinhard-genzel",
+      "target": "discovery-of-sagittarius-a-star"
+    },
+    {
+      "source": "roger-penrose",
+      "target": "discovery-of-sagittarius-a-star"
+    },
+    {
+      "source": "roger-penrose",
+      "target": "penrose-hawking-singularity-theorems"
+    },
+    {
+      "source": "stephen-hawking",
+      "target": "penrose-hawking-singularity-theorems"
+    },
+    {
+      "source": "james-peebles",
+      "target": "cmb-theoretical-framework"
+    },
+    {
+      "source": "robert-h-dicke",
+      "target": "cmb-theoretical-framework"
+    },
+    {
+      "source": "arno-penzias",
+      "target": "cmb-theoretical-framework"
+    },
+    {
+      "source": "robert-woodrow-wilson",
+      "target": "cmb-theoretical-framework"
+    },
+    {
+      "source": "james-peebles",
+      "target": "cold-dark-matter-and-structure-formation"
+    },
+    {
+      "source": "vera-rubin",
+      "target": "cold-dark-matter-and-structure-formation"
+    },
+    {
+      "source": "stephen-hawking",
+      "target": "penrose-hawking-singularity-theorems-hawking"
+    },
+    {
+      "source": "roger-penrose",
+      "target": "penrose-hawking-singularity-theorems-hawking"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "penrose-hawking-singularity-theorems-hawking"
+    },
+    {
+      "source": "gerard-mourou",
+      "target": "chirped-pulse-amplification-cpa"
+    },
+    {
+      "source": "donna-strickland",
+      "target": "chirped-pulse-amplification-cpa"
+    },
+    {
+      "source": "anne-lhuillier",
+      "target": "chirped-pulse-amplification-cpa"
+    },
+    {
+      "source": "donna-strickland",
+      "target": "chirped-pulse-amplification-cpa-strickland"
+    },
+    {
+      "source": "gerard-mourou",
+      "target": "chirped-pulse-amplification-cpa-strickland"
+    },
+    {
+      "source": "michel-mayor",
+      "target": "first-exoplanet-discovery"
+    },
+    {
+      "source": "didier-queloz",
+      "target": "first-exoplanet-discovery"
+    },
+    {
+      "source": "james-peebles",
+      "target": "first-exoplanet-discovery"
+    },
+    {
+      "source": "arthur-ashkin",
+      "target": "optical-tweezers-invention"
+    },
+    {
+      "source": "gerard-mourou",
+      "target": "optical-tweezers-invention"
+    },
+    {
+      "source": "donna-strickland",
+      "target": "optical-tweezers-invention"
+    },
+    {
+      "source": "kip-s-thorne",
+      "target": "ligo-gravitational-waves"
+    },
+    {
+      "source": "rainer-weiss",
+      "target": "ligo-gravitational-waves"
+    },
+    {
+      "source": "barry-c-barish",
+      "target": "ligo-gravitational-waves"
+    },
+    {
+      "source": "albert-einstein",
+      "target": "ligo-gravitational-waves"
+    },
+    {
+      "source": "david-thouless",
+      "target": "topological-phases-of-matter"
+    },
+    {
+      "source": "j-michael-kosterlitz",
+      "target": "topological-phases-of-matter"
+    },
+    {
+      "source": "f-duncan-m-haldane",
+      "target": "topological-phases-of-matter"
+    },
+    {
+      "source": "david-thouless",
+      "target": "tknn-invariant-quantum-hall"
+    },
+    {
+      "source": "mahi-t-kohmoto",
+      "target": "tknn-invariant-quantum-hall"
+    },
+    {
+      "source": "marcel-p-nightingale",
+      "target": "tknn-invariant-quantum-hall"
+    },
+    {
+      "source": "marcel-den-nijs",
+      "target": "tknn-invariant-quantum-hall"
     }
   ],
   "persons": [
@@ -2746,6 +3120,17 @@
       "photo_url": null,
       "nationality": "Canadian",
       "id": "yoshua-bengio",
+      "type": "person"
+    },
+    {
+      "scholar_id": "yi-cheng-zhang",
+      "name": "Yi-Cheng Zhang",
+      "birth": 1959,
+      "death": null,
+      "field": "Statistical Physics, Complex Systems, Econophysics",
+      "photo_url": null,
+      "nationality": "Chinese-Swiss",
+      "id": "yi-cheng-zhang",
       "type": "person"
     },
     {
@@ -2870,6 +3255,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "vera-rubin",
+      "name": "Vera Rubin",
+      "birth": 1928,
+      "death": 2016,
+      "field": "Observational Astronomy, Cosmology",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "vera-rubin",
+      "type": "person"
+    },
+    {
       "scholar_id": "tim-berners-lee",
       "name": "Tim Berners-Lee",
       "birth": 1955,
@@ -2914,6 +3310,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "syukuro-manabe",
+      "name": "Syukuro Manabe",
+      "birth": 1931,
+      "death": null,
+      "field": "Climatology, Meteorology",
+      "photo_url": null,
+      "nationality": "Japanese-American",
+      "id": "syukuro-manabe",
+      "type": "person"
+    },
+    {
       "scholar_id": "svante-arrhenius",
       "name": "Svante Arrhenius",
       "birth": 1859,
@@ -2922,6 +3329,17 @@
       "photo_url": null,
       "nationality": "Swedish",
       "id": "svante-arrhenius",
+      "type": "person"
+    },
+    {
+      "scholar_id": "stephen-hawking",
+      "name": "Stephen Hawking",
+      "birth": 1942,
+      "death": 2018,
+      "field": "Theoretical Physics, Cosmology, General Relativity",
+      "photo_url": null,
+      "nationality": "British",
+      "id": "stephen-hawking",
       "type": "person"
     },
     {
@@ -2977,6 +3395,17 @@
       "photo_url": null,
       "nationality": "American",
       "id": "ronald-j-williams",
+      "type": "person"
+    },
+    {
+      "scholar_id": "roger-penrose",
+      "name": "Roger Penrose",
+      "birth": 1931,
+      "death": null,
+      "field": "Mathematical Physics, General Relativity, Cosmology",
+      "photo_url": null,
+      "nationality": "British",
+      "id": "roger-penrose",
       "type": "person"
     },
     {
@@ -3068,6 +3497,28 @@
       "type": "person"
     },
     {
+      "scholar_id": "reinhard-genzel",
+      "name": "Reinhard Genzel",
+      "birth": 1952,
+      "death": null,
+      "field": "Astrophysics, Observational Astronomy",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "reinhard-genzel",
+      "type": "person"
+    },
+    {
+      "scholar_id": "rainer-weiss",
+      "name": "Rainer Weiss",
+      "birth": 1932,
+      "death": null,
+      "field": "Experimental Physics, Gravitational Physics, Astrophysics",
+      "photo_url": null,
+      "nationality": "German-American",
+      "id": "rainer-weiss",
+      "type": "person"
+    },
+    {
       "scholar_id": "plato",
       "name": "Plato",
       "birth": -428,
@@ -3087,6 +3538,17 @@
       "photo_url": null,
       "nationality": "French",
       "id": "pierre-curie",
+      "type": "person"
+    },
+    {
+      "scholar_id": "pierre-agostini",
+      "name": "Pierre Agostini",
+      "birth": 1941,
+      "death": null,
+      "field": "Experimental Physics, Attosecond Physics",
+      "photo_url": null,
+      "nationality": "French-American",
+      "id": "pierre-agostini",
       "type": "person"
     },
     {
@@ -3222,6 +3684,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "michel-mayor",
+      "name": "Michel Mayor",
+      "birth": 1942,
+      "death": null,
+      "field": "Astrophysics, Observational Astronomy",
+      "photo_url": null,
+      "nationality": "Swiss",
+      "id": "michel-mayor",
+      "type": "person"
+    },
+    {
       "scholar_id": "michael-faraday",
       "name": "Michael Faraday",
       "birth": 1791,
@@ -3230,6 +3703,17 @@
       "photo_url": null,
       "nationality": "English",
       "id": "michael-faraday",
+      "type": "person"
+    },
+    {
+      "scholar_id": "mehran-kardar",
+      "name": "Mehran Kardar",
+      "birth": 1957,
+      "death": null,
+      "field": "Statistical Physics",
+      "photo_url": null,
+      "nationality": "Iranian-American",
+      "id": "mehran-kardar",
       "type": "person"
     },
     {
@@ -3307,6 +3791,39 @@
       "photo_url": null,
       "nationality": "British-American",
       "id": "margaret-burbidge",
+      "type": "person"
+    },
+    {
+      "scholar_id": "marcel-p-nightingale",
+      "name": "Marcel P. Nightingale",
+      "birth": 1947,
+      "death": null,
+      "field": "Theoretical Physics, Condensed Matter Physics, Statistical Mechanics",
+      "photo_url": null,
+      "nationality": "Dutch-American",
+      "id": "marcel-p-nightingale",
+      "type": "person"
+    },
+    {
+      "scholar_id": "marcel-den-nijs",
+      "name": "Marcel den Nijs",
+      "birth": null,
+      "death": null,
+      "field": "Theoretical Physics, Condensed Matter Physics, Statistical Mechanics",
+      "photo_url": null,
+      "nationality": "Dutch-American",
+      "id": "marcel-den-nijs",
+      "type": "person"
+    },
+    {
+      "scholar_id": "mahito-kohmoto",
+      "name": "Mahito Kohmoto",
+      "birth": null,
+      "death": null,
+      "field": "Theoretical Physics, Condensed Matter Physics",
+      "photo_url": null,
+      "nationality": "Japanese",
+      "id": "mahito-kohmoto",
       "type": "person"
     },
     {
@@ -3420,6 +3937,28 @@
       "type": "person"
     },
     {
+      "scholar_id": "klaus-hasselmann",
+      "name": "Klaus Hasselmann",
+      "birth": 1931,
+      "death": null,
+      "field": "Climatology, Oceanography, Physics",
+      "photo_url": null,
+      "nationality": "German",
+      "id": "klaus-hasselmann",
+      "type": "person"
+    },
+    {
+      "scholar_id": "kip-s-thorne",
+      "name": "Kip S. Thorne",
+      "birth": 1940,
+      "death": null,
+      "field": "Theoretical Physics, Gravitational Physics, Astrophysics",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "kip-s-thorne",
+      "type": "person"
+    },
+    {
       "scholar_id": "kepler",
       "name": "Johannes Kepler",
       "birth": 1571,
@@ -3497,6 +4036,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "john-stewart-bell",
+      "name": "John Stewart Bell",
+      "birth": 1928,
+      "death": 1990,
+      "field": "Theoretical Physics, Quantum Mechanics",
+      "photo_url": null,
+      "nationality": "Northern Irish",
+      "id": "john-stewart-bell",
+      "type": "person"
+    },
+    {
       "scholar_id": "john-mccarthy",
       "name": "John McCarthy",
       "birth": 1927,
@@ -3508,6 +4058,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "john-j-hopfield",
+      "name": "John J. Hopfield",
+      "birth": 1933,
+      "death": null,
+      "field": "Physics, Neuroscience, Artificial Intelligence",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "john-j-hopfield",
+      "type": "person"
+    },
+    {
       "scholar_id": "john-dalton",
       "name": "John Dalton",
       "birth": 1766,
@@ -3516,6 +4077,17 @@
       "photo_url": null,
       "nationality": "English",
       "id": "john-dalton",
+      "type": "person"
+    },
+    {
+      "scholar_id": "john-clauser",
+      "name": "John Clauser",
+      "birth": 1942,
+      "death": null,
+      "field": "Experimental Physics, Quantum Mechanics",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "john-clauser",
       "type": "person"
     },
     {
@@ -3574,6 +4146,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "james-peebles",
+      "name": "James Peebles",
+      "birth": 1935,
+      "death": null,
+      "field": "Physical Cosmology, Theoretical Physics, Astrophysics",
+      "photo_url": null,
+      "nationality": "Canadian-American",
+      "id": "james-peebles",
+      "type": "person"
+    },
+    {
       "scholar_id": "james-clerk-maxwell",
       "name": "James Clerk Maxwell",
       "birth": 1831,
@@ -3626,6 +4209,17 @@
       "photo_url": null,
       "nationality": "American",
       "id": "j-robert-oppenheimer",
+      "type": "person"
+    },
+    {
+      "scholar_id": "j-michael-kosterlitz",
+      "name": "J. Michael Kosterlitz",
+      "birth": 1943,
+      "death": null,
+      "field": "Condensed Matter Physics, Theoretical Physics",
+      "photo_url": null,
+      "nationality": "British-American",
+      "id": "j-michael-kosterlitz",
       "type": "person"
     },
     {
@@ -3827,6 +4421,28 @@
       "type": "person"
     },
     {
+      "scholar_id": "giorgio-parisi",
+      "name": "Giorgio Parisi",
+      "birth": 1948,
+      "death": null,
+      "field": "Theoretical Physics, Statistical Mechanics, Complex Systems",
+      "photo_url": null,
+      "nationality": "Italian",
+      "id": "giorgio-parisi",
+      "type": "person"
+    },
+    {
+      "scholar_id": "gerard-mourou",
+      "name": "Gérard Mourou",
+      "birth": 1944,
+      "death": null,
+      "field": "Physics, Laser Science, Electrical Engineering",
+      "photo_url": null,
+      "nationality": "French-American",
+      "id": "gerard-mourou",
+      "type": "person"
+    },
+    {
       "scholar_id": "georges-lemaitre",
       "name": "Georges Lemaître",
       "birth": 1894,
@@ -3934,6 +4550,28 @@
       "photo_url": null,
       "nationality": "English",
       "id": "francis-bacon",
+      "type": "person"
+    },
+    {
+      "scholar_id": "ferenc-krausz",
+      "name": "Ferenc Krausz",
+      "birth": 1962,
+      "death": null,
+      "field": "Experimental Physics, Attosecond Physics, Laser Physics",
+      "photo_url": null,
+      "nationality": "Hungarian-Austrian",
+      "id": "ferenc-krausz",
+      "type": "person"
+    },
+    {
+      "scholar_id": "f-duncan-m-haldane",
+      "name": "F. Duncan M. Haldane",
+      "birth": 1951,
+      "death": null,
+      "field": "Condensed Matter Physics, Theoretical Physics",
+      "photo_url": null,
+      "nationality": "British-American",
+      "id": "f-duncan-m-haldane",
       "type": "person"
     },
     {
@@ -4058,6 +4696,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "donna-strickland",
+      "name": "Donna Strickland",
+      "birth": 1959,
+      "death": null,
+      "field": "Physics, Laser Science, Optics",
+      "photo_url": null,
+      "nationality": "Canadian",
+      "id": "donna-strickland",
+      "type": "person"
+    },
+    {
       "scholar_id": "donald-knuth",
       "name": "Donald Knuth",
       "birth": 1938,
@@ -4080,6 +4729,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "didier-queloz",
+      "name": "Didier Queloz",
+      "birth": 1966,
+      "death": null,
+      "field": "Astrophysics, Observational Astronomy, Exoplanet Science",
+      "photo_url": null,
+      "nationality": "Swiss",
+      "id": "didier-queloz",
+      "type": "person"
+    },
+    {
       "scholar_id": "dennis-ritchie",
       "name": "Dennis Ritchie",
       "birth": 1941,
@@ -4099,6 +4759,17 @@
       "photo_url": null,
       "nationality": "French",
       "id": "denis-diderot",
+      "type": "person"
+    },
+    {
+      "scholar_id": "david-thouless",
+      "name": "David Thouless",
+      "birth": 1934,
+      "death": 2019,
+      "field": "Condensed Matter Physics, Theoretical Physics",
+      "photo_url": null,
+      "nationality": "British-American",
+      "id": "david-thouless",
       "type": "person"
     },
     {
@@ -4266,6 +4937,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "barry-c-barish",
+      "name": "Barry C. Barish",
+      "birth": 1936,
+      "death": null,
+      "field": "Experimental Physics, Gravitational Physics",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "barry-c-barish",
+      "type": "person"
+    },
+    {
       "scholar_id": "arthur-stanley-eddington",
       "name": "Arthur Stanley Eddington",
       "birth": 1882,
@@ -4285,6 +4967,17 @@
       "photo_url": null,
       "nationality": "American",
       "id": "arthur-compton",
+      "type": "person"
+    },
+    {
+      "scholar_id": "arthur-ashkin",
+      "name": "Arthur Ashkin",
+      "birth": 1922,
+      "death": 2020,
+      "field": "Experimental Physics, Laser Science, Biophysics",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "arthur-ashkin",
       "type": "person"
     },
     {
@@ -4321,6 +5014,17 @@
       "type": "person"
     },
     {
+      "scholar_id": "anton-zeilinger",
+      "name": "Anton Zeilinger",
+      "birth": 1945,
+      "death": null,
+      "field": "Experimental Physics, Quantum Mechanics, Quantum Information",
+      "photo_url": null,
+      "nationality": "Austrian",
+      "id": "anton-zeilinger",
+      "type": "person"
+    },
+    {
       "scholar_id": "antoine-lavoisier",
       "name": "Antoine Lavoisier",
       "birth": 1743,
@@ -4329,6 +5033,28 @@
       "photo_url": null,
       "nationality": "French",
       "id": "antoine-lavoisier",
+      "type": "person"
+    },
+    {
+      "scholar_id": "anne-lhuillier",
+      "name": "Anne L'Huillier",
+      "birth": 1958,
+      "death": null,
+      "field": "Atomic Physics, Attosecond Physics",
+      "photo_url": null,
+      "nationality": "French-Swedish",
+      "id": "anne-lhuillier",
+      "type": "person"
+    },
+    {
+      "scholar_id": "andrea-ghez",
+      "name": "Andrea Ghez",
+      "birth": 1965,
+      "death": null,
+      "field": "Astrophysics, Observational Astronomy",
+      "photo_url": null,
+      "nationality": "American",
+      "id": "andrea-ghez",
       "type": "person"
     },
     {
@@ -4395,6 +5121,17 @@
       "photo_url": null,
       "nationality": "British",
       "id": "alan-turing",
+      "type": "person"
+    },
+    {
+      "scholar_id": "alain-aspect",
+      "name": "Alain Aspect",
+      "birth": 1947,
+      "death": null,
+      "field": "Experimental Physics, Quantum Mechanics",
+      "photo_url": null,
+      "nationality": "French",
+      "id": "alain-aspect",
       "type": "person"
     },
     {

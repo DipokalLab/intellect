@@ -1425,3 +1425,182 @@
   text: "Created Git, a distributed version control system, to manage the development of the massive Linux kernel project. His design, emphasizing speed, data integrity, and support for distributed, non-linear workflows, has made Git the most widely used version control system in the world for software development."
   participants:
     - "linus-torvalds"
+
+- key: "hopfield-network"
+  year: 1982
+  title: "The Hopfield Network and Associative Memory"
+  category: "Neural Networks, Statistical Mechanics"
+  text: "Introduced a recurrent neural network model, now known as the Hopfield network, that could serve as a content-addressable memory. By drawing an analogy between neural networks and physical systems like spin glasses, he provided a clear mathematical framework for understanding emergent properties like memory. His work was a major catalyst for the connectionist revival of the 1980s."
+  participants:
+    - "john-j-hopfield"
+
+- key: "nobel-prize-machine-learning"
+  year: 2024
+  title: "Foundational Work on Artificial Neural Networks"
+  category: "Artificial Intelligence, Machine Learning"
+  text: "For his foundational discoveries and inventions that enable machine learning with artificial neural networks, Hopfield was awarded the 2024 Nobel Prize in Physics. He shared the prize with Geoffrey Hinton for their parallel and complementary work that revived the field and laid the groundwork for modern artificial intelligence."
+  participants:
+    - "john-j-hopfield"
+    - "geoffrey-hinton"
+
+- key: "attosecond-light-pulses"
+  year: 2001
+  title: "Generation and Investigation of Attosecond Light Pulses"
+  category: "Attosecond Physics, Optics"
+  text: "For experimental methods that generate attosecond pulses of light for the study of electron dynamics in matter, Agostini was awarded the 2023 Nobel Prize in Physics. In 2001, his group succeeded in producing and investigating a train of consecutive light pulses, where each pulse lasted just 250 attoseconds. He shared the prize for this foundational work with Ferenc Krausz and Anne L'Huillier, who made parallel and complementary breakthroughs."
+  participants:
+    - "pierre-agostini"
+    - "ferenc-krausz"
+    - "anne-lhuillier"
+
+- key: "bell-test-experiments"
+  year: 1982
+  title: "Experimental Test of Bell's Inequalities"
+  category: "Quantum Mechanics, Experimental Physics"
+  text: "For his pioneering experiments with entangled photons, establishing the violation of Bell inequalities and pioneering quantum information science, Aspect was awarded the 2022 Nobel Prize in Physics. His meticulously designed experiments provided a definitive answer to the long-standing debate initiated by the EPR paradox, confirming the predictions of quantum mechanics over local realism and demonstrating the reality of what Albert Einstein famously called 'spooky action at a distance'. He shared the prize with John Clauser and Anton Zeilinger for their parallel and complementary work."
+  participants:
+    - "alain-aspect"
+    - "john-clauser"
+    - "anton-zeilinger"
+    - "john-stewart-bell"
+    - "albert-einstein"
+
+- key: "complex-systems-disorder-fluctuations"
+  year: 1979
+  title: "Discovery of Hidden Patterns in Disordered Complex Systems"
+  category: "Statistical Mechanics, Complex Systems"
+  text: "For his revolutionary contributions to the theory of disordered materials and complex systems, Parisi was awarded the 2021 Nobel Prize in Physics. His work, particularly on spin glasses, revealed hidden mathematical structures in seemingly random systems and has had a profound impact on physics, biology, and machine learning. He shared the prize with Syukuro Manabe and Klaus Hasselmann for their work on complex systems."
+  participants:
+    - "giorgio-parisi"
+    - "syukuro-manabe"
+    - "klaus-hasselmann"
+
+- key: "kardar-parisi-zhang-equation"
+  year: 1986
+  title: "The Kardar-Parisi-Zhang (KPZ) Equation"
+  category: "Statistical Physics"
+  text: "Co-developed the Kardar-Parisi-Zhang (KPZ) equation, a stochastic partial differential equation that describes the dynamic scaling of growing interfaces. The equation has become a fundamental model in statistical physics for understanding a wide range of non-equilibrium phenomena, from the growth of bacterial colonies to the burning of paper."
+  participants:
+    - "giorgio-parisi"
+    - "mehran-kardar"
+    - "yi-cheng-zhang"
+
+- key: "discovery-of-sagittarius-a-star"
+  year: 1998
+  title: "Discovery of the Supermassive Black Hole at the Galactic Center"
+  category: "Galactic Astronomy"
+  text: "For the discovery of a supermassive compact object at the center of our galaxy, Ghez was awarded the 2020 Nobel Prize in Physics. Leading a team at UCLA, she used groundbreaking adaptive optics techniques at the Keck Observatory to track the orbits of stars around Sagittarius A*. Her independent work, conducted in a friendly rivalry with Reinhard Genzel's group, provided the most convincing evidence to date for the existence of a supermassive black hole, a concept whose theoretical foundation was established by Roger Penrose's work on general relativity."
+  participants:
+    - "andrea-ghez"
+    - "reinhard-genzel"
+    - "roger-penrose"
+
+- key: "penrose-hawking-singularity-theorems"
+  year: 1970
+  title: "Penrose-Hawking Singularity Theorems"
+  category: "Cosmology, General Relativity"
+  text: "In a highly influential collaboration with Stephen Hawking, Penrose applied the topological methods he had developed for black holes to the universe as a whole. Their work resulted in the Penrose-Hawking singularity theorems, which showed that if general relativity is correct, the universe must have begun in a singularity—the Big Bang."
+  participants:
+    - "roger-penrose"
+    - "stephen-hawking"
+
+- key: "cmb-theoretical-framework"
+  year: 1965
+  title: "Theoretical Framework for the Cosmic Microwave Background"
+  category: "Physical Cosmology"
+  text: "For his theoretical discoveries in physical cosmology, Peebles was awarded the 2019 Nobel Prize in Physics. He was a central figure in the Princeton group that predicted the existence and properties of the Cosmic Microwave Background (CMB) radiation. His theoretical work provided the cosmological context for the accidental discovery of the CMB by Arno Penzias and Robert Woodrow Wilson, confirming the Big Bang model."
+  participants:
+    - "james-peebles"
+    - "robert-h-dicke"
+    - "arno-penzias"
+    - "robert-woodrow-wilson"
+
+- key: "cold-dark-matter-and-structure-formation"
+  year: 1982
+  title: "Pioneering the Theory of Cold Dark Matter and Structure Formation"
+  category: "Cosmology"
+  text: "Peebles was a key architect of the modern cosmological model. He developed the theoretical framework for how cosmic structure (galaxies, galaxy clusters) forms from initial small fluctuations through the gravitational influence of cold dark matter. This work, along with the observational evidence for dark matter from astronomers like Vera Rubin, laid the foundation for the Lambda-CDM model."
+  participants:
+    - "james-peebles"
+    - "vera-rubin"
+
+- key: "penrose-hawking-singularity-theorems-hawking"
+  year: 1970
+  title: "Penrose-Hawking Singularity Theorems"
+  category: "Cosmology, General Relativity"
+  text: "In a highly influential collaboration with Roger Penrose, Hawking applied the topological methods developed for black holes to the universe as a whole. Their work resulted in the Penrose-Hawking singularity theorems, which showed that if Albert Einstein's theory of general relativity is correct, the universe must have begun in a singularity—the Big Bang."
+  participants:
+    - "stephen-hawking"
+    - "roger-penrose"
+    - "albert-einstein"
+
+- key: "chirped-pulse-amplification-cpa"
+  year: 1985
+  title: "Invention of Chirped Pulse Amplification (CPA)"
+  category: "Laser Physics, Optics"
+  text: "For their method of generating high-intensity, ultra-short optical pulses, Mourou was awarded the 2018 Nobel Prize in Physics. He developed the technique, known as Chirped Pulse Amplification (CPA), in close collaboration with his PhD student at the time, Donna Strickland. CPA has become the standard for high-intensity lasers and has enabled a wide range of applications, including corrective eye surgery and the field of attosecond physics pioneered by Anne L'Huillier and others."
+  participants:
+    - "gerard-mourou"
+    - "donna-strickland"
+    - "anne-lhuillier"
+
+- key: "chirped-pulse-amplification-cpa-strickland"
+  year: 1985
+  title: "Co-invention of Chirped Pulse Amplification (CPA)"
+  category: "Laser Physics, Optics"
+  text: "For their method of generating high-intensity, ultra-short optical pulses, Strickland was awarded the 2018 Nobel Prize in Physics. As a PhD student under the supervision of Gérard Mourou, she co-invented Chirped Pulse Amplification (CPA). Their groundbreaking 1985 paper, on which she was first author, has become the standard for high-intensity lasers and enabled countless applications, from corrective eye surgery to the field of attosecond physics."
+  participants:
+    - "donna-strickland"
+    - "gerard-mourou"
+
+- key: "first-exoplanet-discovery"
+  year: 1995
+  title: "Discovery of the First Exoplanet Orbiting a Sun-like Star"
+  category: "Exoplanet Science, Observational Astronomy"
+  text: "For the discovery of an exoplanet orbiting a solar-type star, Mayor was awarded the 2019 Nobel Prize in Physics. In a landmark collaboration with his PhD student Didier Queloz, he used a high-precision spectrograph to detect the tiny wobble of the star 51 Pegasi, revealing the presence of an orbiting planet (51 Pegasi b). This discovery opened up the brand new field of exoplanet research. He shared the Nobel prize with James Peebles for his separate contributions to cosmology."
+  participants:
+    - "michel-mayor"
+    - "didier-queloz"
+    - "james-peebles"
+
+- key: "optical-tweezers-invention"
+  year: 1986
+  title: "Invention of Optical Tweezers"
+  category: "Laser Physics, Biophysics"
+  text: "For the invention of optical tweezers and their application to biological systems, Ashkin was awarded the 2018 Nobel Prize in Physics. He developed a method using the radiation pressure of highly focused laser beams to trap and manipulate microscopic particles, atoms, and eventually living cells without harming them. He shared the Nobel prize with Gérard Mourou and Donna Strickland for their separate but related groundbreaking inventions in laser physics."
+  participants:
+    - "arthur-ashkin"
+    - "gerard-mourou"
+    - "donna-strickland"
+
+- key: "ligo-gravitational-waves"
+  year: 2015
+  title: "LIGO and the Direct Detection of Gravitational Waves"
+  category: "Gravitational-wave Astronomy, General Relativity"
+  text: "For his decisive contributions to the LIGO detector and the observation of gravitational waves, Thorne was awarded the 2017 Nobel Prize in Physics. He laid the theoretical groundwork for gravitational-wave science, predicting the specific wave signatures that cosmic events like black hole mergers would produce. He shared the prize with Rainer Weiss, who designed the detector, and Barry C. Barish, who managed the project. Their discovery was a stunning confirmation of a key prediction made by Albert Einstein a century earlier."
+  participants:
+    - "kip-s-thorne"
+    - "rainer-weiss"
+    - "barry-c-barish"
+    - "albert-einstein"
+
+- key: "topological-phases-of-matter"
+  year: 1973
+  title: "Theoretical Discoveries of Topological Phase Transitions"
+  category: "Condensed Matter Physics, Topology"
+  text: "For theoretical discoveries of topological phase transitions and topological phases of matter, Thouless was awarded the 2016 Nobel Prize in Physics. A key part of this work was his collaboration with J. Michael Kosterlitz in the 1970s, which described the Kosterlitz–Thouless (KT) transition, a new type of phase transition in two-dimensional systems. He shared the Nobel Prize with Kosterlitz and F. Duncan M. Haldane."
+  participants:
+    - "david-thouless"
+    - "j-michael-kosterlitz"
+    - "f-duncan-m-haldane"
+
+- key: "tknn-invariant-quantum-hall"
+  year: 1982
+  title: "Topological Explanation of the Integer Quantum Hall Effect"
+  category: "Condensed Matter Physics"
+  text: "Co-authored a seminal paper that explained the precise integer quantization of the Hall conductance using topological concepts. The integer they derived, known as the Thouless–Kohmoto–Nightingale–den Nijs (TKNN) invariant or Chern number, was a profound application of topology to physics."
+  participants:
+    - "david-thouless"
+    - "mahi-t-kohmoto"
+    - "marcel-p-nightingale"
+    - "marcel-den-nijs"
