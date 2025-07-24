@@ -1,13 +1,9 @@
-import { TopPersonSearch } from "@/features/search/TopPersonSearch";
-import { Credit } from "../credit/Credit";
-import { FaGithub } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
-import { FilterButton } from "../filter/FilterButton";
 import { Pickaxe } from "lucide-react";
 import { useGraphStore } from "../graph/store";
 
 export function ConnectButton() {
-  const { isConnectEnabled, setIsConnectEnabled, connected, setConnected } =
+  const { isConnectEnabled, setIsConnectEnabled, connected } =
     useGraphStore();
 
   return (

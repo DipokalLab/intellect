@@ -366,10 +366,10 @@ const TimelineGraph: React.FC = () => {
               nodeRef.current?.style("opacity", 1);
               linkRef.current?.style("stroke-opacity", 0.6);
               linkRef.current
-                ?.attr("stroke", (e) => {
+                ?.attr("stroke", () => {
                   return "#999";
                 })
-                .attr("stroke-width", (e) => {
+                .attr("stroke-width", () => {
                   return 1.5;
                 });
             });
@@ -568,11 +568,10 @@ const TimelineGraph: React.FC = () => {
     if (!isConnectEnabled) {
       resetConnected();
     }
-  }, [isConnectEnabled]);
+  }, [isConnectEnabled, resetConnected]);
 
   useEffect(() => {
     if (!selectedNode) return;
-    if (!isConnectEnabled) return;
 
     setConnected(selectedNode.id);
   }, [selectedNode, setConnected]);
