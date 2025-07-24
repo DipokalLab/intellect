@@ -27,8 +27,6 @@ You can contribute using YAML files in the ./data directory. For details, please
 - [ ] Add Academic Tools
 - [ ] More
 
-## Demo
-
 ## Contributors
 
 Hyeong Jun Huh [(GitHub)](https://github.com/DipokalLab)
